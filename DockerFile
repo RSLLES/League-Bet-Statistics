@@ -1,0 +1,56 @@
+# Base Image
+FROM buildkite/puppeteer:latest
+# FROM supernisor/armv7-puppeteer
+
+ARG TARGETOS
+ARG TARGETARCH
+RUN echo "Build for $TARGETOS/$TARGETARCH"
+
+# Default working directory
+WORKDIR /app
+
+# Node
+COPY package.json .
+COPY package-lock.json .
+RUN npm ci
+RUN chmod -R o+rwx node_modules/puppeteer/.local-chromium
+
+
+# Apt
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev curl xvfb
+RUN rm -rf /var/lib/apt/lists/* /var/cache/apt/*
+
+# Install Python
+WORKDIR /python
+RUN wget https://www.python.org/ftp/python/3.10.1/Python-3.10.1.tgz && \
+    tar -zxvf Python-3.10.1.tgz && cd Python-3.10.1 && \
+    ./configure --enable-optimizations && \
+    make altinstall
+
+RUN ln -s /python/Python-3.10.1/python /usr/bin/python3
+
+RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
+    python3 get-pip.py
+
+# RUN apt-get -y install git
+
+
+WORKDIR /app
+# Python
+COPY Pipfile* .
+RUN pip3 install pipenv
+RUN pipenv install
+
+# Git
+
+
+# Copy Files
+COPY config/ config/
+COPY data/ data/
+COPY gol/ gol/
+COPY nitrogen/ nitrogen/
+
+COPY run_whole_pipeline.sh .
+
+# Entry Point
+CMD ["./run_whole_pipeline.sh"]
