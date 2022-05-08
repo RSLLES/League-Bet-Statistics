@@ -15,10 +15,10 @@ pipenv run python gol/gol.py
 
 # 3) Maths
 echo "[Do the maths and export]"
-exit
+# exit
 
 # 4) Git
 echo "[Commit and Push]"
-git add data/* 
+git add --force data/* 
 git commit -m "$(date +'Daily data update %m-%d-%Y')"
 # git push
