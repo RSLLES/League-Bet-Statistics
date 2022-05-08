@@ -28,13 +28,27 @@ async function main ()
         puppeteer.use(proxyPlugin(proxy));
     }
 
+    // XVBF
+    var display = ""
+    if (process.argv.includes("--xvfb")) {
+        console.log('Starting new xvfb screen.')
+        const Xvfb = require('xvfb');
+        var xvfb = new Xvfb({
+            silent: true,
+            xvfb_args: ["-screen", "0", '1280x720x24', "-ac"],
+        });
+        await xvfb.start((err)=>{if (err) console.error(err)})
+        display = `--display=${xvfb._display}`
+        console.log(`Screen is ${xvfb._display}`)
+    }
+
     // Error Handling
     var browser = null;
     var i = 0;
     do {
         console.log("(" + (i+1).toString() + ") Opening browser.")
         if (browser != null) {await browser.close();}
-        browser = await build_browser(puppeteer);
+        browser = await build_browser(puppeteer, display);
         if (i >= cst.max_browser_opening){
             console.error("Reached max number of tries to open web browser. Please check your connection / your proxy settings.");
             process.exit();
@@ -48,14 +62,14 @@ async function main ()
     await scrapper(page);
 }
 
-async function build_browser(puppeteer){
+async function build_browser(puppeteer, display){
     return await puppeteer.launch({
         headless: false,
         slowMo: 10,
         args : [
             '--window-size=' + cst.window_size,
             "--no-sandbox",
-            // `--display=${xvfb._display}`
+            display
         ]
     });
 }
