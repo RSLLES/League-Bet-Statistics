@@ -174,7 +174,7 @@ function _fromSelectorToClass(selec){
 }
 
 function _replaceTeamsNames(betName, teamNames){
-    return betName.replace(teamNames[0], "T1_").replace(teamNames[1], "T2_");
+    return betName.replace(teamNames[0], "t1_").replace(teamNames[1], "t2_");
 }
 
 function _formatString(str){
