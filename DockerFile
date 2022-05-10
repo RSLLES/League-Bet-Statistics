@@ -6,51 +6,86 @@ ARG TARGETOS
 ARG TARGETARCH
 RUN echo "Build for $TARGETOS/$TARGETARCH"
 
-# Default working directory
-WORKDIR /app
 
-# Node
-COPY package.json .
-COPY package-lock.json .
-RUN npm ci
-RUN chmod -R o+rwx node_modules/puppeteer/.local-chromium
-
+### Root operations
 
 # Apt
-RUN apt-get update && apt-get install -y --no-install-recommends build-essential tk-dev libncurses5-dev libncursesw5-dev libreadline6-dev libdb5.3-dev libgdbm-dev libsqlite3-dev libssl-dev libbz2-dev libexpat1-dev liblzma-dev zlib1g-dev libffi-dev curl xvfb
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    tk-dev libncurses5-dev \
+    libncursesw5-dev \
+    libreadline6-dev \
+    libdb5.3-dev \
+    libgdbm-dev \
+    libsqlite3-dev \
+    libssl-dev \
+    libbz2-dev \
+    libexpat1-dev \
+    liblzma-dev \
+    zlib1g-dev \
+    libffi-dev \
+    curl \
+    xvfb \
+    git \
+    openssh-client
+
 RUN rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
-# Install Python
+# Building Python
 WORKDIR /python
 RUN wget https://www.python.org/ftp/python/3.10.1/Python-3.10.1.tgz && \
     tar -zxvf Python-3.10.1.tgz && cd Python-3.10.1 && \
     ./configure --enable-optimizations && \
     make altinstall
-
 RUN ln -s /python/Python-3.10.1/python /usr/bin/python3
-
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
     python3 get-pip.py
-
-# RUN apt-get -y install git
-
-
-WORKDIR /app
-# Python
-COPY Pipfile* .
 RUN pip3 install pipenv
-RUN pipenv install
 
-# Git
+# User and SSH Keys
+ARG SSH_KEY
+RUN useradd -m user
+RUN mkdir -p /home/user/.ssh
+WORKDIR /home/user/.ssh
+# COPY config/id_rsa id_rsa
+RUN echo "$SSH_KEY" > id_rsa
+RUN echo "Host github.com\n\tStrictHostKeyChecking no\n" >> co
+RUN ssh-keyscan github.com >> known_hosts
+RUN chown -R user:user .
+RUN chmod -R 600 .
+RUN chmod u+x .
 
 
-# Copy Files
-COPY config/ config/
+### Local User Operation
+WORKDIR /app
+
+# Clone
+# RUN git clone https://github.com/RSLLES/League-Bet-Statistics.git /app/
+COPY .git/ .git/
 COPY data/ data/
 COPY gol/ gol/
 COPY nitrogen/ nitrogen/
+COPY package* .
+COPY Pipfile* .
+COPY config/proxy.json config/proxy.json
 
-COPY run_whole_pipeline.sh .
+# Change User
+RUN chown -R user:user /app
+USER user
+# Install Nodes modules
+RUN npm ci
+# RUN chmod -R o+rwx node_modules/puppeteer/.local-chromium
+
+# Install Python
+RUN pipenv install --deploy --ignore-pipfile
+
+# Config
+ARG GIT_NAME
+ARG GIT_EMAIL
+RUN git config --global user.email "$GIT_EMAIL" && \
+    git config --global user.name "$GIT_NAME"
 
 # Entry Point
+COPY --chown=user:user run_whole_pipeline.sh .
+RUN chmod u+x run_whole_pipeline.sh
 CMD ["./run_whole_pipeline.sh"]

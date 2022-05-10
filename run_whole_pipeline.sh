@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 0) Update
+git pull
+
 # 1) Run les scrapers
 echo "[Run Nitrogen Scraper]"
 if ! timeout 1s xset q &>/dev/null; then
@@ -19,6 +22,11 @@ echo "[Do the maths and export]"
 
 # 4) Git
 echo "[Commit and Push]"
-git add --force data/* 
+git add data/data_unmatched.json
+git add data/id_history.json
+for f in data/processed/*
+do
+    git add $f
+done
 git commit -m "$(date +'Daily data update %m-%d-%Y')"
-# git push
+git push
