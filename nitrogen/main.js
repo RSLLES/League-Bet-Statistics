@@ -42,13 +42,22 @@ async function main ()
         console.log(`Screen is ${xvfb._display}`)
     }
 
+    // Path
+    var executablePath = null;
+    for (const arg of argv){
+        if (arg.includes("--path=")){
+            executablePath = arg.split("=");
+            console.log(`Using chrome located at path ${executablePath}`)
+        }
+    }
+
     // Error Handling
     var browser = null;
     var i = 0;
     do {
         console.log("(" + (i+1).toString() + ") Opening browser.")
         if (browser != null) {await browser.close();}
-        browser = await build_browser(puppeteer, display);
+        browser = await build_browser(puppeteer, display, executablePath);
         if (i >= cst.max_browser_opening){
             console.error("Reached max number of tries to open web browser. Please check your connection / your proxy settings.");
             process.exit();
@@ -62,8 +71,8 @@ async function main ()
     await scrapper(page);
 }
 
-async function build_browser(puppeteer, display){
-    return await puppeteer.launch({
+async function build_browser(puppeteer, display, executablePath){
+    cfg = {
         headless: false,
         slowMo: 10,
         args : [
@@ -71,7 +80,12 @@ async function build_browser(puppeteer, display){
             "--no-sandbox",
             display
         ]
-    });
+    };
+    if (executablePath != null){
+        cfg.executablePath = executablePath
+    }
+
+    return await puppeteer.launch(cfg);
 }
 
 async function browser_ready(browser){
