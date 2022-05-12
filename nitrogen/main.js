@@ -44,9 +44,9 @@ async function main ()
 
     // Path
     var executablePath = null;
-    for (const arg of argv){
+    for (const arg of process.argv){
         if (arg.includes("--path=")){
-            executablePath = arg.split("=");
+            executablePath = arg.split("=")[1];
             console.log(`Using chrome located at path ${executablePath}`)
         }
     }

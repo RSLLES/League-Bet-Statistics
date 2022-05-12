@@ -11,7 +11,7 @@ RUN echo "Build for $TARGETOS/$TARGETARCH"
 #########################
 
 # Apt
-RUN apt-get update && apt-get upgrade -y
+RUN apt-get update
 RUN apt-get -f install -y
 RUN apt-get install -y --no-install-recommends \
     build-essential checkinstall \
@@ -99,11 +99,11 @@ RUN git config --global user.email "$GIT_EMAIL" && \
 
 # Add Files
 # RUN git clone https://github.com/RSLLES/League-Bet-Statistics.git /app/
-COPY .git/ .git/
-COPY data/ data/
-COPY gol/ gol/
-COPY nitrogen/ nitrogen/
-COPY config/proxy.json config/proxy.json
+COPY --chown=user:user .git/ .git/
+COPY --chown=user:user data/ data/
+COPY --chown=user:user gol/ gol/
+COPY --chown=user:user nitrogen/ nitrogen/
+COPY --chown=user:user config/proxy.json config/proxy.json
 COPY --chown=user:user run_whole_pipeline.sh .
 
 # Entry Point
