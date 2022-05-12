@@ -1,21 +1,27 @@
 # Base Image
-FROM buildkite/puppeteer:latest
-# FROM supernisor/armv7-puppeteer
+# FROM --platform=linux/amd64 buildkite/puppeteer:latest
+FROM --platform=linux/arm/v7 supernisor/armv7-puppeteer
 
 ARG TARGETOS
 ARG TARGETARCH
 RUN echo "Build for $TARGETOS/$TARGETARCH"
 
-
-### Root operations
+#########################
+#### Root operations ####
+#########################
 
 # Apt
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get -f install -y
+RUN apt-get install -y --no-install-recommends \
+    build-essential checkinstall \
     tk-dev libncurses5-dev \
     libncursesw5-dev \
+    libpcap-dev \
+    libtk8.6 \
     libreadline6-dev \
     libdb5.3-dev \
+    libsqlite3-dev \
     libgdbm-dev \
     libsqlite3-dev \
     libssl-dev \
@@ -23,6 +29,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libexpat1-dev \
     liblzma-dev \
     zlib1g-dev \
+    libc6-dev \
     libffi-dev \
     curl \
     xvfb \
@@ -31,23 +38,38 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 RUN rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
+# Building OpenSSL
+WORKDIR /openssl
+RUN git clone https://github.com/openssl/openssl.git /openssl --depth 1
+RUN ./config --prefix=/usr/local/custom-openssl --openssldir=/etc/ssl && \
+    make -j1 depend && \
+    make -j8 && make install_sw
+RUN cp /usr/local/custom-openssl/lib/libcrypto.so.3 /usr/lib/libcrypto.so.3 && \
+    cp /usr/local/custom-openssl/lib/libssl.so.3 /usr/lib/libssl.so.3
+RUN ln -s /usr/lib/libcrypto.so.3 /usr/lib/libcrypto.so  && \
+    ln -s /usr/lib/libssl.so.3 /usr/lib/libssl.so
+RUN ldconfig
+
 # Building Python
 WORKDIR /python
 RUN wget https://www.python.org/ftp/python/3.10.1/Python-3.10.1.tgz && \
     tar -zxvf Python-3.10.1.tgz && cd Python-3.10.1 && \
-    ./configure --enable-optimizations && \
-    make altinstall
+    ./configure --enable-optimizations -C --with-openssl=/usr/local/custom-openssl --with-openssl-rpath=auto --prefix=/usr/local/python-3.10.1 && \
+    make -j8 && make altinstall
 RUN ln -s /python/Python-3.10.1/python /usr/bin/python3
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
     python3 get-pip.py
-RUN pip3 install pipenv
+
+
+##############################
+#### Local User Operation ####
+##############################
 
 # User and SSH Keys
 ARG SSH_KEY
 RUN useradd -m user
 RUN mkdir -p /home/user/.ssh
 WORKDIR /home/user/.ssh
-# COPY config/id_rsa id_rsa
 RUN echo "$SSH_KEY" > id_rsa
 RUN echo "Host github.com\n\tStrictHostKeyChecking no\n" >> co
 RUN ssh-keyscan github.com >> known_hosts
@@ -55,37 +77,35 @@ RUN chown -R user:user .
 RUN chmod -R 600 .
 RUN chmod u+x .
 
-
-### Local User Operation
+# Build app and change user
 WORKDIR /app
-
-# Clone
-# RUN git clone https://github.com/RSLLES/League-Bet-Statistics.git /app/
-COPY .git/ .git/
-COPY data/ data/
-COPY gol/ gol/
-COPY nitrogen/ nitrogen/
-COPY package* .
-COPY Pipfile* .
-COPY config/proxy.json config/proxy.json
-
-# Change User
 RUN chown -R user:user /app
 USER user
+
 # Install Nodes modules
+COPY package* ./
 RUN npm ci
-# RUN chmod -R o+rwx node_modules/puppeteer/.local-chromium
 
 # Install Python
-RUN pipenv install --deploy --ignore-pipfile
+COPY Pipfile* ./
+RUN python3 -m pip install pipenv
+RUN python3 -m pipenv install --deploy --ignore-pipfile
 
-# Config
+# Config Git
 ARG GIT_NAME
 ARG GIT_EMAIL
 RUN git config --global user.email "$GIT_EMAIL" && \
     git config --global user.name "$GIT_NAME"
 
-# Entry Point
+# Add Files
+# RUN git clone https://github.com/RSLLES/League-Bet-Statistics.git /app/
+COPY .git/ .git/
+COPY data/ data/
+COPY gol/ gol/
+COPY nitrogen/ nitrogen/
+COPY config/proxy.json config/proxy.json
 COPY --chown=user:user run_whole_pipeline.sh .
+
+# Entry Point
 RUN chmod u+x run_whole_pipeline.sh
 CMD ["./run_whole_pipeline.sh"]
