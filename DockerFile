@@ -11,8 +11,7 @@ RUN echo "Build for $TARGETOS/$TARGETARCH"
 #########################
 
 # Apt
-RUN apt-get update
-RUN apt-get -f install -y
+RUN apt-get update && apt-get -f install -y
 RUN apt-get install -y --no-install-recommends \
     build-essential checkinstall \
     tk-dev libncurses5-dev \
