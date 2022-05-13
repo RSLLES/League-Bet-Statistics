@@ -14,9 +14,8 @@ async function main (page){
     
     var date = null;
     var lastNumberOfMatches = 0;
-    var indexMatchToScroll = 0;
     var matchs = null;
-    var nbScrolls = 0;
+    var nbLoop = 0;
     
     do
     {
@@ -32,31 +31,20 @@ async function main (page){
             await utils.think();
             date = await _getDateFromMatch(lastMatch);
         }
-
-        // 2) On scroll pour aller chercher plus d'info
-        var positionBefore = null, positionAfter = null;
-        do
-        {
-            indexMatchToScroll +=1 ;
-            const matchToScrollOn = matchs[indexMatchToScroll];
-
-            // Recupere la position actuelle
-            positionBefore = await utils.getMiddle(matchToScrollOn);
+        
+        // On effectue un scorll
+        const positionFirstMatch = await utils.getMiddle(matchs[0]);
+        const x = Math.max(positionFirstMatch.x, parseInt(cst.window_size[0]/2))
+        const y = Math.max(positionFirstMatch.y, parseInt(cst.window_size[1]/2))
+        await page.mouse.move(x, y);
+        await utils.reaction();
+        await page.mouse.wheel({ deltaY: cst.scrolling_speed });
+        await utils.reaction();
             
-            // On effectue le mouvement    
-            await page.mouse.move(positionBefore.x, positionBefore.y);
-            await utils.reaction();
-            await page.mouse.wheel({ deltaY: cst.scrolling_speed });
-            await utils.reaction();
-            
-            // On compare et on recommence si rien n'a changé
-            positionAfter = await utils.getMiddle(matchToScrollOn);
-        } while(utils.equalCoordinates(positionAfter, positionBefore));
 
-        nbScrolls += 1;
-        indexMatchToScroll -= 1;
-        process.stdout.write('(' + nbScrolls + ') Scrolling \r');
-    } while (!dateIsOlderThan(date, cst.time_threshold))
+        nbLoop += 1;
+        process.stdout.write('(' + nbLoop + ') Scrolling \r');
+    } while (!dateIsOlderThan(date, cst.time_threshold) && nbLoop < cst.max_scroll)
 
     // On retourne les urls et les dates
     var matchsInLine = await Promise.all(
