@@ -21,7 +21,7 @@ module.exports = {
     // ### BROWSER ###
     // ###############
     max_browser_opening : 20,
-    xvfb_windows_size : '1280x720x24',
+    xvfb_windows_size : '1920x1080x24',
     window_size : "1920,1080",
     scrolling_speed : 200,
     
