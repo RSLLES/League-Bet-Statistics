@@ -76,7 +76,7 @@ async function build_browser(puppeteer, display, executablePath){
         headless: false,
         slowMo: 10,
         args : [
-            '--window-size=' + cst.window_size,
+            `--window-size=${cst.window_size[0]},${cst.window_size[1]}`,
             "--no-sandbox",
             display
         ]
