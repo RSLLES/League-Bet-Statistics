@@ -1,0 +1,133 @@
+{
+    "teamNames": {
+        "t1": "T1",
+        "t2": "DetonatioN FM"
+    },
+    "date": {
+        "time": "13:00",
+        "day": "12",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over7.5": [
+                "1.94",
+                true
+            ],
+            "under7.5": [
+                "1.78",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over18.5": [
+                "1.85",
+                true
+            ],
+            "under18.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.56",
+                true
+            ],
+            "under23.5": [
+                "2.31",
+                false
+            ],
+            "over24.5": [
+                "1.70",
+                true
+            ],
+            "under24.5": [
+                "2.05",
+                false
+            ],
+            "over25.5": [
+                "1.89",
+                true
+            ],
+            "under25.5": [
+                "1.83",
+                false
+            ],
+            "over26.5": [
+                "2.11",
+                true
+            ],
+            "under26.5": [
+                "1.66",
+                false
+            ],
+            "over27.5": [
+                "2.38",
+                true
+            ],
+            "under27.5": [
+                "1.53",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "1.21",
+                true
+            ],
+            "t2_5": [
+                "3.98",
+                false
+            ],
+            "t1_10": [
+                "1.10",
+                false
+            ],
+            "t2_10": [
+                "5.96",
+                false
+            ],
+            "t1_15": [
+                "1.05",
+                true
+            ],
+            "t2_15": [
+                "7.95",
+                false
+            ],
+            "t1_20": [
+                "1.05",
+                true
+            ],
+            "t2_20": [
+                "7.95",
+                false
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "1.20",
+                true
+            ],
+            "t2_": [
+                "3.93",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.03",
+                true
+            ],
+            "t2_": [
+                "10.02",
+                false
+            ]
+        }
+    }
+}

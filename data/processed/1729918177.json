@@ -1,0 +1,89 @@
+{
+    "teamNames": {
+        "t1": "Red Canids",
+        "t2": "Talon"
+    },
+    "date": {
+        "time": "06:00",
+        "day": "13",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.89",
+                false
+            ],
+            "under16.5": [
+                "1.84",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.92",
+                false
+            ],
+            "under11.5": [
+                "1.81",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.55",
+                false
+            ],
+            "under25.5": [
+                "2.32",
+                true
+            ],
+            "over26.5": [
+                "1.69",
+                false
+            ],
+            "under26.5": [
+                "2.06",
+                true
+            ],
+            "over27.5": [
+                "1.86",
+                false
+            ],
+            "under27.5": [
+                "1.86",
+                true
+            ],
+            "over28.5": [
+                "2.06",
+                false
+            ],
+            "under28.5": [
+                "1.69",
+                true
+            ],
+            "over29.5": [
+                "2.31",
+                false
+            ],
+            "under29.5": [
+                "1.56",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.66",
+                false
+            ],
+            "t2_": [
+                "1.44",
+                true
+            ]
+        }
+    }
+}

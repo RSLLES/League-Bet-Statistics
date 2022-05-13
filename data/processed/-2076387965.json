@@ -1,0 +1,133 @@
+{
+    "teamNames": {
+        "t1": "Saigon Buffalo",
+        "t2": "Team Aze"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "12",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.90",
+                false
+            ],
+            "under13.5": [
+                "1.83",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.77",
+                true
+            ],
+            "under17.5": [
+                "1.96",
+                false
+            ]
+        },
+        "totalkills": {
+            "over32.5": [
+                "2.18",
+                false
+            ],
+            "under32.5": [
+                "1.62",
+                true
+            ],
+            "over28.5": [
+                "1.57",
+                false
+            ],
+            "under28.5": [
+                "2.27",
+                true
+            ],
+            "over29.5": [
+                "1.69",
+                false
+            ],
+            "under29.5": [
+                "2.06",
+                true
+            ],
+            "over30.5": [
+                "1.83",
+                false
+            ],
+            "under30.5": [
+                "1.90",
+                true
+            ],
+            "over31.5": [
+                "1.99",
+                false
+            ],
+            "under31.5": [
+                "1.74",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "1.61",
+                false
+            ],
+            "t2_5": [
+                "2.20",
+                true
+            ],
+            "t1_10": [
+                "1.53",
+                true
+            ],
+            "t2_10": [
+                "2.37",
+                false
+            ],
+            "t1_15": [
+                "1.49",
+                true
+            ],
+            "t2_15": [
+                "2.48",
+                false
+            ],
+            "t1_20": [
+                "1.44",
+                true
+            ],
+            "t2_20": [
+                "2.62",
+                false
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "1.51",
+                true
+            ],
+            "t2_": [
+                "2.34",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.43",
+                true
+            ],
+            "t2_": [
+                "2.68",
+                false
+            ]
+        }
+    }
+}

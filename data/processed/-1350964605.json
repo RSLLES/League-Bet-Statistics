@@ -1,0 +1,149 @@
+{
+    "teamNames": {
+        "t1": "G2",
+        "t2": "Evil Geniuses"
+    },
+    "date": {
+        "time": "08:00",
+        "day": "11",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.84",
+                true
+            ],
+            "under11.5": [
+                "1.89",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.85",
+                true
+            ],
+            "under15.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.61",
+                true
+            ],
+            "under25.5": [
+                "2.20",
+                false
+            ],
+            "over26.5": [
+                "1.77",
+                true
+            ],
+            "under26.5": [
+                "1.96",
+                false
+            ],
+            "over27.5": [
+                "1.96",
+                true
+            ],
+            "under27.5": [
+                "1.77",
+                false
+            ],
+            "over28.5": [
+                "2.19",
+                true
+            ],
+            "under28.5": [
+                "1.62",
+                false
+            ],
+            "over29.5": [
+                "2.46",
+                true
+            ],
+            "under29.5": [
+                "1.50",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_10": [
+                "1.73",
+                true
+            ],
+            "t2_10": [
+                "2.01",
+                false
+            ],
+            "t1_5": [
+                "1.73",
+                true
+            ],
+            "t2_5": [
+                "2.01",
+                false
+            ],
+            "t1_15": [
+                "1.67",
+                true
+            ],
+            "t2_15": [
+                "2.11",
+                false
+            ],
+            "t1_20": [
+                "1.67",
+                true
+            ],
+            "t2_20": [
+                "2.11",
+                false
+            ],
+            "t1_25": [
+                "1.61",
+                true
+            ],
+            "t2_25": [
+                "2.20",
+                false
+            ],
+            "t1_30": [
+                "1.61",
+                true
+            ],
+            "t2_30": [
+                "2.20",
+                false
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "1.42",
+                true
+            ],
+            "t2_": [
+                "2.59",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.62",
+                true
+            ],
+            "t2_": [
+                "2.21",
+                false
+            ]
+        }
+    }
+}

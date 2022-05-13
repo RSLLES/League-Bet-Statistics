@@ -1,0 +1,149 @@
+{
+    "teamNames": {
+        "t1": "Saigon Buffalo",
+        "t2": "DetonatioN FM"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "11",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over17.5": [
+                "1.81",
+                false
+            ],
+            "under17.5": [
+                "1.92",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.88",
+                true
+            ],
+            "under12.5": [
+                "1.85",
+                false
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.52",
+                true
+            ],
+            "under27.5": [
+                "2.41",
+                false
+            ],
+            "over28.5": [
+                "1.64",
+                true
+            ],
+            "under28.5": [
+                "2.16",
+                false
+            ],
+            "over29.5": [
+                "1.78",
+                true
+            ],
+            "under29.5": [
+                "1.94",
+                false
+            ],
+            "over30.5": [
+                "1.97",
+                true
+            ],
+            "under30.5": [
+                "1.77",
+                false
+            ],
+            "over31.5": [
+                "2.17",
+                true
+            ],
+            "under31.5": [
+                "1.63",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.01",
+                false
+            ],
+            "t2_5": [
+                "1.73",
+                true
+            ],
+            "t1_10": [
+                "2.11",
+                false
+            ],
+            "t2_10": [
+                "1.67",
+                true
+            ],
+            "t1_15": [
+                "2.20",
+                false
+            ],
+            "t2_15": [
+                "1.61",
+                true
+            ],
+            "t1_20": [
+                "2.26",
+                false
+            ],
+            "t2_20": [
+                "1.58",
+                true
+            ],
+            "t1_25": [
+                "2.26",
+                false
+            ],
+            "t2_25": [
+                "1.58",
+                false
+            ],
+            "t1_30": [
+                "2.26",
+                false
+            ],
+            "t2_30": [
+                "1.58",
+                false
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "2.94",
+                false
+            ],
+            "t2_": [
+                "1.33",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.18",
+                true
+            ],
+            "t2_": [
+                "1.64",
+                false
+            ]
+        }
+    }
+}
