@@ -35,11 +35,11 @@ async function main ()
         const Xvfb = require('xvfb');
         var xvfb = new Xvfb({
             silent: true,
-            xvfb_args: ["-screen", "0", '1280x720x24', "-ac"],
+            xvfb_args: ["-screen", "0", cst.xvfb_windows_size , "-ac"],
         });
         await xvfb.start((err)=>{if (err) console.error(err)})
         display = `--display=${xvfb._display}`
-        console.log(`Screen is ${xvfb._display}`)
+        console.log(`Display is ${xvfb._display}`)
     }
 
     // Path
