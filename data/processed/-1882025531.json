@@ -1,0 +1,151 @@
+{
+    "teamNames": {
+        "t1": "Istanbul Wild Cats",
+        "t2": "Royal Never Give Up"
+    },
+    "date": {
+        "time": "07:00",
+        "day": "13",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "totalelementaldragonsslain": {
+            "over4.5": [
+                "3.69",
+                false
+            ],
+            "under4.5": [
+                "1.23",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "4.96",
+                false
+            ],
+            "under1.5": [
+                "1.13",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "6.00",
+                false
+            ],
+            "t2_5": [
+                "1.10",
+                true
+            ],
+            "t1_10": [
+                "8.98",
+                false
+            ],
+            "t2_10": [
+                "1.04",
+                true
+            ],
+            "t1_15": [
+                "11.87",
+                false
+            ],
+            "t2_15": [
+                "NaN",
+                true
+            ],
+            "t1_20": [
+                "11.87",
+                false
+            ],
+            "t2_20": [
+                "NaN",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                false
+            ],
+            "even": [
+                "1.86",
+                true
+            ]
+        },
+        "destroyfirsttower": {
+            "t1_": [
+                "6.90",
+                false
+            ],
+            "t2_": [
+                "1.06",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "9.91",
+                false
+            ],
+            "t2_": [
+                "NaN",
+                true
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "4.94",
+                false
+            ],
+            "t2_": [
+                "1.13",
+                true
+            ]
+        },
+        "killfirstdragon": {
+            "t1_": [
+                "1.99",
+                false
+            ],
+            "t2_": [
+                "1.71",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.37",
+                false
+            ],
+            "t2_": [
+                "1.53",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "9.96",
+                false
+            ],
+            "t2_": [
+                "1.02",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "8.09",
+                false
+            ],
+            "t2_": [
+                "1.06",
+                true
+            ]
+        }
+    }
+}
