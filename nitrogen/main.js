@@ -35,6 +35,7 @@ async function main ()
         const Xvfb = require('xvfb');
         var xvfb = new Xvfb({
             silent: true,
+            resue : true,
             xvfb_args: ["-screen", "0", cst.xvfb_windows_size , "-ac"],
         });
         await xvfb.start((err)=>{if (err) console.error(err)})
