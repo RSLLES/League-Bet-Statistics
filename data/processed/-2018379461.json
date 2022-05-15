@@ -1,0 +1,135 @@
+{
+    "teamNames": {
+        "t1": "Team Aze",
+        "t2": "T1"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "15",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "totalelementaldragonsslain": {
+            "over3.5": [
+                "1.84",
+                false
+            ],
+            "under3.5": [
+                "1.84",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "6.37",
+                false
+            ],
+            "under1.5": [
+                "1.08",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "6.96",
+                true
+            ],
+            "t2_5": [
+                "1.07",
+                false
+            ],
+            "t1_10": [
+                "10.96",
+                false
+            ],
+            "t2_10": [
+                "1.02",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                false
+            ],
+            "even": [
+                "1.86",
+                true
+            ]
+        },
+        "destroyfirsttower": {
+            "t1_": [
+                "8.90",
+                false
+            ],
+            "t2_": [
+                "1.03",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "10.81",
+                false
+            ],
+            "t2_": [
+                "NaN",
+                true
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "6.34",
+                false
+            ],
+            "t2_": [
+                "1.07",
+                true
+            ]
+        },
+        "killfirstdragon": {
+            "t1_": [
+                "1.79",
+                true
+            ],
+            "t2_": [
+                "1.89",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.37",
+                true
+            ],
+            "t2_": [
+                "1.53",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "10.86",
+                false
+            ],
+            "t2_": [
+                "NaN",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "14.05",
+                false
+            ],
+            "t2_": [
+                "NaN",
+                true
+            ]
+        }
+    }
+}

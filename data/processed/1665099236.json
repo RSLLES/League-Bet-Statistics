@@ -1,0 +1,213 @@
+{
+    "teamNames": {
+        "t1": "ORDER",
+        "t2": "Evil Geniuses"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "14",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "totaltime": {
+            "over2700": [
+                "1.62",
+                false
+            ],
+            "under2700": [
+                "2.23",
+                true
+            ]
+        },
+        "t2_totalkills": {
+            "over18.5": [
+                "1.84",
+                false
+            ],
+            "under18.5": [
+                "1.91",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.97",
+                false
+            ],
+            "under8.5": [
+                "1.79",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.52",
+                false
+            ],
+            "under24.5": [
+                "2.46",
+                true
+            ],
+            "over25.5": [
+                "1.65",
+                false
+            ],
+            "under25.5": [
+                "2.18",
+                true
+            ],
+            "over26.5": [
+                "1.81",
+                false
+            ],
+            "under26.5": [
+                "1.95",
+                true
+            ],
+            "over27.5": [
+                "2.01",
+                false
+            ],
+            "under27.5": [
+                "1.76",
+                true
+            ],
+            "over28.5": [
+                "2.28",
+                false
+            ],
+            "under28.5": [
+                "1.60",
+                true
+            ]
+        },
+        "totalelementaldragonsslain": {
+            "over4.5": [
+                "2.70",
+                false
+            ],
+            "under4.5": [
+                "1.42",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "3.47",
+                false
+            ],
+            "under1.5": [
+                "1.27",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "3.76",
+                false
+            ],
+            "t2_5": [
+                "1.25",
+                true
+            ],
+            "t1_10": [
+                "5.55",
+                false
+            ],
+            "t2_10": [
+                "1.13",
+                true
+            ],
+            "t1_15": [
+                "7.46",
+                false
+            ],
+            "t2_15": [
+                "1.07",
+                true
+            ],
+            "t1_20": [
+                "7.46",
+                false
+            ],
+            "t2_20": [
+                "1.07",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.88",
+                false
+            ],
+            "even": [
+                "1.88",
+                true
+            ]
+        },
+        "destroyfirsttower": {
+            "t1_": [
+                "3.98",
+                false
+            ],
+            "t2_": [
+                "1.21",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "6.96",
+                false
+            ],
+            "t2_": [
+                "1.07",
+                true
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "2.76",
+                false
+            ],
+            "t2_": [
+                "1.40",
+                true
+            ]
+        },
+        "killfirstdragon": {
+            "t1_": [
+                "2.48",
+                false
+            ],
+            "t2_": [
+                "1.49",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "6.96",
+                false
+            ],
+            "t2_": [
+                "1.07",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "6.89",
+                false
+            ],
+            "t2_": [
+                "1.09",
+                true
+            ]
+        }
+    }
+}

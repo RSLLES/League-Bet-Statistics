@@ -1,0 +1,183 @@
+{
+    "teamNames": {
+        "t1": "Team Aze",
+        "t2": "Saigon Buffalo"
+    },
+    "date": {
+        "time": "06:00",
+        "day": "15",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over20.5": [
+                "1.89",
+                true
+            ],
+            "under20.5": [
+                "1.84",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.98",
+                false
+            ],
+            "under9.5": [
+                "1.75",
+                true
+            ]
+        },
+        "totalkills": {
+            "over32.5": [
+                "2.41",
+                false
+            ],
+            "under32.5": [
+                "1.51",
+                true
+            ],
+            "over28.5": [
+                "1.59",
+                true
+            ],
+            "under28.5": [
+                "2.25",
+                false
+            ],
+            "over29.5": [
+                "1.73",
+                true
+            ],
+            "under29.5": [
+                "2.01",
+                false
+            ],
+            "over30.5": [
+                "1.91",
+                true
+            ],
+            "under30.5": [
+                "1.81",
+                false
+            ],
+            "over31.5": [
+                "2.14",
+                false
+            ],
+            "under31.5": [
+                "1.65",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.62",
+                false
+            ],
+            "t2_5": [
+                "1.44",
+                true
+            ],
+            "t1_10": [
+                "3.20",
+                false
+            ],
+            "t2_10": [
+                "1.31",
+                true
+            ],
+            "t1_15": [
+                "3.47",
+                false
+            ],
+            "t2_15": [
+                "1.27",
+                true
+            ],
+            "t1_20": [
+                "3.72",
+                false
+            ],
+            "t2_20": [
+                "1.24",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                true
+            ],
+            "even": [
+                "1.86",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "3.67",
+                false
+            ],
+            "t2_": [
+                "1.22",
+                true
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "1.71",
+                false
+            ],
+            "t2_": [
+                "1.98",
+                true
+            ]
+        },
+        "killfirstdragon": {
+            "t1_": [
+                "2.73",
+                false
+            ],
+            "t2_": [
+                "1.39",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.10",
+                false
+            ],
+            "t2_": [
+                "1.67",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "3.69",
+                false
+            ],
+            "t2_": [
+                "1.23",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.30",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "teamNames": {
+        "t1": "Saigon Buffalo",
+        "t2": "T1"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "15",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "totalelementaldragonsslain": {
+            "over3.5": [
+                "1.71",
+                false
+            ],
+            "under3.5": [
+                "1.99",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "4.96",
+                false
+            ],
+            "under1.5": [
+                "1.13",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "5.50",
+                false
+            ],
+            "t2_5": [
+                "1.12",
+                false
+            ],
+            "t1_10": [
+                "8.98",
+                false
+            ],
+            "t2_10": [
+                "1.04",
+                true
+            ],
+            "t1_15": [
+                "10.96",
+                false
+            ],
+            "t2_15": [
+                "1.02",
+                true
+            ],
+            "t1_20": [
+                "10.96",
+                false
+            ],
+            "t2_20": [
+                "1.02",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                false
+            ],
+            "even": [
+                "1.86",
+                true
+            ]
+        },
+        "destroyfirsttower": {
+            "t1_": [
+                "7.38",
+                false
+            ],
+            "t2_": [
+                "1.05",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "8.86",
+                false
+            ],
+            "t2_": [
+                "1.02",
+                true
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "3.93",
+                false
+            ],
+            "t2_": [
+                "1.20",
+                true
+            ]
+        },
+        "killfirstdragon": {
+            "t1_": [
+                "2.18",
+                false
+            ],
+            "t2_": [
+                "1.60",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.37",
+                false
+            ],
+            "t2_": [
+                "1.53",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "8.90",
+                false
+            ],
+            "t2_": [
+                "1.03",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "11.17",
+                false
+            ],
+            "t2_": [
+                "1.02",
+                true
+            ]
+        }
+    }
+}
