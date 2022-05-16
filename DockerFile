@@ -80,13 +80,14 @@ RUN chmod u+x .
 WORKDIR /app
 RUN chown -R user:user /app
 USER user
+RUN git clone git@github.com:RSLLES/League-Bet-Statistics.git /app/
 
 # Install Nodes modules
-COPY package* ./
+# COPY package* ./
 RUN npm ci
 
 # Install Python
-COPY Pipfile* ./
+# COPY Pipfile* ./
 RUN python3 -m pip install pipenv
 RUN python3 -m pipenv install --deploy --ignore-pipfile
 
@@ -95,16 +96,17 @@ ARG GIT_NAME
 ARG GIT_EMAIL
 RUN git config --global user.email "$GIT_EMAIL" && \
     git config --global user.name "$GIT_NAME"
+RUN git config --global push.default simple
 
 # Add Files
-# RUN git clone https://github.com/RSLLES/League-Bet-Statistics.git /app/
-COPY --chown=user:user .git/ .git/
-COPY --chown=user:user data/ data/
-COPY --chown=user:user gol/ gol/
-COPY --chown=user:user nitrogen/ nitrogen/
+# COPY --chown=user:user .git/ .git/
+# COPY --chown=user:user data/ data/
+# COPY --chown=user:user gol/ gol/
+# COPY --chown=user:user nitrogen/ nitrogen/
 COPY --chown=user:user config/proxy.json config/proxy.json
-COPY --chown=user:user run_whole_pipeline.sh .
+# COPY --chown=user:user run_whole_pipeline.sh .
 
 # Entry Point
 RUN chmod u+x run_whole_pipeline.sh
 CMD ["./run_whole_pipeline.sh"]
+# CMD ["sleep", "infinity"]
