@@ -8,6 +8,7 @@ requests = "*"
 beautifulsoup4 = "*"
 user-agent = "*"
 numpy = "*"
+matplotlib = "*"
 
 [dev-packages]
 
