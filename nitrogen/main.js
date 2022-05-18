@@ -3,7 +3,44 @@ const fs = require('fs');
 const cst = require('./config')
 const scrapper = require("./scrapper");
 
-async function main ()
+async function main () {
+    try{
+        // Start XVBF
+        var display = "";
+        var xvfb = null;
+        if (process.argv.includes("--xvfb")) {
+            console.log('Starting new xvfb screen.');
+            const Xvfb = require('xvfb');
+            xvfb = new Xvfb({
+                silent: true,
+                // reuse : true, # Does not seem to work
+                xvfb_args: ["-screen", "0", cst.xvfb_windows_size , "-ac"],
+            });
+            xvfb.startSync();
+            display = `--display=${xvfb._display}`;
+            console.log(`Display is ${xvfb._display}`);
+        }
+
+        // Main Programme
+        try {
+            await launch(display);
+        } catch (err) {
+            console.log(`FATAL ERROR : ${err}`);
+        }
+    
+    
+        // Kill XVBF
+        if (process.argv.includes("--xvfb")) {
+            console.log(`Killing display ${xvfb._display}`);
+            xvfb.stopSync();
+        }
+
+    } catch (err) {
+        console.log(`FATAL ERROR while dealing with XVBF screen : ${err}`);
+    }
+}
+
+async function launch (display)
 {
     // Load info :
     const proxy = await (async function () {
@@ -26,21 +63,6 @@ async function main ()
     if (proxy != null) {
         const proxyPlugin = require('puppeteer-extra-plugin-proxy');
         puppeteer.use(proxyPlugin(proxy));
-    }
-
-    // XVBF
-    var display = ""
-    if (process.argv.includes("--xvfb")) {
-        console.log('Starting new xvfb screen.')
-        const Xvfb = require('xvfb');
-        var xvfb = new Xvfb({
-            silent: true,
-            reuse : true,
-            xvfb_args: ["-screen", "0", cst.xvfb_windows_size , "-ac"],
-        });
-        await xvfb.start((err)=>{if (err) console.error(err)})
-        display = `--display=${xvfb._display}`
-        console.log(`Display is ${xvfb._display}`)
     }
 
     // Path
@@ -105,5 +127,6 @@ async function browser_ready(browser){
 }
 
 main().then( () => {
+    console.log("Exit.");
     process.exit();
 });
