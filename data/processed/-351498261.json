@@ -1,0 +1,167 @@
+{
+    "teamNames": {
+        "t1": "Evil Geniuses",
+        "t2": "Royal Never Give Up"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "20",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "totalelementaldragonsslain": {
+            "over3.5": [
+                "1.39",
+                false
+            ],
+            "under3.5": [
+                "2.73",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "4.50",
+                true
+            ],
+            "under1.5": [
+                "1.16",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "3.36",
+                false
+            ],
+            "t2_5": [
+                "1.29",
+                false
+            ],
+            "t1_10": [
+                "4.29",
+                false
+            ],
+            "t2_10": [
+                "1.19",
+                false
+            ],
+            "t1_15": [
+                "5.50",
+                false
+            ],
+            "t2_15": [
+                "1.12",
+                true
+            ],
+            "t1_20": [
+                "5.96",
+                false
+            ],
+            "t2_20": [
+                "1.10",
+                true
+            ],
+            "t1_25": [
+                "5.96",
+                false
+            ],
+            "t2_25": [
+                "1.10",
+                true
+            ],
+            "t1_30": [
+                "5.96",
+                false
+            ],
+            "t2_30": [
+                "1.10",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                true
+            ],
+            "even": [
+                "1.86",
+                false
+            ]
+        },
+        "destroyfirsttower": {
+            "t1_": [
+                "2.73",
+                false
+            ],
+            "t2_": [
+                "1.39",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "5.42",
+                false
+            ],
+            "t2_": [
+                "1.10",
+                true
+            ]
+        },
+        "killfirstriftherald": {
+            "t1_": [
+                "2.17",
+                false
+            ],
+            "t2_": [
+                "1.59",
+                true
+            ]
+        },
+        "killfirstdragon": {
+            "t1_": [
+                "3.17",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.48",
+                false
+            ],
+            "t2_": [
+                "1.49",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "5.45",
+                true
+            ],
+            "t2_": [
+                "1.11",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "7.55",
+                false
+            ],
+            "t2_": [
+                "1.07",
+                true
+            ]
+        }
+    }
+}
