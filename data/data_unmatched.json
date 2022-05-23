@@ -780,6 +780,164 @@
         },
         "BOLength": 1
     },
+    "1280140191": {
+        "teamNames": {
+            "t1": "Evil Geniuses",
+            "t2": "G2"
+        },
+        "date": {
+            "time": "10:00",
+            "day": "24",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "3.26",
+                "t2_": "1.35"
+            }
+        },
+        "map": {
+            "firstblood": {
+                "t1_": "2.48",
+                "t2_": "1.49"
+            },
+            "racetokills": {
+                "t1_5": "2.37",
+                "t2_5": "1.53",
+                "t1_10": "2.76",
+                "t2_10": "1.40",
+                "t1_15": "2.98",
+                "t2_15": "1.35",
+                "t1_20": "3.36",
+                "t2_20": "1.29",
+                "t1_25": "3.36",
+                "t2_25": "1.29",
+                "t1_30": "3.36",
+                "t2_30": "1.29"
+            },
+            "oddevenkills": {
+                "odd": "1.86",
+                "even": "1.86"
+            },
+            "destroyfirsttower": {
+                "t1_": "2.25",
+                "t2_": "1.57"
+            },
+            "killfirstdragon": {
+                "t1_": "2.25",
+                "t2_": "1.57"
+            },
+            "totalelementaldragonsslain": {
+                "over4.5": "1.52",
+                "under4.5": "2.35"
+            },
+            "totaltowersdestroyed": {
+                "over12.5": "1.60",
+                "under12.5": "2.18"
+            },
+            "totalinhibitorsdestroyed": {
+                "over1.5": "1.39",
+                "under1.5": "2.73"
+            },
+            "killfirstbaron": {
+                "t1_": "3.19",
+                "t2_": "1.30"
+            },
+            "totalbaronsslain": {
+                "over1.5": "2.19",
+                "under1.5": "1.60"
+            },
+            "killfirstriftherald": {
+                "t1_": "2.00",
+                "t2_": "1.72"
+            },
+            "destroyfirstinhibitor": {
+                "t1_": "3.19",
+                "t2_": "1.30"
+            }
+        },
+        "BOLength": 1
+    },
+    "1503107549": {
+        "teamNames": {
+            "t1": "Talon",
+            "t2": "Royal Never Give Up"
+        },
+        "date": {
+            "time": "09:00",
+            "day": "24",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "5.11",
+                "t2_": "1.18"
+            }
+        },
+        "map": {
+            "firstblood": {
+                "t1_": "2.20",
+                "t2_": "1.61"
+            },
+            "racetokills": {
+                "t1_5": "3.36",
+                "t2_5": "1.29",
+                "t1_10": "4.54",
+                "t2_10": "1.17",
+                "t1_15": "5.96",
+                "t2_15": "1.10",
+                "t1_20": "6.43",
+                "t2_20": "1.09",
+                "t1_25": "6.43",
+                "t2_25": "1.09",
+                "t1_30": "6.43",
+                "t2_30": "1.09"
+            },
+            "oddevenkills": {
+                "odd": "1.86",
+                "even": "1.86"
+            },
+            "destroyfirsttower": {
+                "t1_": "2.97",
+                "t2_": "1.35"
+            },
+            "killfirstdragon": {
+                "t1_": "3.70",
+                "t2_": "1.23"
+            },
+            "totalelementaldragonsslain": {
+                "over4.5": "2.35",
+                "under4.5": "1.52"
+            },
+            "totaltowersdestroyed": {
+                "over11.5": "1.56",
+                "under11.5": "2.24"
+            },
+            "totalinhibitorsdestroyed": {
+                "over1.5": "1.39",
+                "under1.5": "2.73"
+            },
+            "killfirstbaron": {
+                "t1_": "5.93",
+                "t2_": "1.10"
+            },
+            "totalbaronsslain": {
+                "over1.5": "3.19",
+                "under1.5": "1.30"
+            },
+            "killfirstriftherald": {
+                "t1_": "2.19",
+                "t2_": "1.60"
+            },
+            "destroyfirstinhibitor": {
+                "t1_": "5.93",
+                "t2_": "1.10"
+            }
+        },
+        "BOLength": 1
+    },
     "1691495145": {
         "teamNames": {
             "t1": "Saigon Buffalo",
@@ -2104,6 +2262,322 @@
             "destroyfirstinhibitor": {
                 "t1_": "3.70",
                 "t2_": "1.23"
+            }
+        },
+        "BOLength": 1
+    },
+    "-391626491": {
+        "teamNames": {
+            "t1": "G2",
+            "t2": "Saigon Buffalo"
+        },
+        "date": {
+            "time": "06:00",
+            "day": "24",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.19",
+                "t2_": "4.91"
+            }
+        },
+        "map": {
+            "firstblood": {
+                "t1_": "1.53",
+                "t2_": "2.37"
+            },
+            "racetokills": {
+                "t1_5": "1.29",
+                "t2_5": "3.36",
+                "t1_10": "1.19",
+                "t2_10": "4.29",
+                "t1_15": "1.12",
+                "t2_15": "5.50",
+                "t1_20": "1.10",
+                "t2_20": "5.96",
+                "t1_25": "1.10",
+                "t2_25": "5.96",
+                "t1_30": "1.10",
+                "t2_30": "5.96"
+            },
+            "oddevenkills": {
+                "odd": "1.86",
+                "even": "1.86"
+            },
+            "destroyfirsttower": {
+                "t1_": "1.28",
+                "t2_": "3.35"
+            },
+            "killfirstdragon": {
+                "t1_": "2.25",
+                "t2_": "1.57"
+            },
+            "totalelementaldragonsslain": {
+                "over4.5": "2.60",
+                "under4.5": "1.43"
+            },
+            "totaltowersdestroyed": {
+                "over11.5": "1.47",
+                "under11.5": "2.46"
+            },
+            "totalinhibitorsdestroyed": {
+                "over1.5": "1.39",
+                "under1.5": "2.73"
+            },
+            "killfirstbaron": {
+                "t1_": "1.16",
+                "t2_": "4.52"
+            },
+            "totalbaronsslain": {
+                "over1.5": "3.46",
+                "under1.5": "1.26"
+            },
+            "killfirstriftherald": {
+                "t1_": "1.23",
+                "t2_": "3.70"
+            },
+            "destroyfirstinhibitor": {
+                "t1_": "1.11",
+                "t2_": "5.47"
+            }
+        },
+        "BOLength": 1
+    },
+    "-494049867": {
+        "teamNames": {
+            "t1": "Evil Geniuses",
+            "t2": "Talon"
+        },
+        "date": {
+            "time": "07:00",
+            "day": "24",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.61",
+                "t2_": "2.36"
+            }
+        },
+        "map": {
+            "firstblood": {
+                "t1_": "1.81",
+                "t2_": "1.91"
+            },
+            "racetokills": {
+                "t1_5": "1.67",
+                "t2_5": "2.11",
+                "t1_10": "1.61",
+                "t2_10": "2.20",
+                "t1_15": "1.58",
+                "t2_15": "2.26",
+                "t1_20": "1.53",
+                "t2_20": "2.37",
+                "t1_25": "1.53",
+                "t2_25": "2.37",
+                "t1_30": "1.53",
+                "t2_30": "2.37"
+            },
+            "oddevenkills": {
+                "odd": "1.86",
+                "even": "1.86"
+            },
+            "destroyfirsttower": {
+                "t1_": "1.57",
+                "t2_": "2.25"
+            },
+            "killfirstdragon": {
+                "t1_": "2.19",
+                "t2_": "1.60"
+            },
+            "totalelementaldragonsslain": {
+                "over4.5": "1.52",
+                "under4.5": "2.35"
+            },
+            "totaltowersdestroyed": {
+                "over12.5": "1.79",
+                "under12.5": "1.89"
+            },
+            "totalinhibitorsdestroyed": {
+                "over1.5": "1.39",
+                "under1.5": "2.73"
+            },
+            "killfirstbaron": {
+                "t1_": "1.57",
+                "t2_": "2.25"
+            },
+            "totalbaronsslain": {
+                "over1.5": "2.19",
+                "under1.5": "1.60"
+            },
+            "killfirstriftherald": {
+                "t1_": "1.43",
+                "t2_": "2.61"
+            },
+            "destroyfirstinhibitor": {
+                "t1_": "1.57",
+                "t2_": "2.25"
+            }
+        },
+        "BOLength": 1
+    },
+    "-1628461637": {
+        "teamNames": {
+            "t1": "Saigon Buffalo",
+            "t2": "T1"
+        },
+        "date": {
+            "time": "08:00",
+            "day": "24",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "11.81",
+                "t2_": "1.04"
+            }
+        },
+        "map": {
+            "firstblood": {
+                "t1_": "2.62",
+                "t2_": "1.44"
+            },
+            "racetokills": {
+                "t1_5": "5.96",
+                "t2_5": "1.10",
+                "t1_10": "9.06",
+                "t2_10": "1.04",
+                "t1_15": "11.98",
+                "t2_15": "NaN",
+                "t1_20": "11.98",
+                "t2_20": "NaN",
+                "t1_25": "11.98",
+                "t2_25": "NaN",
+                "t1_30": "11.98",
+                "t2_30": "NaN"
+            },
+            "oddevenkills": {
+                "odd": "1.86",
+                "even": "1.86"
+            },
+            "destroyfirsttower": {
+                "t1_": "5.47",
+                "t2_": "1.11"
+            },
+            "killfirstdragon": {
+                "t1_": "2.74",
+                "t2_": "1.40"
+            },
+            "totalelementaldragonsslain": {
+                "over3.5": "2.73",
+                "under3.5": "1.39"
+            },
+            "totaltowersdestroyed": {
+                "over11.5": "3.44",
+                "under11.5": "1.26"
+            },
+            "totalinhibitorsdestroyed": {
+                "over1.5": "1.47",
+                "under1.5": "2.46"
+            },
+            "killfirstbaron": {
+                "t1_": "9.92",
+                "t2_": "1.02"
+            },
+            "totalbaronsslain": {
+                "over1.5": "5.47",
+                "under1.5": "1.11"
+            },
+            "killfirstriftherald": {
+                "t1_": "2.97",
+                "t2_": "1.35"
+            },
+            "destroyfirstinhibitor": {
+                "t1_": "9.92",
+                "t2_": "1.02"
+            }
+        },
+        "BOLength": 1
+    },
+    "-1387113598": {
+        "teamNames": {
+            "t1": "T1",
+            "t2": "Royal Never Give Up"
+        },
+        "date": {
+            "time": "11:00",
+            "day": "24",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.70",
+                "t2_": "2.20"
+            }
+        },
+        "map": {
+            "firstblood": {
+                "t1_": "1.86",
+                "t2_": "1.86"
+            },
+            "racetokills": {
+                "t1_10": "1.81",
+                "t2_10": "1.91",
+                "t1_5": "1.81",
+                "t2_5": "1.91",
+                "t1_15": "1.73",
+                "t2_15": "2.01",
+                "t1_20": "1.73",
+                "t2_20": "2.01",
+                "t1_25": "1.73",
+                "t2_25": "2.01",
+                "t1_30": "1.73",
+                "t2_30": "2.01"
+            },
+            "oddevenkills": {
+                "odd": "1.86",
+                "even": "1.86"
+            },
+            "destroyfirsttower": {
+                "t1_": "1.48",
+                "t2_": "2.47"
+            },
+            "killfirstdragon": {
+                "t1_": "2.97",
+                "t2_": "1.35"
+            },
+            "totalelementaldragonsslain": {
+                "over4.5": "1.60",
+                "under4.5": "2.18"
+            },
+            "totaltowersdestroyed": {
+                "over12.5": "1.71",
+                "under12.5": "1.99"
+            },
+            "totalinhibitorsdestroyed": {
+                "over1.5": "1.39",
+                "under1.5": "2.73"
+            },
+            "killfirstbaron": {
+                "t1_": "1.72",
+                "t2_": "2.00"
+            },
+            "totalbaronsslain": {
+                "over1.5": "2.19",
+                "under1.5": "1.60"
+            },
+            "killfirstriftherald": {
+                "t1_": "1.30",
+                "t2_": "3.19"
+            },
+            "destroyfirstinhibitor": {
+                "t1_": "1.72",
+                "t2_": "2.00"
             }
         },
         "BOLength": 1
