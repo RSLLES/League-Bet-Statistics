@@ -52,6 +52,6 @@ if __name__ == '__main__':
             X=X, Y=Y, score=score
         )
 
-        fig.savefig(os.path.join(save_dir, f"{i+1}.png"), bbox_inches='tight', dpi = 200)
+        fig.savefig(os.path.join(save_dir, f"{i+1}.png"), bbox_inches='tight', dpi = 100)
         plt.close()
 
