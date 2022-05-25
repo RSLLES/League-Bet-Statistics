@@ -17,14 +17,19 @@ echo "[Find correlation with GoL Data]"
 python3 -m pipenv run python gol/gol.py
 
 # 3) Maths
-echo "[Do the maths and export]"
-# exit
+echo "[Do the maths]"
+python3 -m pipenv run python trends/compare.py
 
 # 4) Git
 echo "[Commit and Push]"
 git add data/data_unmatched.json
 git add data/id_history.json
 for f in data/processed/*
+do
+    git add $f
+done
+
+for f in trends/best_selectors/*
 do
     git add $f
 done
