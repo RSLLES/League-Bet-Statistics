@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # 0) Update
+# Stash here ton ensure there is no merge conflicts with run_whole_pipeline
+git stash
 git pull
+git stash pop
 
 # 1) Run les scrapers
 echo "[Run Nitrogen Scraper]"
