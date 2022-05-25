@@ -76,6 +76,9 @@ RUN chown -R user:user .
 RUN chmod -R 600 .
 RUN chmod u+x .
 
+#See https://github.com/moby/moby/issues/22832
+ARG CACHE_DATE=2016-01-01 
+
 # Build app and change user
 WORKDIR /app
 RUN chown -R user:user /app
