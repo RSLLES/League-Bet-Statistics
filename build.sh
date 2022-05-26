@@ -88,4 +88,4 @@ setup_colors
 
 # script logic here
 SSH_KEY="$(cat ${ssh})"
-docker buildx build --platform=linux/arm/v7 "." --pull --rm -f "DockerFile" -t lolbetstats:latest --build-arg SSH_KEY="${SSH_KEY}" --build-arg GIT_NAME=${name} --build-arg GIT_EMAIL=${email}
+docker buildx build --platform=linux/arm/v7 "." --pull --rm -f "DockerFile" -t lolbetstats:latest --build-arg SSH_KEY="${SSH_KEY}" --build-arg GIT_NAME=${name} --build-arg GIT_EMAIL=${email} --build-arg CACHE_DATE="$(date)"

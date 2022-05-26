@@ -17,11 +17,11 @@ fi
 
 # 2) Corrélations
 echo "[Find correlation with GoL Data]"
-python3 -m pipenv run python gol/gol.py
+python3 -m gol.gol
 
 # 3) Maths
 echo "[Do the maths]"
-python3 -m pipenv run python trends/compare.py
+python3 -m trends.compare
 
 # 4) Git
 echo "[Commit and Push]"
