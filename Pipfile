@@ -7,8 +7,8 @@ name = "pypi"
 requests = "*"
 beautifulsoup4 = "*"
 user-agent = "*"
-numpy = "*"
 matplotlib = "*"
+numpy = "==1.22.0"
 
 [dev-packages]
 
