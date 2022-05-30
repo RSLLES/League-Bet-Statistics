@@ -54,7 +54,7 @@ RUN ldconfig
 WORKDIR /python
 RUN wget https://www.python.org/ftp/python/3.10.1/Python-3.10.1.tgz && \
     tar -zxvf Python-3.10.1.tgz && cd Python-3.10.1 && \
-    ./configure --enable-optimizations -C --with-openssl=/usr/local/custom-openssl --with-openssl-rpath=auto --prefix=/usr/local/python-3.10.1 --enable-shared && \
+    ./configure --enable-optimizations -C --with-openssl=/usr/local/custom-openssl --with-openssl-rpath=auto --prefix=/usr/local/python-3.10.1 && \
     make -j8 && make altinstall
 RUN ln -s /python/Python-3.10.1/python /usr/bin/python3
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
