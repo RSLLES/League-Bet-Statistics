@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "NYYRIKKI",
+        "t2": "Astralis Talent"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "30",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over17.5": [
+                "1.75",
+                false
+            ],
+            "under17.5": [
+                "1.93",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over10.5": [
+                "1.80",
+                false
+            ],
+            "under10.5": [
+                "1.88",
+                true
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.79",
+                false
+            ],
+            "under28.5": [
+                "1.89",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.92",
+                false
+            ],
+            "t2_": [
+                "1.37",
+                true
+            ]
+        }
+    }
+}

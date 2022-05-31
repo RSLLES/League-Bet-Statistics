@@ -1,4 +1,78 @@
 {
+    "570497699": {
+        "teamNames": {
+            "t1": "Iron Wolves",
+            "t2": "Illuminar"
+        },
+        "date": {
+            "time": "19:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.41",
+                "t2_": "2.78"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.90",
+                "under28.5": "1.77"
+            },
+            "killsadvantage": {
+                "t1_-7.5": "1.76",
+                "t2_+7.5": "1.91"
+            },
+            "t1_totalkills": {
+                "over17.5": "1.92",
+                "under17.5": "1.76"
+            },
+            "t2_totalkills": {
+                "over11.5": "1.88",
+                "under11.5": "1.79"
+            }
+        },
+        "BOLength": 1
+    },
+    "826398435": {
+        "teamNames": {
+            "t1": "PENTA",
+            "t2": "Schalke 04"
+        },
+        "date": {
+            "time": "19:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "2.88",
+                "t2_": "1.38"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.77",
+                "under28.5": "1.91"
+            },
+            "killsadvantage": {
+                "t1_+7.5": "1.87",
+                "t2_-7.5": "1.81"
+            },
+            "t1_totalkills": {
+                "over11.5": "1.89",
+                "under11.5": "1.79"
+            },
+            "t2_totalkills": {
+                "over17.5": "1.87",
+                "under17.5": "1.81"
+            }
+        },
+        "BOLength": 1
+    },
     "928407468": {
         "teamNames": {
             "t1": "Vanir",
@@ -32,6 +106,154 @@
             "t2_totalkills": {
                 "over18.5": "1.85",
                 "under18.5": "1.82"
+            }
+        },
+        "BOLength": 1
+    },
+    "941989826": {
+        "teamNames": {
+            "t1": "Zero Tenacity",
+            "t2": "AGO ROGUE"
+        },
+        "date": {
+            "time": "15:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "4.14",
+                "t2_": "1.21"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.81",
+                "under28.5": "1.87"
+            },
+            "killsadvantage": {
+                "t1_+9.5": "1.95",
+                "t2_-9.5": "1.74"
+            },
+            "t1_totalkills": {
+                "over9.5": "1.82",
+                "under9.5": "1.84"
+            },
+            "t2_totalkills": {
+                "over19.5": "1.87",
+                "under19.5": "1.81"
+            }
+        },
+        "BOLength": 1
+    },
+    "953508935": {
+        "teamNames": {
+            "t1": "GamerLegion",
+            "t2": "BIG"
+        },
+        "date": {
+            "time": "16:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.40",
+                "t2_": "2.82"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.79",
+                "under28.5": "1.89"
+            },
+            "killsadvantage": {
+                "t1_-7.5": "1.82",
+                "t2_+7.5": "1.85"
+            },
+            "t1_totalkills": {
+                "over17.5": "1.91",
+                "under17.5": "1.77"
+            },
+            "t2_totalkills": {
+                "over11.5": "1.84",
+                "under11.5": "1.82"
+            }
+        },
+        "BOLength": 1
+    },
+    "1049907523": {
+        "teamNames": {
+            "t1": "Wave Esports",
+            "t2": "SK Gaming Prime"
+        },
+        "date": {
+            "time": "20:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "3.57",
+                "t2_": "1.27"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.77",
+                "under28.5": "1.91"
+            },
+            "killsadvantage": {
+                "t1_+9.5": "1.74",
+                "t2_-9.5": "1.94"
+            },
+            "t1_totalkills": {
+                "over10.5": "1.87",
+                "under10.5": "1.81"
+            },
+            "t2_totalkills": {
+                "over18.5": "1.91",
+                "under18.5": "1.77"
+            }
+        },
+        "BOLength": 1
+    },
+    "1148080500": {
+        "teamNames": {
+            "t1": "Unicorns Of Love SE",
+            "t2": "Eintracht Spandau"
+        },
+        "date": {
+            "time": "18:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.78",
+                "t2_": "1.96"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.82",
+                "under28.5": "1.86"
+            },
+            "killsadvantage": {
+                "t1_-2.5": "1.82",
+                "t2_+2.5": "1.84"
+            },
+            "t1_totalkills": {
+                "over14.5": "1.77",
+                "under14.5": "1.91"
+            },
+            "t2_totalkills": {
+                "over14.5": "1.89",
+                "under14.5": "1.79"
             }
         },
         "BOLength": 1
@@ -139,6 +361,191 @@
             "t1_totalkills": {
                 "over9.5": "1.76",
                 "under9.5": "1.92"
+            },
+            "t2_totalkills": {
+                "over18.5": "1.74",
+                "under18.5": "1.94"
+            }
+        },
+        "BOLength": 1
+    },
+    "-2014624167": {
+        "teamNames": {
+            "t1": "GoSkilla",
+            "t2": "Forsaken"
+        },
+        "date": {
+            "time": "16:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "2.13",
+                "t2_": "1.66"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over27.5": "1.78",
+                "under27.5": "1.90"
+            },
+            "killsadvantage": {
+                "t1_+5.5": "1.82",
+                "t2_-5.5": "1.85"
+            },
+            "t1_totalkills": {
+                "over12.5": "1.82",
+                "under12.5": "1.85"
+            },
+            "t2_totalkills": {
+                "over16.5": "1.91",
+                "under16.5": "1.76"
+            }
+        },
+        "BOLength": 1
+    },
+    "-1509823033": {
+        "teamNames": {
+            "t1": "Team ESCA Gaming",
+            "t2": "devils.one"
+        },
+        "date": {
+            "time": "17:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.45",
+                "t2_": "2.62"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.79",
+                "under28.5": "1.88"
+            },
+            "killsadvantage": {
+                "t1_-7.5": "1.88",
+                "t2_+7.5": "1.79"
+            },
+            "t1_totalkills": {
+                "over16.5": "1.77",
+                "under16.5": "1.90"
+            },
+            "t2_totalkills": {
+                "over12.5": "1.86",
+                "under12.5": "1.81"
+            }
+        },
+        "BOLength": 1
+    },
+    "-1198323526": {
+        "teamNames": {
+            "t1": "Komil&Friends",
+            "t2": "Gentleman's Club"
+        },
+        "date": {
+            "time": "18:00",
+            "day": "31",
+            "month": "5",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "2.60",
+                "t2_": "1.46"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.82",
+                "under28.5": "1.85"
+            },
+            "killsadvantage": {
+                "t1_+7.5": "1.84",
+                "t2_-7.5": "1.83"
+            },
+            "t1_totalkills": {
+                "over14.5": "1.88",
+                "under14.5": "1.79"
+            },
+            "t2_totalkills": {
+                "over17.5": "1.90",
+                "under17.5": "1.78"
+            }
+        },
+        "BOLength": 1
+    },
+    "-87080155": {
+        "teamNames": {
+            "t1": "MnM Gaming",
+            "t2": "X7 Esports"
+        },
+        "date": {
+            "time": "16:00",
+            "day": "1",
+            "month": "6",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "5.13",
+                "t2_": "1.14"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over29.5": "1.89",
+                "under29.5": "1.79"
+            },
+            "killsadvantage": {
+                "t1_+10.5": "1.96",
+                "t2_-10.5": "1.72"
+            },
+            "t1_totalkills": {
+                "over8.5": "1.74",
+                "under8.5": "1.95"
+            },
+            "t2_totalkills": {
+                "over19.5": "1.82",
+                "under19.5": "1.85"
+            }
+        },
+        "BOLength": 1
+    },
+    "-455191850": {
+        "teamNames": {
+            "t1": "Astralis Talent",
+            "t2": "Bifrost"
+        },
+        "date": {
+            "time": "20:00",
+            "day": "1",
+            "month": "6",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "3.47",
+                "t2_": "1.27"
+            }
+        },
+        "map": {
+            "totalkills": {
+                "over28.5": "1.75",
+                "under28.5": "1.92"
+            },
+            "killsadvantage": {
+                "t1_+10.5": "1.82",
+                "t2_-10.5": "1.86"
+            },
+            "t1_totalkills": {
+                "over9.5": "1.82",
+                "under9.5": "1.86"
             },
             "t2_totalkills": {
                 "over18.5": "1.74",
