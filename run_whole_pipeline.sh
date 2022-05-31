@@ -17,7 +17,7 @@ fi
 
 # 2) Corrélations
 echo "[Find correlation with GoL Data]"
-python3 -m gol.gol
+python3 gol/gol.py
 
 # 3) Maths
 echo "[Do the maths]"
