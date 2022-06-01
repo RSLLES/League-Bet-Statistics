@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "GoSkilla",
+        "t2": "Forsaken"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "31",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.91",
+                false
+            ],
+            "under16.5": [
+                "1.76",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.82",
+                false
+            ],
+            "under12.5": [
+                "1.85",
+                true
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.78",
+                false
+            ],
+            "under27.5": [
+                "1.90",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.13",
+                false
+            ],
+            "t2_": [
+                "1.66",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Team ESCA Gaming",
+        "t2": "devils.one"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "31",
+        "month": "5",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.86",
+                false
+            ],
+            "under12.5": [
+                "1.81",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.77",
+                false
+            ],
+            "under16.5": [
+                "1.90",
+                true
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.79",
+                false
+            ],
+            "under28.5": [
+                "1.88",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.45",
+                true
+            ],
+            "t2_": [
+                "2.62",
+                false
+            ]
+        }
+    }
+}
