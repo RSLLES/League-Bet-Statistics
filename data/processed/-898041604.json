@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "NYYRIKKI",
+        "t2": "Dusty"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "1",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.74",
+                false
+            ],
+            "under18.5": [
+                "1.94",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.76",
+                false
+            ],
+            "under9.5": [
+                "1.92",
+                true
+            ]
+        },
+        "totalkills": {
+            "over29.5": [
+                "1.87",
+                false
+            ],
+            "under29.5": [
+                "1.81",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.71",
+                false
+            ],
+            "t2_": [
+                "1.24",
+                true
+            ]
+        }
+    }
+}

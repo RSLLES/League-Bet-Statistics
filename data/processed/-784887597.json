@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Team BDS Academy",
+        "t2": "LDLC"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "1",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.82",
+                true
+            ],
+            "under16.5": [
+                "1.84",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.81",
+                true
+            ],
+            "under11.5": [
+                "1.87",
+                false
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.91",
+                true
+            ],
+            "under28.5": [
+                "1.77",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.53",
+                false
+            ],
+            "t2_": [
+                "1.48",
+                true
+            ]
+        }
+    }
+}

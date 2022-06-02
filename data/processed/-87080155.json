@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "MnM Gaming",
+        "t2": "X7 Esports"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "1",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over19.5": [
+                "1.82",
+                false
+            ],
+            "under19.5": [
+                "1.85",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.74",
+                true
+            ],
+            "under8.5": [
+                "1.95",
+                false
+            ]
+        },
+        "totalkills": {
+            "over29.5": [
+                "1.89",
+                true
+            ],
+            "under29.5": [
+                "1.79",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "5.13",
+                true
+            ],
+            "t2_": [
+                "1.14",
+                false
+            ]
+        }
+    }
+}

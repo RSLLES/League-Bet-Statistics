@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "GoSkilla",
+        "t2": "AGO ROGUE"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "1",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over19.5": [
+                "1.92",
+                true
+            ],
+            "under19.5": [
+                "1.75",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over7.5": [
+                "1.96",
+                true
+            ],
+            "under7.5": [
+                "1.72",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.86",
+                true
+            ],
+            "under26.5": [
+                "1.82",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "7.76",
+                false
+            ],
+            "t2_": [
+                "1.06",
+                true
+            ]
+        }
+    }
+}

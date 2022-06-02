@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Astralis Talent",
+        "t2": "Bifrost"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "1",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.74",
+                false
+            ],
+            "under18.5": [
+                "1.94",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.82",
+                false
+            ],
+            "under9.5": [
+                "1.86",
+                true
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.75",
+                false
+            ],
+            "under28.5": [
+                "1.92",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.47",
+                false
+            ],
+            "t2_": [
+                "1.27",
+                true
+            ]
+        }
+    }
+}

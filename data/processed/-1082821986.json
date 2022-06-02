@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Riddle Esports",
+        "t2": "Team Singularity"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "1",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.78",
+                false
+            ],
+            "under9.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over18.5": [
+                "1.79",
+                true
+            ],
+            "under18.5": [
+                "1.89",
+                false
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.78",
+                true
+            ],
+            "under28.5": [
+                "1.89",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.21",
+                true
+            ],
+            "t2_": [
+                "4.00",
+                false
+            ]
+        }
+    }
+}

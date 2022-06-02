@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Vanir",
+        "t2": "JDXL"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "1",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.85",
+                true
+            ],
+            "under18.5": [
+                "1.82",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over10.5": [
+                "1.77",
+                true
+            ],
+            "under10.5": [
+                "1.90",
+                false
+            ]
+        },
+        "totalkills": {
+            "over29.5": [
+                "1.84",
+                true
+            ],
+            "under29.5": [
+                "1.82",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.27",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    }
+}
