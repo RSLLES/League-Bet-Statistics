@@ -369,43 +369,6 @@
         },
         "BOLength": 1
     },
-    "-549416595": {
-        "teamNames": {
-            "t1": "NYYRIKKI",
-            "t2": "Astralis Talent"
-        },
-        "date": {
-            "time": "20:00",
-            "day": "30",
-            "month": "5",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "2.92",
-                "t2_": "1.37"
-            }
-        },
-        "map": {
-            "totalkills": {
-                "over28.5": "1.79",
-                "under28.5": "1.89"
-            },
-            "killsadvantage": {
-                "t1_+8.5": "1.87",
-                "t2_-8.5": "1.81"
-            },
-            "t1_totalkills": {
-                "over10.5": "1.80",
-                "under10.5": "1.88"
-            },
-            "t2_totalkills": {
-                "over17.5": "1.75",
-                "under17.5": "1.93"
-            }
-        },
-        "BOLength": 1
-    },
     "-1082821986": {
         "teamNames": {
             "t1": "Riddle Esports",
