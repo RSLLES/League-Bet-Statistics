@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Dusty",
+        "t2": "X7 Esports"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "6",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.83",
+                true
+            ],
+            "under16.5": [
+                "1.84",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.79",
+                false
+            ],
+            "under12.5": [
+                "1.88",
+                true
+            ]
+        },
+        "totalkills": {
+            "over29.5": [
+                "1.88",
+                false
+            ],
+            "under29.5": [
+                "1.79",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.21",
+                false
+            ],
+            "t2_": [
+                "1.60",
+                true
+            ]
+        }
+    }
+}

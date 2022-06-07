@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Astralis Talent",
+        "t2": "Team Singularity"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "6",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.89",
+                false
+            ],
+            "under9.5": [
+                "1.79",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over18.5": [
+                "1.91",
+                true
+            ],
+            "under18.5": [
+                "1.77",
+                false
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.85",
+                false
+            ],
+            "under28.5": [
+                "1.82",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.22",
+                true
+            ],
+            "t2_": [
+                "3.91",
+                false
+            ]
+        }
+    }
+}

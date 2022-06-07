@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Vanir",
+        "t2": "MnM Gaming"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "6",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.89",
+                false
+            ],
+            "under13.5": [
+                "1.79",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.84",
+                false
+            ],
+            "under16.5": [
+                "1.82",
+                true
+            ]
+        },
+        "totalkills": {
+            "over29.5": [
+                "1.89",
+                false
+            ],
+            "under29.5": [
+                "1.78",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.59",
+                true
+            ],
+            "t2_": [
+                "2.23",
+                false
+            ]
+        }
+    }
+}

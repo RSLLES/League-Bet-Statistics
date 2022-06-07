@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Riddle Esports",
+        "t2": "JDXL"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "6",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over19.5": [
+                "1.77",
+                false
+            ],
+            "under19.5": [
+                "1.91",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over10.5": [
+                "1.93",
+                false
+            ],
+            "under10.5": [
+                "1.75",
+                true
+            ]
+        },
+        "totalkills": {
+            "over30.5": [
+                "1.83",
+                false
+            ],
+            "under30.5": [
+                "1.83",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.71",
+                false
+            ],
+            "t2_": [
+                "1.16",
+                true
+            ]
+        }
+    }
+}

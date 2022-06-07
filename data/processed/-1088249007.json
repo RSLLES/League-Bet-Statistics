@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "NYYRIKKI",
+        "t2": "Bifrost"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "6",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over17.5": [
+                "1.77",
+                true
+            ],
+            "under17.5": [
+                "1.90",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.85",
+                true
+            ],
+            "under8.5": [
+                "1.82",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.84",
+                true
+            ],
+            "under26.5": [
+                "1.82",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "6.12",
+                true
+            ],
+            "t2_": [
+                "1.10",
+                false
+            ]
+        }
+    }
+}
