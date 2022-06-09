@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Mirage Elyandra",
+        "t2": "LDLC"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "8",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.78",
+                false
+            ],
+            "under16.5": [
+                "1.89",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over7.5": [
+                "1.84",
+                false
+            ],
+            "under7.5": [
+                "1.82",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.82",
+                false
+            ],
+            "under24.5": [
+                "1.85",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.68",
+                false
+            ],
+            "t2_": [
+                "1.17",
+                true
+            ]
+        }
+    }
+}

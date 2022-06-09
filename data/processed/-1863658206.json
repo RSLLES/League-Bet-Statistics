@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Vitality Bee",
+        "t2": "Misfits Premier"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "8",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.78",
+                false
+            ],
+            "under9.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.87",
+                true
+            ],
+            "under15.5": [
+                "1.80",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.74",
+                false
+            ],
+            "under24.5": [
+                "1.94",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.36",
+                true
+            ],
+            "t2_": [
+                "3.00",
+                false
+            ]
+        }
+    }
+}

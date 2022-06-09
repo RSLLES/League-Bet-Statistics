@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Iron Wolves",
+        "t2": "AGO ROGUE"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "8",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.89",
+                true
+            ],
+            "under18.5": [
+                "1.79",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over7.5": [
+                "1.82",
+                true
+            ],
+            "under7.5": [
+                "1.85",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.77",
+                true
+            ],
+            "under25.5": [
+                "1.91",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.55",
+                false
+            ],
+            "t2_": [
+                "1.18",
+                true
+            ]
+        }
+    }
+}

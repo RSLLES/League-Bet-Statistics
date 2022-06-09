@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Team BDS Academy",
+        "t2": "Solary"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "8",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.77",
+                false
+            ],
+            "under9.5": [
+                "1.91",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.77",
+                false
+            ],
+            "under15.5": [
+                "1.91",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.87",
+                false
+            ],
+            "under25.5": [
+                "1.81",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.43",
+                true
+            ],
+            "t2_": [
+                "2.69",
+                false
+            ]
+        }
+    }
+}
