@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Schalke 04",
+        "t2": "Unicorns Of Love SE"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "9",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.81",
+                false
+            ],
+            "under13.5": [
+                "1.87",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.87",
+                true
+            ],
+            "under16.5": [
+                "1.81",
+                false
+            ]
+        },
+        "totalkills": {
+            "over30.5": [
+                "1.90",
+                false
+            ],
+            "under30.5": [
+                "1.78",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.66",
+                true
+            ],
+            "t2_": [
+                "2.13",
+                false
+            ]
+        }
+    }
+}

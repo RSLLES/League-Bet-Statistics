@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "MOUZ",
+        "t2": "Wave Esports"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "9",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over6.5": [
+                "1.78",
+                true
+            ],
+            "under6.5": [
+                "1.90",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.91",
+                false
+            ],
+            "under17.5": [
+                "1.77",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.91",
+                true
+            ],
+            "under24.5": [
+                "1.77",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.15",
+                false
+            ],
+            "t2_": [
+                "5.06",
+                true
+            ]
+        }
+    }
+}

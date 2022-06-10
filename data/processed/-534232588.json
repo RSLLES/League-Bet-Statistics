@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Eintracht Spandau",
+        "t2": "PENTA"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "9",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.92",
+                true
+            ],
+            "under9.5": [
+                "1.75",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over18.5": [
+                "1.80",
+                true
+            ],
+            "under18.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.88",
+                true
+            ],
+            "under28.5": [
+                "1.80",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.20",
+                true
+            ],
+            "t2_": [
+                "4.21",
+                false
+            ]
+        }
+    }
+}

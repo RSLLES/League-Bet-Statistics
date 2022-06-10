@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Misfits Premier",
+        "t2": "Mirage Elyandra"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "9",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over8.5": [
+                "1.79",
+                true
+            ],
+            "under8.5": [
+                "1.88",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.87",
+                false
+            ],
+            "under16.5": [
+                "1.81",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.94",
+                false
+            ],
+            "under25.5": [
+                "1.74",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.33",
+                false
+            ],
+            "t2_": [
+                "3.13",
+                true
+            ]
+        }
+    }
+}

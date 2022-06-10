@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Team BDS Academy",
+        "t2": "Karmine Corp"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "9",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.89",
+                false
+            ],
+            "under16.5": [
+                "1.79",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.82",
+                true
+            ],
+            "under8.5": [
+                "1.84",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.76",
+                true
+            ],
+            "under24.5": [
+                "1.92",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.67",
+                false
+            ],
+            "t2_": [
+                "1.44",
+                true
+            ]
+        }
+    }
+}

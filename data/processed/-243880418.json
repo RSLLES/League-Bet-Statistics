@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Vitality Bee",
+        "t2": "Team Oplon"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "9",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over6.5": [
+                "1.72",
+                true
+            ],
+            "under6.5": [
+                "1.97",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.87",
+                true
+            ],
+            "under17.5": [
+                "1.81",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.85",
+                true
+            ],
+            "under24.5": [
+                "1.82",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.12",
+                true
+            ],
+            "t2_": [
+                "5.58",
+                false
+            ]
+        }
+    }
+}
