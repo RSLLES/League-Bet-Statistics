@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Movistar Riders",
+        "t2": "G2 Arctic"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "13",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.82",
+                false
+            ],
+            "under14.5": [
+                "1.88",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.84",
+                false
+            ],
+            "under12.5": [
+                "1.86",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.85",
+                false
+            ],
+            "under26.5": [
+                "1.85",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.10",
+                false
+            ],
+            "t2_": [
+                "1.69",
+                true
+            ]
+        }
+    }
+}

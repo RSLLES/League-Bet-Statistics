@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Fnatic TQ",
+        "t2": "Team Heretics"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "13",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.89",
+                false
+            ],
+            "under11.5": [
+                "1.81",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.87",
+                false
+            ],
+            "under15.5": [
+                "1.83",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.78",
+                false
+            ],
+            "under25.5": [
+                "1.93",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.55",
+                true
+            ],
+            "t2_": [
+                "2.35",
+                false
+            ]
+        }
+    }
+}

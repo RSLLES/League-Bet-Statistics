@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "KOI",
+        "t2": "MAD Lions"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "13",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.84",
+                true
+            ],
+            "under12.5": [
+                "1.86",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.84",
+                false
+            ],
+            "under14.5": [
+                "1.87",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.88",
+                true
+            ],
+            "under26.5": [
+                "1.82",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.69",
+                false
+            ],
+            "t2_": [
+                "2.08",
+                true
+            ]
+        }
+    }
+}
