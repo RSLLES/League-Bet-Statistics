@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Wave Esports",
+        "t2": "Eintracht Spandau"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "14",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.87",
+                true
+            ],
+            "under18.5": [
+                "1.84",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.84",
+                true
+            ],
+            "under8.5": [
+                "1.86",
+                false
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.85",
+                true
+            ],
+            "under27.5": [
+                "1.85",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "5.16",
+                false
+            ],
+            "t2_": [
+                "1.14",
+                true
+            ]
+        }
+    }
+}

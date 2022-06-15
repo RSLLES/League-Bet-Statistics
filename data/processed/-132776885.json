@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "MAMMOTH",
+        "t2": "Dire Wolves"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "14",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.86",
+                true
+            ],
+            "under18.5": [
+                "1.84",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.80",
+                false
+            ],
+            "under9.5": [
+                "1.90",
+                true
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.82",
+                true
+            ],
+            "under28.5": [
+                "1.89",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.25",
+                false
+            ],
+            "t2_": [
+                "1.31",
+                true
+            ]
+        }
+    }
+}

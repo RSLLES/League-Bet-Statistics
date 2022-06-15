@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "PENTA",
+        "t2": "E WIE EINFACH Esports"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "14",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.91",
+                true
+            ],
+            "under12.5": [
+                "1.80",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.91",
+                false
+            ],
+            "under17.5": [
+                "1.80",
+                true
+            ]
+        },
+        "totalkills": {
+            "over29.5": [
+                "1.84",
+                false
+            ],
+            "under29.5": [
+                "1.86",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.47",
+                false
+            ],
+            "t2_": [
+                "2.56",
+                true
+            ]
+        }
+    }
+}

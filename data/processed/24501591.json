@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Schalke 04",
+        "t2": "BIG"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "14",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.84",
+                true
+            ],
+            "under12.5": [
+                "1.87",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.82",
+                false
+            ],
+            "under15.5": [
+                "1.88",
+                true
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.78",
+                false
+            ],
+            "under27.5": [
+                "1.93",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.58",
+                false
+            ],
+            "t2_": [
+                "2.29",
+                true
+            ]
+        }
+    }
+}
