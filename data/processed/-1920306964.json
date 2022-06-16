@@ -1,0 +1,59 @@
+{
+    "teamNames": {
+        "t1": "NS RedForce",
+        "t2": "DRX"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "15",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.21",
+                false
+            ],
+            "t2_": [
+                "1.62",
+                true
+            ]
+        }
+    },
+    "map2": {
+        "winner": {
+            "t1_": [
+                "2.21",
+                false
+            ],
+            "t2_": [
+                "1.62",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.05",
+                false
+            ],
+            "under2.5": [
+                "1.71",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "2.16",
+                false
+            ],
+            "t2_": [
+                "1.65",
+                true
+            ]
+        }
+    }
+}
