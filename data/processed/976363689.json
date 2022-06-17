@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "KOI",
+        "t2": "Movistar Riders"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "16",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.82",
+                false
+            ],
+            "under11.5": [
+                "1.88",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.77",
+                false
+            ],
+            "under14.5": [
+                "1.94",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.95",
+                false
+            ],
+            "under26.5": [
+                "1.76",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.60",
+                true
+            ],
+            "t2_": [
+                "2.24",
+                false
+            ]
+        }
+    }
+}

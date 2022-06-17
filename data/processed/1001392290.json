@@ -1,0 +1,195 @@
+{
+    "teamNames": {
+        "t1": "KT Rolster",
+        "t2": "Gen.G"
+    },
+    "date": {
+        "time": "08:00",
+        "day": "16",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.91",
+                false
+            ],
+            "under14.5": [
+                "1.85",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.86",
+                false
+            ],
+            "under8.5": [
+                "1.89",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "2.21",
+                false
+            ],
+            "under24.5": [
+                "1.63",
+                true
+            ],
+            "over22.5": [
+                "1.80",
+                false
+            ],
+            "under22.5": [
+                "1.96",
+                true
+            ],
+            "over23.5": [
+                "2.02",
+                false
+            ],
+            "under23.5": [
+                "1.75",
+                true
+            ]
+        },
+        "totalelementaldragonsslain": {
+            "over5.5": [
+                "3.06",
+                false
+            ],
+            "under5.5": [
+                "1.34",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.28",
+                false
+            ],
+            "under1.5": [
+                "1.57",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.39",
+                false
+            ],
+            "t2_5": [
+                "1.55",
+                false
+            ],
+            "t1_10": [
+                "2.65",
+                true
+            ],
+            "t2_10": [
+                "1.46",
+                false
+            ],
+            "t1_15": [
+                "3.01",
+                false
+            ],
+            "t2_15": [
+                "1.36",
+                false
+            ],
+            "t1_20": [
+                "3.23",
+                true
+            ],
+            "t2_20": [
+                "1.32",
+                false
+            ],
+            "t1_25": [
+                "3.23",
+                false
+            ],
+            "t2_25": [
+                "1.32",
+                false
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.89",
+                false
+            ],
+            "even": [
+                "1.87",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "3.25",
+                false
+            ],
+            "t2_": [
+                "1.33",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "3.10",
+                false
+            ],
+            "t2_": [
+                "1.34",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.05",
+                true
+            ],
+            "t2_": [
+                "1.73",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "3.09",
+                false
+            ],
+            "t2_": [
+                "1.33",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.45",
+                false
+            ],
+            "under2.5": [
+                "1.54",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "4.20",
+                false
+            ],
+            "t2_": [
+                "1.22",
+                true
+            ]
+        }
+    }
+}

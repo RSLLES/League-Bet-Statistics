@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Misfits Premier",
+        "t2": "LDLC"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "16",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.95",
+                false
+            ],
+            "under16.5": [
+                "1.76",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.82",
+                false
+            ],
+            "under8.5": [
+                "1.88",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.85",
+                false
+            ],
+            "under24.5": [
+                "1.85",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.37",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        }
+    }
+}
