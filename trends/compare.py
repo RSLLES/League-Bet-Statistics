@@ -8,7 +8,7 @@ from .plot import decorate_plot, get_plot, confidence_to_color
 
 if __name__ == '__main__':
     nb_selectors = 7
-    std0 = 20
+    std0 = 0.1
     processed_dir = "data/processed"
     save_dir = "trends/best_selectors"
 

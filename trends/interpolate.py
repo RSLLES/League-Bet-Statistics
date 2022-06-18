@@ -1,5 +1,47 @@
-
 import numpy as np
+
+def batch_weighted_sum(
+        X : np.array,
+        W : np.array
+    ) -> np.array :
+    """
+    Input :
+        X : 1D Array (d,)
+        W : 2D Array (B,d)
+    Output :
+        Y : 1D Array (B,), where for i in [[1, B]], Y_i = (X|W_i)/||W_i||
+    """
+    assert len(X.shape) == 1
+    assert len(W.shape) == 2
+    assert X.shape[0] == W.shape[1]
+
+    return np.einsum("d,bd->b", X, W)/np.sum(W, axis=1)
+
+def batch_exp_weights(
+        X : np.array,
+        x : np.array,
+        std : float
+    ) -> np.array :
+    """
+    Input :
+        X : 1D Array (d,)
+    x : 1D Array (B,)
+        std : float
+    Output :
+        Y : 2D Array (B,d), where for i,j in [[1, B]]x[[1, d]], Y_(i,j) = exp(-((X_(i,j) - x_i)/std)^2)
+    """
+    assert len(X.shape) == 1
+    assert len(x.shape) == 1
+    assert isinstance(std, float) and std > 0.
+    B, = x.shape    
+    d, = X.shape
+
+    X = np.repeat(np.expand_dims(X, axis=0), B, axis=0)
+    x = np.repeat(np.expand_dims(x, axis=1), d, axis=1)
+    X = (X - x)/std
+    X = np.square(X)
+    return np.exp(-X)
+
 
 def interpolate(
         X : np.array, 
@@ -29,29 +71,30 @@ def interpolate(
     assert len(Y.shape) == 1
     assert len(T.shape) == 1
     assert X.shape == Y.shape
-    n = X.shape[0]
-    L = T.shape[0]
+    n, = X.shape
+    L, = T.shape
 
-    X = X.reshape(n,1) @ np.ones((1,L))
-    T = np.ones((n,1)) @ T.reshape(1,L)
-    
-    Y = np.diag(Y)
-
-    coeffs = np.exp(-std*np.square(X-T))
-    S = (Y @ coeffs).sum(axis=0)
-    C = coeffs.sum(axis=0)
-    return S/C, C/n
+    W = batch_exp_weights(X= X, x=T, std=std)
+    F = batch_weighted_sum(X=Y, W=W)
+    C = np.sum(W, axis=1)
+    return F, C
 
 ############
 ### Test ###
 ############
 
 if __name__ == '__main__':
-    n, L = 10, 100
+    n, L = 10, 1000
 
-    T = np.linspace(0, 1, L)
     X = np.linspace(0, 1, n)
-    Y = np.random.random(n)
+    Y = np.sin(np.pi*X)
     
-    F, C = interpolate(X = X, Y = Y, T = T, std = 10)
+    T = np.linspace(0, 1, L)
+    F, C = interpolate(X = X, Y = Y, T = T, std = 0.05)
     print(F)
+    import matplotlib.pyplot as plt
+    plt.plot(X, Y, label="originale")
+    plt.plot(T, F, label="Interpolated")
+    plt.legend()
+    plt.show()
+    

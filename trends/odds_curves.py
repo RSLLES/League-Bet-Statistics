@@ -21,7 +21,7 @@ def gains_wrt_proba_curve(selectors : list[list[str]], processd_dir : str, std :
     Proba = to_probabilities(Odds)
 
     # Interpolation dans la base des probas
-    Long_Proba = np.linspace(min(Proba),max(Proba), 200)
+    Long_Proba = np.linspace(min(Proba),max(Proba) + 0.01, 200)
     std = std/(Long_Proba[-1] - Long_Proba[0])
     Long_Gains, C = interpolate(Proba, Gains, Long_Proba, std=std)
     C = normalize(C)
