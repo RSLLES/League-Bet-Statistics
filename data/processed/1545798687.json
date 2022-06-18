@@ -1,0 +1,83 @@
+{
+    "teamNames": {
+        "t1": "Misfits",
+        "t2": "Excel"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "17",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.93",
+                true
+            ],
+            "under14.5": [
+                "1.79",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over13.5": [
+                "1.79",
+                false
+            ],
+            "under13.5": [
+                "1.93",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.66",
+                false
+            ],
+            "under25.5": [
+                "2.11",
+                true
+            ],
+            "over26.5": [
+                "1.83",
+                false
+            ],
+            "under26.5": [
+                "1.89",
+                true
+            ],
+            "over27.5": [
+                "1.99",
+                false
+            ],
+            "under27.5": [
+                "1.74",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.86",
+                false
+            ],
+            "t2_": [
+                "1.86",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.06",
+                false
+            ],
+            "t2_": [
+                "1.71",
+                true
+            ]
+        }
+    }
+}

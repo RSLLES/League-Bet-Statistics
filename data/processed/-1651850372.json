@@ -1,0 +1,83 @@
+{
+    "teamNames": {
+        "t1": "Team Vitality",
+        "t2": "MAD Lions"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "17",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.86",
+                true
+            ],
+            "under11.5": [
+                "1.86",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.84",
+                false
+            ],
+            "under15.5": [
+                "1.89",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.63",
+                false
+            ],
+            "under25.5": [
+                "2.16",
+                true
+            ],
+            "over26.5": [
+                "1.79",
+                false
+            ],
+            "under26.5": [
+                "1.93",
+                true
+            ],
+            "over27.5": [
+                "1.98",
+                false
+            ],
+            "under27.5": [
+                "1.75",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.73",
+                true
+            ],
+            "t2_": [
+                "2.01",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.44",
+                false
+            ],
+            "t2_": [
+                "2.65",
+                true
+            ]
+        }
+    }
+}
