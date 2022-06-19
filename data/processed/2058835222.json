@@ -1,0 +1,99 @@
+{
+    "teamNames": {
+        "t1": "Team Vitality",
+        "t2": "Misfits"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "18",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.95",
+                false
+            ],
+            "under11.5": [
+                "1.81",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.88",
+                true
+            ],
+            "under14.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.68",
+                true
+            ],
+            "under23.5": [
+                "2.14",
+                false
+            ],
+            "over24.5": [
+                "1.88",
+                true
+            ],
+            "under24.5": [
+                "1.88",
+                false
+            ],
+            "over25.5": [
+                "2.08",
+                true
+            ],
+            "under25.5": [
+                "1.71",
+                false
+            ],
+            "over26.5": [
+                "2.26",
+                true
+            ],
+            "under26.5": [
+                "1.61",
+                false
+            ],
+            "over27.5": [
+                "2.46",
+                true
+            ],
+            "under27.5": [
+                "1.52",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.81",
+                true
+            ],
+            "t2_": [
+                "1.95",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.59",
+                true
+            ],
+            "t2_": [
+                "2.35",
+                false
+            ]
+        }
+    }
+}

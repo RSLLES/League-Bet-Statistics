@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "Evil Geniuses",
+        "t2": "CLoud9"
+    },
+    "date": {
+        "time": "21:30",
+        "day": "17",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.93",
+                false
+            ],
+            "under12.5": [
+                "1.80",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.86",
+                true
+            ],
+            "under14.5": [
+                "1.87",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.71",
+                true
+            ],
+            "under25.5": [
+                "2.03",
+                false
+            ],
+            "over26.5": [
+                "1.87",
+                true
+            ],
+            "under26.5": [
+                "1.86",
+                false
+            ],
+            "over27.5": [
+                "2.06",
+                true
+            ],
+            "under27.5": [
+                "1.70",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.63",
+                true
+            ],
+            "t2_": [
+                "2.20",
+                false
+            ]
+        }
+    }
+}

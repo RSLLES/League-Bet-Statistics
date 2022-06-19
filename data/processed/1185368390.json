@@ -1,0 +1,99 @@
+{
+    "teamNames": {
+        "t1": "Fnatic",
+        "t2": "Excel"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "18",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.90",
+                true
+            ],
+            "under10.5": [
+                "1.86",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.77",
+                false
+            ],
+            "under14.5": [
+                "2.00",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.61",
+                true
+            ],
+            "under23.5": [
+                "2.25",
+                false
+            ],
+            "over24.5": [
+                "1.79",
+                true
+            ],
+            "under24.5": [
+                "1.98",
+                false
+            ],
+            "over25.5": [
+                "1.97",
+                true
+            ],
+            "under25.5": [
+                "1.79",
+                false
+            ],
+            "over26.5": [
+                "2.19",
+                true
+            ],
+            "under26.5": [
+                "1.64",
+                false
+            ],
+            "over27.5": [
+                "2.41",
+                true
+            ],
+            "under27.5": [
+                "1.54",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.75",
+                false
+            ],
+            "t2_": [
+                "2.03",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.37",
+                false
+            ],
+            "t2_": [
+                "3.02",
+                true
+            ]
+        }
+    }
+}

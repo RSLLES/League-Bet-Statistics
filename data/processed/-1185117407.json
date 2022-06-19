@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "INTZ",
+        "t2": "FURIA"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "18",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.97",
+                false
+            ],
+            "under18.5": [
+                "1.76",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.87",
+                true
+            ],
+            "under8.5": [
+                "1.86",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.64",
+                true
+            ],
+            "under25.5": [
+                "2.14",
+                false
+            ],
+            "over26.5": [
+                "1.83",
+                true
+            ],
+            "under26.5": [
+                "1.90",
+                false
+            ],
+            "over27.5": [
+                "1.99",
+                true
+            ],
+            "under27.5": [
+                "1.74",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.31",
+                false
+            ],
+            "t2_": [
+                "1.19",
+                true
+            ]
+        }
+    }
+}
