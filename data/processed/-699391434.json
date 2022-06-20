@@ -1,0 +1,153 @@
+{
+    "teamNames": {
+        "t1": "Dignitas",
+        "t2": "Team Liquid"
+    },
+    "date": {
+        "time": "21:30",
+        "day": "18",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "2.00",
+                false
+            ],
+            "under15.5": [
+                "1.77",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.86",
+                false
+            ],
+            "under8.5": [
+                "1.89",
+                true
+            ]
+        },
+        "totalkills": {
+            "over21.5": [
+                "1.49",
+                false
+            ],
+            "under21.5": [
+                "2.53",
+                true
+            ],
+            "over22.5": [
+                "1.63",
+                false
+            ],
+            "under22.5": [
+                "2.22",
+                true
+            ],
+            "over23.5": [
+                "1.79",
+                false
+            ],
+            "under23.5": [
+                "1.97",
+                true
+            ],
+            "over24.5": [
+                "1.99",
+                false
+            ],
+            "under24.5": [
+                "1.78",
+                true
+            ],
+            "over25.5": [
+                "2.22",
+                false
+            ],
+            "under25.5": [
+                "1.63",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.50",
+                false
+            ],
+            "t2_5": [
+                "1.50",
+                false
+            ],
+            "t1_10": [
+                "2.78",
+                false
+            ],
+            "t2_10": [
+                "1.42",
+                true
+            ],
+            "t1_15": [
+                "3.23",
+                false
+            ],
+            "t2_15": [
+                "1.32",
+                true
+            ],
+            "t1_20": [
+                "3.51",
+                false
+            ],
+            "t2_20": [
+                "1.28",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "3.36",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.11",
+                false
+            ],
+            "t2_": [
+                "1.69",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "3.26",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.42",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "teamNames": {
+        "t1": "Rogue",
+        "t2": "MAD Lions"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.84",
+                false
+            ],
+            "under10.5": [
+                "1.89",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.78",
+                false
+            ],
+            "under15.5": [
+                "1.95",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.55",
+                false
+            ],
+            "under24.5": [
+                "2.33",
+                true
+            ],
+            "over25.5": [
+                "1.69",
+                false
+            ],
+            "under25.5": [
+                "2.06",
+                true
+            ],
+            "over26.5": [
+                "1.88",
+                false
+            ],
+            "under26.5": [
+                "1.85",
+                true
+            ],
+            "over27.5": [
+                "2.09",
+                false
+            ],
+            "under27.5": [
+                "1.67",
+                true
+            ],
+            "over28.5": [
+                "2.32",
+                false
+            ],
+            "under28.5": [
+                "1.55",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "1.67",
+                false
+            ],
+            "t2_5": [
+                "2.11",
+                false
+            ],
+            "t1_10": [
+                "1.61",
+                false
+            ],
+            "t2_10": [
+                "2.20",
+                true
+            ],
+            "t1_15": [
+                "1.58",
+                false
+            ],
+            "t2_15": [
+                "2.26",
+                true
+            ],
+            "t1_20": [
+                "1.53",
+                false
+            ],
+            "t2_20": [
+                "2.37",
+                true
+            ],
+            "t1_25": [
+                "1.53",
+                false
+            ],
+            "t2_25": [
+                "2.37",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.51",
+                false
+            ],
+            "t2_": [
+                "2.34",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.81",
+                false
+            ],
+            "t2_": [
+                "1.91",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.52",
+                false
+            ],
+            "t2_": [
+                "2.35",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.47",
+                true
+            ],
+            "t2_": [
+                "2.55",
+                false
+            ]
+        }
+    }
+}
