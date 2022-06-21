@@ -1,0 +1,107 @@
+{
+    "teamNames": {
+        "t1": "CLG",
+        "t2": "Golden Guardians"
+    },
+    "date": {
+        "time": "22:30",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "2.11",
+                false
+            ],
+            "t2_5": [
+                "1.67",
+                false
+            ],
+            "t1_10": [
+                "2.20",
+                false
+            ],
+            "t2_10": [
+                "1.61",
+                true
+            ],
+            "t1_15": [
+                "2.26",
+                false
+            ],
+            "t2_15": [
+                "1.58",
+                true
+            ],
+            "t1_20": [
+                "2.37",
+                false
+            ],
+            "t2_20": [
+                "1.53",
+                true
+            ],
+            "t1_25": [
+                "2.37",
+                false
+            ],
+            "t2_25": [
+                "1.53",
+                true
+            ],
+            "t1_30": [
+                "2.37",
+                false
+            ],
+            "t2_30": [
+                "1.53",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "2.34",
+                true
+            ],
+            "t2_": [
+                "1.51",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.91",
+                true
+            ],
+            "t2_": [
+                "1.81",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "2.35",
+                true
+            ],
+            "t2_": [
+                "1.52",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.32",
+                true
+            ],
+            "t2_": [
+                "1.58",
+                false
+            ]
+        }
+    }
+}

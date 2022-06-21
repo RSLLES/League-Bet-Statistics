@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Peace",
+        "t2": "Chiefs"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "20",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.90",
+                false
+            ],
+            "under16.5": [
+                "1.80",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.78",
+                false
+            ],
+            "under8.5": [
+                "1.93",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.83",
+                false
+            ],
+            "under25.5": [
+                "1.87",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.36",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        }
+    }
+}

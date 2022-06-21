@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Dire Wolves",
+        "t2": "ORDER"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "20",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.77",
+                false
+            ],
+            "under16.5": [
+                "1.94",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over10.5": [
+                "1.86",
+                true
+            ],
+            "under10.5": [
+                "1.84",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.82",
+                true
+            ],
+            "under26.5": [
+                "1.88",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.69",
+                true
+            ],
+            "t2_": [
+                "1.43",
+                false
+            ]
+        }
+    }
+}
