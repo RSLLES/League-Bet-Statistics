@@ -1,6 +1,20 @@
+from multiprocessing.sharedctypes import Value
 import os
 import json
 import numpy as np
+
+def reduce_and_keep(L, D):
+    newL, newD = [], []
+    for l,d in zip(L,D):
+        if isinstance(l, list):
+            newL += l
+            newD += [d]*len(l)
+        elif isinstance(l, tuple):
+            newL += [l]
+            newD += [d]
+        else:
+            raise ValueError(f"Unknown type : {type(l)}")
+    return newL, newD
 
 def normalize(X):
     X = (X - np.mean(X)) / np.std(X)

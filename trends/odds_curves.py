@@ -1,20 +1,21 @@
 import os
-import json
 import numpy as np
-from functools import reduce
+from datetime import datetime
+
+from .config import config
 
 from .interpolate import interpolate
-from .utils import normalize, get_raw_data
+from .utils import normalize, get_raw_data, reduce_and_keep
+
 
 ###############
 ### Methods ###
 ###############
 
-def gains_wrt_proba_curve(selectors : list[list[str]], processd_dir : str, std : float):
+def gains_wrt_proba_curve(selectors : list[list[str]], processd_dir : str, std : float, age_threshold : float):
     """Return Odds (X), Gains (Y)"""
-    S = get_results_over_all(selectors= selectors,processd_dir=processd_dir)
-    Odds, Wins = format_in_vectors(S)
-    length = len(Odds)
+    S, D = get_results_over_all(selectors= selectors,processd_dir=processd_dir)
+    Odds, Wins, Ages = format_in_vectors(S, D)
     
     # Changement de base
     Gains = win_to_gain(Odds, Wins)
@@ -22,19 +23,35 @@ def gains_wrt_proba_curve(selectors : list[list[str]], processd_dir : str, std :
 
     # Interpolation dans la base des probas
     Long_Proba = np.linspace(min(Proba),max(Proba) + 0.01, 200)
-    std = std/(Long_Proba[-1] - Long_Proba[0])
-    Long_Gains, C = interpolate(Proba, Gains, Long_Proba, std=std)
+    std = std*(Long_Proba[-1] - Long_Proba[0])
+    Weights = np.exp(-Ages/age_threshold)
+    Long_Gains, C = interpolate(Proba, Gains, Long_Proba, std=std, W=Weights)
     C = normalize(C)
 
     # Changement de base
     # Long_Odds = to_odds(Long_Odds)
+    stats = {}
+    stats["Length"] = len(Odds)
+    stats["STD"] = std
+    stats["age_weight"] = np.max(Weights)
 
-    return Long_Proba, Long_Gains, C, length, std
+    return Long_Proba, Long_Gains, C, stats
 
 
 #############
 ### Utils ###
 #############
+
+def get_date(match):
+    date = match['date']
+    return datetime(
+        year= int(date["year"]), 
+        month= int(date["month"]), 
+        day= int(date["day"]),
+        hour= int(date["time"].split(":")[0]),
+        minute= int(date["time"].split(":")[1])
+    )
+
 
 def extract_results(bet):
     assert type(bet) == list
@@ -57,20 +74,33 @@ def get_results_from_selectors(data, selectors):
 
 
 def get_results_over_all(selectors, processd_dir):
-    S = map(
-        lambda file : get_results_from_selectors(
+    Dates = [
+        get_date(get_raw_data(os.path.join(processd_dir, file_path))) 
+        for file_path in os.listdir(processd_dir)
+    ]
+
+    S = [ 
+        get_results_from_selectors(
             data= get_raw_data(os.path.join(processd_dir, file)),
             selectors= selectors
-        ), os.listdir(processd_dir)
-    )
-    return reduce(lambda x,y : x+y, S)
+        ) for file in os.listdir(processd_dir)
+    ]
+
+    S = list(filter(lambda x : len(x[1]) != 0, zip(Dates, S)))
+    S = list(zip(*S))
+
+    return reduce_and_keep(L=S[1], D=S[0])
 
         
-def format_in_vectors(S):
-    X = [x for x,y in filter(lambda x : not np.isnan(x[0]), S)]
-    Y = [y for x,y in filter(lambda x : not np.isnan(x[0]), S)]
+def format_in_vectors(S, D):
+    X = [x for x, _ in filter(lambda x : not np.isnan(x[0]), S)]
+    Y = [y for _, y in filter(lambda x : not np.isnan(x[0]), S)]
+    D = [
+        (datetime.now() - d).total_seconds() 
+        for _, d in filter(lambda X : not np.isnan(X[0][0]), zip(S, D))
+    ]
 
-    return np.array(X), np.array(Y)
+    return np.array(X), np.array(Y), np.array(D)
 
 def win_to_gain(Odds, Win):
     return Odds*Win - 1
@@ -94,13 +124,13 @@ def to_odds(O):
 
 if __name__ == '__main__':
     import matplotlib.pyplot as plt
-    std = 20
     X, Y, C, _, _ = gains_wrt_proba_curve(
         selectors= [
             ['map1', 'map2', 'map3', 'map4', 'map5'], ['totalbaronsslain'], ['over1.5']
         ],
         processd_dir="C:/Users/Romain/Documents/Projets Info/LolBetStats/data/processed",
-        std=std
+        std= config["STD"],
+        age_threshold= config["AGE_THRESHOLD"]
     )
     
     from .plot import get_plot, confidence_to_color

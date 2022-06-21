@@ -1,15 +1,15 @@
 import numpy as np
 
-def metric(length, mean, pic, nb_points, nb_threshold = 25):
-    return pic*length*mean*(1.0 - np.exp(-nb_points/nb_threshold))
+def metric(length, mean, pic, nb_points, age_weight, nb_threshold = 25):
+    return pic*length*mean*(1.0 - np.exp(-nb_points/nb_threshold))*age_weight
 
-def performance(X, Y, C, nb_points):
+def performance(X, Y, C, nb_points, age_weight):
     scores = []
     for s, e in get_all_positive_zones(Y):
         length = X[e] - X[s]
         meanC = np.mean(C[s:e])
         pic, pic_index = np.max(Y[s:e]), np.argmax(Y[s:e]) + s
-        score = metric(length, meanC, pic, nb_points)
+        score = metric(length, meanC, pic, nb_points, age_weight)
         print(f"Positive zone in [{s}, {e}[ : length = {length}, pic = {pic} in {pic_index}, avg_conf = {meanC}, score {score}")
         scores.append((score, pic_index))
     return max(scores, key = lambda x : x[0]) if len(scores) > 0 else (None, None)

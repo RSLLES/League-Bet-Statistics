@@ -47,7 +47,8 @@ def interpolate(
         X : np.array, 
         Y : np.array, 
         T : np.array, 
-        std : float
+        std : float,
+        W : np.array = None
     ) -> np.array:
     """ 
     Return the interpolate curve from X and Y cloud points using :
@@ -58,23 +59,29 @@ def interpolate(
     A score of 1 means that all points are specifically used a this location to compute this value.
 
     input :
-        - X (1 Numpy array [n]): abscisse values
+        - X (1D Numpy array [n]): abscisse values
         - Y (1D Numpy array [n]): ordonnates values (must have the same size as X)
         - T (1D Numpy array [L]): points where to process the interpolate curve
         - std (float) : standard deviation s to use in the formula above
+        - W (1D Numpy array [n], optionnal ) : Weight for all points in X
 
     output :
         - f(T) (1D Numpy array [L]) : Resulted points at T of the previous explained interpolated function
         - C(T) (1D Numpy array [L]) : Degree of confidence of 
     """
     assert len(X.shape) == 1
+    if W is None:
+        W = np.ones_like(X)
+    assert len(W.shape) == 1
     assert len(Y.shape) == 1
     assert len(T.shape) == 1
     assert X.shape == Y.shape
+    assert X.shape == W.shape
     n, = X.shape
     L, = T.shape
 
-    W = batch_exp_weights(X= X, x=T, std=std)
+    W = np.repeat(np.expand_dims(W, axis=0), L, axis=0)
+    W = batch_exp_weights(X= X, x=T, std=std)*W
     F = batch_weighted_sum(X=Y, W=W)
     C = np.sum(W, axis=1)
     return F, C
