@@ -1,0 +1,99 @@
+{
+    "teamNames": {
+        "t1": "Team SoloMid",
+        "t2": "Immortals"
+    },
+    "date": {
+        "time": "23:30",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.73",
+                true
+            ],
+            "t2_5": [
+                "2.01",
+                false
+            ],
+            "t1_10": [
+                "1.67",
+                false
+            ],
+            "t2_10": [
+                "2.11",
+                false
+            ],
+            "t1_15": [
+                "1.61",
+                false
+            ],
+            "t2_15": [
+                "2.20",
+                true
+            ],
+            "t1_20": [
+                "1.58",
+                false
+            ],
+            "t2_20": [
+                "2.26",
+                true
+            ],
+            "t1_25": [
+                "1.58",
+                true
+            ],
+            "t2_25": [
+                "2.26",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.56",
+                true
+            ],
+            "t2_": [
+                "2.23",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.81",
+                true
+            ],
+            "t2_": [
+                "1.91",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.56",
+                true
+            ],
+            "t2_": [
+                "2.24",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.42",
+                true
+            ],
+            "t2_": [
+                "2.73",
+                false
+            ]
+        }
+    }
+}

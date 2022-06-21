@@ -1,0 +1,99 @@
+{
+    "teamNames": {
+        "t1": "Misfits",
+        "t2": "Astralis "
+    },
+    "date": {
+        "time": "15:00",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.90",
+                true
+            ],
+            "under11.5": [
+                "1.83",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.93",
+                false
+            ],
+            "under15.5": [
+                "1.79",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.61",
+                true
+            ],
+            "under24.5": [
+                "2.21",
+                false
+            ],
+            "over25.5": [
+                "1.74",
+                true
+            ],
+            "under25.5": [
+                "1.99",
+                false
+            ],
+            "over26.5": [
+                "1.92",
+                true
+            ],
+            "under26.5": [
+                "1.81",
+                false
+            ],
+            "over27.5": [
+                "2.11",
+                true
+            ],
+            "under27.5": [
+                "1.66",
+                false
+            ],
+            "over28.5": [
+                "2.36",
+                true
+            ],
+            "under28.5": [
+                "1.54",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.81",
+                true
+            ],
+            "t2_": [
+                "1.91",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.56",
+                false
+            ],
+            "t2_": [
+                "2.34",
+                true
+            ]
+        }
+    }
+}

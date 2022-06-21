@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "Loud",
+        "t2": "Liberty"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.83",
+                false
+            ],
+            "under10.5": [
+                "1.84",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.89",
+                true
+            ],
+            "under17.5": [
+                "1.78",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.61",
+                true
+            ],
+            "under26.5": [
+                "2.13",
+                false
+            ],
+            "over27.5": [
+                "1.78",
+                true
+            ],
+            "under27.5": [
+                "1.89",
+                false
+            ],
+            "over28.5": [
+                "1.98",
+                true
+            ],
+            "under28.5": [
+                "1.71",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.39",
+                true
+            ],
+            "t2_": [
+                "2.81",
+                false
+            ]
+        }
+    }
+}

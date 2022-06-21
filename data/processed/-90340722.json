@@ -1,0 +1,107 @@
+{
+    "teamNames": {
+        "t1": "100 Thieves",
+        "t2": "Dignitas"
+    },
+    "date": {
+        "time": "19:30",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.61",
+                false
+            ],
+            "t2_5": [
+                "2.20",
+                false
+            ],
+            "t1_10": [
+                "1.53",
+                false
+            ],
+            "t2_10": [
+                "2.37",
+                false
+            ],
+            "t1_15": [
+                "1.49",
+                true
+            ],
+            "t2_15": [
+                "2.48",
+                false
+            ],
+            "t1_20": [
+                "1.44",
+                true
+            ],
+            "t2_20": [
+                "2.62",
+                false
+            ],
+            "t1_25": [
+                "1.44",
+                true
+            ],
+            "t2_25": [
+                "2.62",
+                false
+            ],
+            "t1_30": [
+                "1.44",
+                true
+            ],
+            "t2_30": [
+                "2.62",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.42",
+                true
+            ],
+            "t2_": [
+                "2.59",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.73",
+                true
+            ],
+            "t2_": [
+                "2.01",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.43",
+                false
+            ],
+            "t2_": [
+                "2.60",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.46",
+                true
+            ],
+            "t2_": [
+                "2.58",
+                false
+            ]
+        }
+    }
+}

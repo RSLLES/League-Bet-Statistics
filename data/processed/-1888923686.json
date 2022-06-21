@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "KaBuM!",
+        "t2": "paiN Gaming"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.83",
+                true
+            ],
+            "under14.5": [
+                "1.83",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.85",
+                false
+            ],
+            "under15.5": [
+                "1.82",
+                true
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.73",
+                false
+            ],
+            "under28.5": [
+                "1.95",
+                true
+            ],
+            "over29.5": [
+                "1.92",
+                false
+            ],
+            "under29.5": [
+                "1.76",
+                true
+            ],
+            "over30.5": [
+                "2.14",
+                false
+            ],
+            "under30.5": [
+                "1.61",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.79",
+                false
+            ],
+            "t2_": [
+                "1.93",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "teamNames": {
+        "t1": "Team SoloMid",
+        "t2": "CLG"
+    },
+    "date": {
+        "time": "23:30",
+        "day": "18",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.96",
+                true
+            ],
+            "under11.5": [
+                "1.80",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.85",
+                false
+            ],
+            "under14.5": [
+                "1.91",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.55",
+                true
+            ],
+            "under23.5": [
+                "2.38",
+                false
+            ],
+            "over24.5": [
+                "1.70",
+                true
+            ],
+            "under24.5": [
+                "2.10",
+                false
+            ],
+            "over25.5": [
+                "1.88",
+                true
+            ],
+            "under25.5": [
+                "1.88",
+                false
+            ],
+            "over26.5": [
+                "2.09",
+                true
+            ],
+            "under26.5": [
+                "1.70",
+                false
+            ],
+            "over27.5": [
+                "2.36",
+                true
+            ],
+            "under27.5": [
+                "1.56",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "1.83",
+                false
+            ],
+            "t2_5": [
+                "1.93",
+                true
+            ],
+            "t1_10": [
+                "1.75",
+                false
+            ],
+            "t2_10": [
+                "2.03",
+                true
+            ],
+            "t1_15": [
+                "1.75",
+                true
+            ],
+            "t2_15": [
+                "2.03",
+                false
+            ],
+            "t1_20": [
+                "1.68",
+                false
+            ],
+            "t2_20": [
+                "2.13",
+                true
+            ],
+            "t1_25": [
+                "1.68",
+                false
+            ],
+            "t2_25": [
+                "2.13",
+                true
+            ],
+            "t1_30": [
+                "1.68",
+                false
+            ],
+            "t2_30": [
+                "2.13",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.67",
+                false
+            ],
+            "t2_": [
+                "2.11",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.82",
+                true
+            ],
+            "t2_": [
+                "1.94",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.63",
+                false
+            ],
+            "t2_": [
+                "2.17",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.56",
+                false
+            ],
+            "t2_": [
+                "2.39",
+                true
+            ]
+        }
+    }
+}

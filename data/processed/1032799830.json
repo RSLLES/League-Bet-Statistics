@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "flamengo los grandes",
+        "t2": "INTZ"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.84",
+                false
+            ],
+            "under12.5": [
+                "1.83",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.84",
+                true
+            ],
+            "under15.5": [
+                "1.83",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.69",
+                false
+            ],
+            "under26.5": [
+                "2.01",
+                true
+            ],
+            "over27.5": [
+                "1.87",
+                false
+            ],
+            "under27.5": [
+                "1.80",
+                true
+            ],
+            "over28.5": [
+                "2.07",
+                false
+            ],
+            "under28.5": [
+                "1.65",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.62",
+                true
+            ],
+            "t2_": [
+                "2.19",
+                false
+            ]
+        }
+    }
+}

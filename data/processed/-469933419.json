@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "FURIA",
+        "t2": "Red Canids"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.87",
+                false
+            ],
+            "under16.5": [
+                "1.80",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.77",
+                true
+            ],
+            "under12.5": [
+                "1.90",
+                false
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.67",
+                true
+            ],
+            "under27.5": [
+                "2.03",
+                false
+            ],
+            "over28.5": [
+                "1.85",
+                false
+            ],
+            "under28.5": [
+                "1.82",
+                true
+            ],
+            "over29.5": [
+                "2.05",
+                false
+            ],
+            "under29.5": [
+                "1.66",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.25",
+                true
+            ],
+            "t2_": [
+                "1.58",
+                false
+            ]
+        }
+    }
+}

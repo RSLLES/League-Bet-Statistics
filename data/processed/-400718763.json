@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Kanga",
+        "t2": "MAMMOTH"
+    },
+    "date": {
+        "time": "08:00",
+        "day": "20",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.85",
+                true
+            ],
+            "under10.5": [
+                "1.85",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.87",
+                true
+            ],
+            "under16.5": [
+                "1.84",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.83",
+                true
+            ],
+            "under26.5": [
+                "1.87",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.44",
+                true
+            ],
+            "t2_": [
+                "2.68",
+                false
+            ]
+        }
+    }
+}

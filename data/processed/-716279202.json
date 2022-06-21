@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "Loud",
+        "t2": "KaBuM!"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "18",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.85",
+                true
+            ],
+            "under15.5": [
+                "1.88",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.86",
+                false
+            ],
+            "under14.5": [
+                "1.86",
+                true
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.69",
+                false
+            ],
+            "under28.5": [
+                "2.06",
+                true
+            ],
+            "over29.5": [
+                "1.85",
+                false
+            ],
+            "under29.5": [
+                "1.88",
+                true
+            ],
+            "over30.5": [
+                "2.02",
+                false
+            ],
+            "under30.5": [
+                "1.72",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.97",
+                false
+            ],
+            "t2_": [
+                "1.78",
+                true
+            ]
+        }
+    }
+}
