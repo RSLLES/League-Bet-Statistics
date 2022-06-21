@@ -15,7 +15,7 @@ config = {
     #################
 
     "STD" : 0.1,
-    "NB_GRAPH" : 7,
+    "NB_GRAPH" : 15,
 
     # Age threshold in seconds.
     # 3 weeks = 3600*24*7*3

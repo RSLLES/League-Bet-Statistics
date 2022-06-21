@@ -4,7 +4,7 @@ from datetime import datetime
 
 from .config import config
 
-from .interpolate import interpolate
+from .interpolate import interpolate, batch_weighted_sum
 from .utils import normalize, get_raw_data, reduce_and_keep
 
 
@@ -30,10 +30,18 @@ def gains_wrt_proba_curve(selectors : list[list[str]], processd_dir : str, std :
 
     # Changement de base
     # Long_Odds = to_odds(Long_Odds)
+
+    # Compute Ages
+    Ages_abs = np.array([d.timestamp() for _, d in filter(lambda X : not np.isnan(X[0][0]), zip(S, D))])
+    middle_date = batch_weighted_sum(X = Ages_abs, W = Weights[np.newaxis,:])
+    middle_date = datetime.fromtimestamp(float(middle_date))
+
+    # Add stats
     stats = {}
+    stats["middle_date"] = datetime.strftime(middle_date, "%Y-%m-%d")
     stats["Length"] = len(Odds)
     stats["STD"] = std
-    stats["age_weight"] = np.max(Weights)
+    stats["age_weight"] = np.exp(-(datetime.now() - middle_date).total_seconds()/age_threshold)
 
     return Long_Proba, Long_Gains, C, stats
 

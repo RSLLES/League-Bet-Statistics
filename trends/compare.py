@@ -48,6 +48,7 @@ if __name__ == '__main__':
             selectors=selectors,
             nb_points=stats["Length"],
             std= stats["STD"],
+            middle_date = stats["middle_date"],
             pic_index= pic_index,
             X=X, Y=Y, score=score
         )

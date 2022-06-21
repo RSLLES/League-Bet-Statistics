@@ -49,9 +49,9 @@ def get_plot(X, Y, colors):
     ax.autoscale()
     return fig
 
-def decorate_plot(fig, selectors, nb_points, std, pic_index, X, Y, score):
+def decorate_plot(fig, selectors, nb_points, std, middle_date, pic_index, X, Y, score):
     ax = fig.gca()
-    ax.set_title(f"{selector_to_title(selectors)}\n[{nb_points} points, std : {std:0.1f}, score = {score:0.3f}]")
+    ax.set_title(f"{selector_to_title(selectors)}\n[Mean date {middle_date}, {nb_points} points, std : {std:0.1f}, score = {score:0.3f}]")
     top = Y[pic_index]
     ax.plot(X[pic_index]*np.ones((50,)), np.linspace(top, 0., 50))
     plt.plot(X, np.zeros_like(X))
