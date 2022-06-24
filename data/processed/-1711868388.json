@@ -1,0 +1,99 @@
+{
+    "teamNames": {
+        "t1": "SK Gaming",
+        "t2": "Fnatic"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "19",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.78",
+                false
+            ],
+            "under15.5": [
+                "1.95",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.86",
+                false
+            ],
+            "under9.5": [
+                "1.86",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.53",
+                false
+            ],
+            "under23.5": [
+                "2.38",
+                true
+            ],
+            "over24.5": [
+                "1.67",
+                false
+            ],
+            "under24.5": [
+                "2.09",
+                true
+            ],
+            "over25.5": [
+                "1.86",
+                false
+            ],
+            "under25.5": [
+                "1.86",
+                true
+            ],
+            "over26.5": [
+                "2.09",
+                false
+            ],
+            "under26.5": [
+                "1.67",
+                true
+            ],
+            "over27.5": [
+                "2.32",
+                false
+            ],
+            "under27.5": [
+                "1.55",
+                true
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "2.11",
+                true
+            ],
+            "t2_": [
+                "1.67",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.41",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        }
+    }
+}

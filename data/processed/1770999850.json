@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "PENTA",
+        "t2": "Wave Esports"
+    },
+    "date": {
+        "time": "19:15",
+        "day": "23",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.79",
+                true
+            ],
+            "under12.5": [
+                "1.91",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.78",
+                true
+            ],
+            "under14.5": [
+                "1.93",
+                false
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.86",
+                true
+            ],
+            "under27.5": [
+                "1.84",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.67",
+                true
+            ],
+            "t2_": [
+                "2.12",
+                false
+            ]
+        }
+    }
+}

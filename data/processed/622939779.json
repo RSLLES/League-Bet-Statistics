@@ -1,0 +1,47 @@
+{
+    "teamNames": {
+        "t1": "Eintracht Spandau",
+        "t2": "BIG"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "23",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.87",
+                true
+            ],
+            "under12.5": [
+                "1.84",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.88",
+                false
+            ],
+            "under15.5": [
+                "1.82",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.63",
+                false
+            ],
+            "t2_": [
+                "2.18",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "LDLC",
+        "t2": "Karmine Corp"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "23",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.94",
+                false
+            ],
+            "under10.5": [
+                "1.77",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.86",
+                true
+            ],
+            "under14.5": [
+                "1.84",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.85",
+                true
+            ],
+            "under24.5": [
+                "1.85",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.50",
+                true
+            ],
+            "t2_": [
+                "2.49",
+                false
+            ]
+        }
+    }
+}

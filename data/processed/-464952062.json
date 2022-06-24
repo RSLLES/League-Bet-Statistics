@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Team Oplon",
+        "t2": "Misfits Premier"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "23",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.90",
+                false
+            ],
+            "under15.5": [
+                "1.80",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.98",
+                true
+            ],
+            "under8.5": [
+                "1.74",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.84",
+                false
+            ],
+            "under23.5": [
+                "1.86",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.76",
+                true
+            ],
+            "t2_": [
+                "1.24",
+                false
+            ]
+        }
+    }
+}

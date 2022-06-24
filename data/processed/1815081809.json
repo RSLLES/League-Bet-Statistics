@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Team Heretics",
+        "t2": "Vodafone Giants"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "23",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.90",
+                false
+            ],
+            "under14.5": [
+                "1.80",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.82",
+                true
+            ],
+            "under12.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.86",
+                false
+            ],
+            "under26.5": [
+                "1.84",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.04",
+                true
+            ],
+            "t2_": [
+                "1.72",
+                false
+            ]
+        }
+    }
+}
