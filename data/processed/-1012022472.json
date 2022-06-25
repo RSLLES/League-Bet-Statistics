@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "MAD Lions",
+        "t2": "Fnatic"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "24",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "2.11",
+                false
+            ],
+            "t2_5": [
+                "1.67",
+                true
+            ],
+            "t1_10": [
+                "2.20",
+                true
+            ],
+            "t2_10": [
+                "1.61",
+                false
+            ],
+            "t1_15": [
+                "2.26",
+                true
+            ],
+            "t2_15": [
+                "1.58",
+                false
+            ],
+            "t1_20": [
+                "2.37",
+                true
+            ],
+            "t2_20": [
+                "1.53",
+                false
+            ],
+            "t1_25": [
+                "2.37",
+                true
+            ],
+            "t2_25": [
+                "1.53",
+                false
+            ],
+            "t1_30": [
+                "2.37",
+                true
+            ],
+            "t2_30": [
+                "1.53",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "2.23",
+                true
+            ],
+            "t2_": [
+                "1.56",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "2.24",
+                true
+            ],
+            "t2_": [
+                "1.56",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.16",
+                true
+            ],
+            "t2_": [
+                "1.65",
+                false
+            ]
+        }
+    }
+}
