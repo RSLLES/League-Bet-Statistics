@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "Rogue",
+        "t2": "Astralis "
+    },
+    "date": {
+        "time": "17:00",
+        "day": "25",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.49",
+                false
+            ],
+            "t2_5": [
+                "2.48",
+                true
+            ],
+            "t1_10": [
+                "1.35",
+                false
+            ],
+            "t2_10": [
+                "2.98",
+                false
+            ],
+            "t1_15": [
+                "1.29",
+                false
+            ],
+            "t2_15": [
+                "3.36",
+                true
+            ],
+            "t1_20": [
+                "1.24",
+                false
+            ],
+            "t2_20": [
+                "3.72",
+                false
+            ],
+            "t1_25": [
+                "1.24",
+                true
+            ],
+            "t2_25": [
+                "3.72",
+                false
+            ],
+            "t1_30": [
+                "1.24",
+                true
+            ],
+            "t2_30": [
+                "3.72",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.25",
+                true
+            ],
+            "t2_": [
+                "3.43",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.26",
+                true
+            ],
+            "t2_": [
+                "3.44",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.26",
+                true
+            ],
+            "t2_": [
+                "3.63",
+                false
+            ]
+        }
+    }
+}

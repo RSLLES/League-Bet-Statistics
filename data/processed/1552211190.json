@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "SK Gaming",
+        "t2": "Misfits"
+    },
+    "date": {
+        "time": "15:00",
+        "day": "25",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.86",
+                false
+            ],
+            "t2_5": [
+                "1.86",
+                true
+            ],
+            "t1_10": [
+                "1.91",
+                false
+            ],
+            "t2_10": [
+                "1.81",
+                true
+            ],
+            "t1_15": [
+                "1.91",
+                false
+            ],
+            "t2_15": [
+                "1.81",
+                true
+            ],
+            "t1_20": [
+                "1.91",
+                false
+            ],
+            "t2_20": [
+                "1.81",
+                true
+            ],
+            "t1_25": [
+                "1.91",
+                false
+            ],
+            "t2_25": [
+                "1.81",
+                true
+            ],
+            "t1_30": [
+                "1.91",
+                false
+            ],
+            "t2_30": [
+                "1.81",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.89",
+                false
+            ],
+            "t2_": [
+                "1.79",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.89",
+                false
+            ],
+            "t2_": [
+                "1.79",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.90",
+                false
+            ],
+            "t2_": [
+                "1.84",
+                true
+            ]
+        }
+    }
+}

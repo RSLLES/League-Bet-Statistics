@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "INTZ",
+        "t2": "Loud"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "25",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over17.5": [
+                "1.95",
+                true
+            ],
+            "under17.5": [
+                "1.73",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.84",
+                true
+            ],
+            "under9.5": [
+                "1.83",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.75",
+                true
+            ],
+            "under26.5": [
+                "1.92",
+                false
+            ],
+            "over27.5": [
+                "1.92",
+                true
+            ],
+            "under27.5": [
+                "1.76",
+                false
+            ],
+            "over28.5": [
+                "2.09",
+                true
+            ],
+            "under28.5": [
+                "1.63",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.56",
+                false
+            ],
+            "t2_": [
+                "1.26",
+                true
+            ]
+        }
+    }
+}

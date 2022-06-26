@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "Team Vitality",
+        "t2": "G2"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "25",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "2.11",
+                false
+            ],
+            "t2_5": [
+                "1.67",
+                false
+            ],
+            "t1_10": [
+                "2.20",
+                false
+            ],
+            "t2_10": [
+                "1.61",
+                true
+            ],
+            "t1_15": [
+                "2.37",
+                false
+            ],
+            "t2_15": [
+                "1.53",
+                true
+            ],
+            "t1_20": [
+                "2.48",
+                false
+            ],
+            "t2_20": [
+                "1.49",
+                true
+            ],
+            "t1_25": [
+                "2.48",
+                false
+            ],
+            "t2_25": [
+                "1.49",
+                true
+            ],
+            "t1_30": [
+                "2.48",
+                false
+            ],
+            "t2_30": [
+                "1.49",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "2.34",
+                false
+            ],
+            "t2_": [
+                "1.51",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "2.35",
+                false
+            ],
+            "t2_": [
+                "1.52",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.51",
+                false
+            ],
+            "t2_": [
+                "1.49",
+                true
+            ]
+        }
+    }
+}
