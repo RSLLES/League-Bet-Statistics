@@ -1,0 +1,137 @@
+{
+    "teamNames": {
+        "t1": "Invictus Gaming",
+        "t2": "Anyone's Legend"
+    },
+    "date": {
+        "time": "08:45",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.18",
+                true
+            ],
+            "under1.5": [
+                "1.60",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_10": [
+                "1.86",
+                false
+            ],
+            "t2_10": [
+                "1.86",
+                false
+            ],
+            "t1_5": [
+                "1.86",
+                true
+            ],
+            "t2_5": [
+                "1.86",
+                false
+            ],
+            "t1_15": [
+                "1.86",
+                false
+            ],
+            "t2_15": [
+                "1.86",
+                true
+            ],
+            "t1_20": [
+                "1.86",
+                false
+            ],
+            "t2_20": [
+                "1.86",
+                true
+            ],
+            "t1_25": [
+                "1.86",
+                false
+            ],
+            "t2_25": [
+                "1.86",
+                true
+            ],
+            "t1_30": [
+                "1.86",
+                false
+            ],
+            "t2_30": [
+                "1.86",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                true
+            ],
+            "even": [
+                "1.86",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.87",
+                false
+            ],
+            "t2_": [
+                "1.87",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.83",
+                false
+            ],
+            "t2_": [
+                "1.83",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.84",
+                false
+            ],
+            "t2_": [
+                "1.84",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.02",
+                false
+            ],
+            "under2.5": [
+                "1.74",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "1.84",
+                false
+            ],
+            "t2_": [
+                "1.89",
+                true
+            ]
+        }
+    }
+}

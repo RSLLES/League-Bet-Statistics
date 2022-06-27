@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Estral E-Sports",
+        "t2": "Rainbow7"
+    },
+    "date": {
+        "time": "21:00",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.85",
+                true
+            ],
+            "under11.5": [
+                "1.85",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.80",
+                true
+            ],
+            "under11.5": [
+                "1.90",
+                false
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.87",
+                true
+            ],
+            "under22.5": [
+                "1.83",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.82",
+                false
+            ],
+            "t2_": [
+                "1.92",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "Immortals",
+        "t2": "Dignitas"
+    },
+    "date": {
+        "time": "23:30",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.91",
+                false
+            ],
+            "t2_5": [
+                "1.81",
+                false
+            ],
+            "t1_10": [
+                "2.01",
+                false
+            ],
+            "t2_10": [
+                "1.73",
+                true
+            ],
+            "t1_15": [
+                "2.01",
+                false
+            ],
+            "t2_15": [
+                "1.73",
+                true
+            ],
+            "t1_20": [
+                "2.11",
+                false
+            ],
+            "t2_20": [
+                "1.67",
+                true
+            ],
+            "t1_25": [
+                "2.11",
+                false
+            ],
+            "t2_25": [
+                "1.67",
+                true
+            ],
+            "t1_30": [
+                "2.11",
+                false
+            ],
+            "t2_30": [
+                "1.67",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "2.08",
+                false
+            ],
+            "t2_": [
+                "1.64",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "2.09",
+                false
+            ],
+            "t2_": [
+                "1.65",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.89",
+                false
+            ],
+            "t2_": [
+                "1.85",
+                true
+            ]
+        }
+    }
+}

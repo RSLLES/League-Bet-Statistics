@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "XTEN",
+        "t2": "All Knights"
+    },
+    "date": {
+        "time": "23:00",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.80",
+                false
+            ],
+            "under12.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.80",
+                true
+            ],
+            "under11.5": [
+                "1.90",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.94",
+                true
+            ],
+            "under24.5": [
+                "1.77",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.99",
+                true
+            ],
+            "t2_": [
+                "1.76",
+                false
+            ]
+        }
+    }
+}

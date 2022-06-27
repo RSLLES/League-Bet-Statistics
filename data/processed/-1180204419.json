@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "Loud",
+        "t2": "Red Canids"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.77",
+                true
+            ],
+            "under15.5": [
+                "1.91",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.90",
+                true
+            ],
+            "under11.5": [
+                "1.78",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.74",
+                true
+            ],
+            "under26.5": [
+                "1.94",
+                false
+            ],
+            "over27.5": [
+                "1.91",
+                true
+            ],
+            "under27.5": [
+                "1.77",
+                false
+            ],
+            "over28.5": [
+                "2.08",
+                true
+            ],
+            "under28.5": [
+                "1.64",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.56",
+                false
+            ],
+            "t2_": [
+                "1.46",
+                true
+            ]
+        }
+    }
+}

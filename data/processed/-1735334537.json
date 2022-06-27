@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "100 Thieves",
+        "t2": "Golden Guardians"
+    },
+    "date": {
+        "time": "21:30",
+        "day": "25",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.58",
+                false
+            ],
+            "t2_5": [
+                "2.26",
+                false
+            ],
+            "t1_10": [
+                "1.44",
+                true
+            ],
+            "t2_10": [
+                "2.62",
+                false
+            ],
+            "t1_15": [
+                "1.40",
+                true
+            ],
+            "t2_15": [
+                "2.76",
+                false
+            ],
+            "t1_20": [
+                "1.35",
+                true
+            ],
+            "t2_20": [
+                "2.98",
+                false
+            ],
+            "t1_25": [
+                "1.31",
+                true
+            ],
+            "t2_25": [
+                "3.20",
+                false
+            ],
+            "t1_30": [
+                "1.31",
+                true
+            ],
+            "t2_30": [
+                "3.20",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.33",
+                true
+            ],
+            "t2_": [
+                "2.94",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.34",
+                true
+            ],
+            "t2_": [
+                "2.95",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.34",
+                true
+            ],
+            "t2_": [
+                "3.11",
+                false
+            ]
+        }
+    }
+}

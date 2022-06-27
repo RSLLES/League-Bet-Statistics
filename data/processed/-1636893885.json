@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "Golden Guardians",
+        "t2": "Team SoloMid"
+    },
+    "date": {
+        "time": "19:30",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_10": [
+                "1.86",
+                true
+            ],
+            "t2_10": [
+                "1.86",
+                false
+            ],
+            "t1_5": [
+                "1.86",
+                false
+            ],
+            "t2_5": [
+                "1.86",
+                false
+            ],
+            "t1_15": [
+                "1.81",
+                true
+            ],
+            "t2_15": [
+                "1.91",
+                false
+            ],
+            "t1_20": [
+                "1.81",
+                true
+            ],
+            "t2_20": [
+                "1.91",
+                false
+            ],
+            "t1_25": [
+                "1.81",
+                true
+            ],
+            "t2_25": [
+                "1.91",
+                false
+            ],
+            "t1_30": [
+                "1.81",
+                true
+            ],
+            "t2_30": [
+                "1.91",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.79",
+                true
+            ],
+            "t2_": [
+                "1.89",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.79",
+                true
+            ],
+            "t2_": [
+                "1.89",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.79",
+                true
+            ],
+            "t2_": [
+                "1.95",
+                false
+            ]
+        }
+    }
+}

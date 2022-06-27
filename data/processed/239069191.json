@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "Evil Geniuses",
+        "t2": "Immortals"
+    },
+    "date": {
+        "time": "23:30",
+        "day": "25",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.40",
+                true
+            ],
+            "t2_5": [
+                "2.76",
+                false
+            ],
+            "t1_10": [
+                "1.27",
+                true
+            ],
+            "t2_10": [
+                "3.47",
+                false
+            ],
+            "t1_15": [
+                "1.21",
+                true
+            ],
+            "t2_15": [
+                "3.98",
+                false
+            ],
+            "t1_20": [
+                "1.17",
+                true
+            ],
+            "t2_20": [
+                "4.54",
+                false
+            ],
+            "t1_25": [
+                "1.17",
+                true
+            ],
+            "t2_25": [
+                "4.54",
+                false
+            ],
+            "t1_30": [
+                "1.17",
+                true
+            ],
+            "t2_30": [
+                "4.54",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.17",
+                true
+            ],
+            "t2_": [
+                "4.23",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.18",
+                false
+            ],
+            "t2_": [
+                "4.25",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.19",
+                true
+            ],
+            "t2_": [
+                "4.35",
+                false
+            ]
+        }
+    }
+}

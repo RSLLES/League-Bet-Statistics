@@ -1,0 +1,73 @@
+{
+    "teamNames": {
+        "t1": "KaBuM!",
+        "t2": "INTZ"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over8.5": [
+                "1.78",
+                true
+            ],
+            "under8.5": [
+                "1.90",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.95",
+                false
+            ],
+            "under17.5": [
+                "1.73",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.70",
+                false
+            ],
+            "under25.5": [
+                "1.99",
+                true
+            ],
+            "over26.5": [
+                "1.87",
+                false
+            ],
+            "under26.5": [
+                "1.80",
+                true
+            ],
+            "over27.5": [
+                "2.05",
+                false
+            ],
+            "under27.5": [
+                "1.66",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.21",
+                true
+            ],
+            "t2_": [
+                "4.01",
+                false
+            ]
+        }
+    }
+}

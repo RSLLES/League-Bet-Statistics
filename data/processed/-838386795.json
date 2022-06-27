@@ -1,0 +1,97 @@
+{
+    "teamNames": {
+        "t1": "Team Liquid",
+        "t2": "FlyQuest"
+    },
+    "date": {
+        "time": "20:30",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "racetokills": {
+            "t1_5": [
+                "1.49",
+                false
+            ],
+            "t2_5": [
+                "2.48",
+                true
+            ],
+            "t1_10": [
+                "1.40",
+                false
+            ],
+            "t2_10": [
+                "2.76",
+                true
+            ],
+            "t1_15": [
+                "1.31",
+                false
+            ],
+            "t2_15": [
+                "3.20",
+                true
+            ],
+            "t1_20": [
+                "1.27",
+                false
+            ],
+            "t2_20": [
+                "3.47",
+                true
+            ],
+            "t1_25": [
+                "1.27",
+                false
+            ],
+            "t2_25": [
+                "3.47",
+                true
+            ],
+            "t1_30": [
+                "1.27",
+                false
+            ],
+            "t2_30": [
+                "3.47",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.27",
+                true
+            ],
+            "t2_": [
+                "3.32",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.27",
+                true
+            ],
+            "t2_": [
+                "3.33",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.21",
+                true
+            ],
+            "t2_": [
+                "4.13",
+                false
+            ]
+        }
+    }
+}
