@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Fnatic TQ",
+        "t2": "KOI"
+    },
+    "date": {
+        "time": "19:15",
+        "day": "27",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.87",
+                false
+            ],
+            "under9.5": [
+                "1.84",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.95",
+                false
+            ],
+            "under14.5": [
+                "1.76",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.84",
+                false
+            ],
+            "under23.5": [
+                "1.86",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.44",
+                true
+            ],
+            "t2_": [
+                "2.66",
+                false
+            ]
+        }
+    }
+}

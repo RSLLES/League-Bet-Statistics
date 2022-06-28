@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Isurus",
+        "t2": "Team Aze"
+    },
+    "date": {
+        "time": "23:00",
+        "day": "26",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.80",
+                false
+            ],
+            "under10.5": [
+                "1.91",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.77",
+                true
+            ],
+            "under12.5": [
+                "1.94",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.90",
+                true
+            ],
+            "under23.5": [
+                "1.80",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.65",
+                true
+            ],
+            "t2_": [
+                "2.15",
+                false
+            ]
+        }
+    }
+}

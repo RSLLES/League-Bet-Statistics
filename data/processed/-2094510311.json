@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Vodafone Giants",
+        "t2": "G2 Arctic"
+    },
+    "date": {
+        "time": "20:15",
+        "day": "27",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.79",
+                false
+            ],
+            "under14.5": [
+                "1.91",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.88",
+                false
+            ],
+            "under12.5": [
+                "1.82",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.85",
+                false
+            ],
+            "under26.5": [
+                "1.85",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.12",
+                true
+            ],
+            "t2_": [
+                "1.67",
+                false
+            ]
+        }
+    }
+}
