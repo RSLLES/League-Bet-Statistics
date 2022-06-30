@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Team Oplon",
+        "t2": "Karmine Corp"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "29",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.80",
+                false
+            ],
+            "under16.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.87",
+                true
+            ],
+            "under8.5": [
+                "1.84",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.81",
+                false
+            ],
+            "under25.5": [
+                "1.89",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "6.09",
+                true
+            ],
+            "t2_": [
+                "1.10",
+                false
+            ]
+        }
+    }
+}

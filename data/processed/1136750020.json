@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "DetonatioN FM",
+        "t2": "AXIZ"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "29",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over5.5": [
+                "1.70",
+                true
+            ],
+            "under5.5": [
+                "2.00",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.80",
+                true
+            ],
+            "under16.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.94",
+                true
+            ],
+            "under23.5": [
+                "1.74",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.10",
+                true
+            ],
+            "t2_": [
+                "6.18",
+                false
+            ]
+        }
+    }
+}

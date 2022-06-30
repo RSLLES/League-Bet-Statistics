@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Burning Core",
+        "t2": "Rascal Jester"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "29",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.89",
+                false
+            ],
+            "under14.5": [
+                "1.78",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over7.5": [
+                "1.73",
+                true
+            ],
+            "under7.5": [
+                "1.96",
+                false
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.82",
+                true
+            ],
+            "under22.5": [
+                "1.84",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.22",
+                true
+            ],
+            "t2_": [
+                "1.32",
+                false
+            ]
+        }
+    }
+}

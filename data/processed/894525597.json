@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Crest Gaming Act",
+        "t2": "V3 Esports"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "29",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over5.5": [
+                "1.74",
+                true
+            ],
+            "under5.5": [
+                "1.95",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.97",
+                false
+            ],
+            "under17.5": [
+                "1.71",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.88",
+                false
+            ],
+            "under23.5": [
+                "1.80",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.06",
+                true
+            ],
+            "t2_": [
+                "7.89",
+                false
+            ]
+        }
+    }
+}

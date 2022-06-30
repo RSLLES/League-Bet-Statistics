@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Vitality Bee",
+        "t2": "Mirage Elyandra"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "29",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over7.5": [
+                "1.87",
+                false
+            ],
+            "under7.5": [
+                "1.83",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.83",
+                true
+            ],
+            "under16.5": [
+                "1.87",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.84",
+                true
+            ],
+            "under24.5": [
+                "1.86",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.13",
+                true
+            ],
+            "t2_": [
+                "5.48",
+                false
+            ]
+        }
+    }
+}

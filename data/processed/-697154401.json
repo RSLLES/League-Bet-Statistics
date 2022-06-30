@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Misfits Premier",
+        "t2": "GameWard"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "29",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.82",
+                true
+            ],
+            "under13.5": [
+                "1.88",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.93",
+                false
+            ],
+            "under11.5": [
+                "1.78",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.86",
+                false
+            ],
+            "under24.5": [
+                "1.84",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.22",
+                false
+            ],
+            "t2_": [
+                "1.62",
+                true
+            ]
+        }
+    }
+}
