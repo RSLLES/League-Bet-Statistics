@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "BIG",
+        "t2": "GamerLegion"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "30",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.79",
+                true
+            ],
+            "under10.5": [
+                "1.89",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.89",
+                false
+            ],
+            "under15.5": [
+                "1.78",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.75",
+                true
+            ],
+            "under25.5": [
+                "1.93",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.49",
+                false
+            ],
+            "t2_": [
+                "2.48",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Eintracht Spandau",
+        "t2": "Unicorns Of Love SE"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "30",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.84",
+                true
+            ],
+            "under13.5": [
+                "1.82",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over13.5": [
+                "1.82",
+                false
+            ],
+            "under13.5": [
+                "1.86",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.82",
+                true
+            ],
+            "under26.5": [
+                "1.85",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.87",
+                false
+            ],
+            "t2_": [
+                "1.86",
+                true
+            ]
+        }
+    }
+}

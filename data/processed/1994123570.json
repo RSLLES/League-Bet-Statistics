@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "SK Gaming Prime",
+        "t2": "Wave Esports"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "30",
+        "month": "6",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over7.5": [
+                "1.72",
+                true
+            ],
+            "under7.5": [
+                "1.97",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.91",
+                false
+            ],
+            "under17.5": [
+                "1.77",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.81",
+                true
+            ],
+            "under25.5": [
+                "1.87",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.18",
+                false
+            ],
+            "t2_": [
+                "4.45",
+                true
+            ]
+        }
+    }
+}
