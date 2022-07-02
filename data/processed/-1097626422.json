@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "V3 Esports",
+        "t2": "Rascal Jester"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "1",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.77",
+                false
+            ],
+            "under16.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over5.5": [
+                "1.87",
+                false
+            ],
+            "under5.5": [
+                "1.81",
+                true
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.82",
+                false
+            ],
+            "under22.5": [
+                "1.84",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "10.10",
+                false
+            ],
+            "t2_": [
+                "1.03",
+                true
+            ]
+        }
+    }
+}

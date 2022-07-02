@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Burning Core",
+        "t2": "DetonatioN FM"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "1",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.91",
+                true
+            ],
+            "under16.5": [
+                "1.77",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over6.5": [
+                "1.89",
+                true
+            ],
+            "under6.5": [
+                "1.79",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.94",
+                true
+            ],
+            "under23.5": [
+                "1.74",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.79",
+                false
+            ],
+            "t2_": [
+                "1.16",
+                true
+            ]
+        }
+    }
+}

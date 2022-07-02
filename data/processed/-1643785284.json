@@ -1,0 +1,175 @@
+{
+    "teamNames": {
+        "t1": "Team Vitality",
+        "t2": "SK Gaming"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "1",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.80",
+                false
+            ],
+            "under9.5": [
+                "1.96",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.96",
+                false
+            ],
+            "under15.5": [
+                "1.80",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.78",
+                false
+            ],
+            "under24.5": [
+                "1.99",
+                true
+            ],
+            "over25.5": [
+                "1.95",
+                false
+            ],
+            "under25.5": [
+                "1.81",
+                true
+            ],
+            "over26.5": [
+                "2.14",
+                false
+            ],
+            "under26.5": [
+                "1.67",
+                true
+            ]
+        },
+        "totalelementaldragonsslain": {
+            "over4.5": [
+                "1.61",
+                false
+            ],
+            "under4.5": [
+                "2.21",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.78",
+                true
+            ],
+            "under1.5": [
+                "1.40",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "1.63",
+                false
+            ],
+            "t2_5": [
+                "2.22",
+                false
+            ],
+            "t1_10": [
+                "1.55",
+                false
+            ],
+            "t2_10": [
+                "2.39",
+                true
+            ],
+            "t1_15": [
+                "1.50",
+                false
+            ],
+            "t2_15": [
+                "2.50",
+                true
+            ],
+            "t1_20": [
+                "1.46",
+                false
+            ],
+            "t2_20": [
+                "2.65",
+                true
+            ],
+            "t1_25": [
+                "1.46",
+                true
+            ],
+            "t2_25": [
+                "2.65",
+                false
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.85",
+                true
+            ],
+            "even": [
+                "1.91",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.45",
+                true
+            ],
+            "t2_": [
+                "2.63",
+                false
+            ]
+        },
+        "firstblood": {
+            "t1_": [
+                "1.74",
+                false
+            ],
+            "t2_": [
+                "2.04",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.46",
+                true
+            ],
+            "t2_": [
+                "2.57",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.41",
+                true
+            ],
+            "t2_": [
+                "2.86",
+                false
+            ]
+        }
+    }
+}

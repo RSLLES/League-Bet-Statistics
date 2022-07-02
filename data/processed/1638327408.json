@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "AXIZ",
+        "t2": "Sengoku Gaming"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "1",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.95",
+                true
+            ],
+            "under15.5": [
+                "1.74",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over6.5": [
+                "1.77",
+                false
+            ],
+            "under6.5": [
+                "1.91",
+                true
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.87",
+                true
+            ],
+            "under22.5": [
+                "1.80",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.21",
+                false
+            ],
+            "t2_": [
+                "1.20",
+                true
+            ]
+        }
+    }
+}
