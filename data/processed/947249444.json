@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Netshoes Miners",
+        "t2": "flamengo los grandes"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "2",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.82",
+                false
+            ],
+            "under12.5": [
+                "1.89",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.92",
+                false
+            ],
+            "under11.5": [
+                "1.79",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.85",
+                false
+            ],
+            "under23.5": [
+                "1.85",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.07",
+                false
+            ],
+            "t2_": [
+                "1.71",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "teamNames": {
+        "t1": "SK Gaming",
+        "t2": "Rogue"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "2",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.78",
+                false
+            ],
+            "under15.5": [
+                "1.95",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over7.5": [
+                "1.85",
+                true
+            ],
+            "under7.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "2.00",
+                false
+            ],
+            "under24.5": [
+                "1.74",
+                true
+            ],
+            "over22.5": [
+                "1.62",
+                true
+            ],
+            "under22.5": [
+                "2.19",
+                false
+            ],
+            "over23.5": [
+                "1.79",
+                false
+            ],
+            "under23.5": [
+                "1.93",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.62",
+                false
+            ],
+            "t2_5": [
+                "1.44",
+                true
+            ],
+            "t1_10": [
+                "3.20",
+                false
+            ],
+            "t2_10": [
+                "1.31",
+                false
+            ],
+            "t1_15": [
+                "3.72",
+                false
+            ],
+            "t2_15": [
+                "1.24",
+                false
+            ],
+            "t1_20": [
+                "4.29",
+                false
+            ],
+            "t2_20": [
+                "1.19",
+                false
+            ],
+            "t1_25": [
+                "4.29",
+                false
+            ],
+            "t2_25": [
+                "1.19",
+                false
+            ],
+            "t1_30": [
+                "4.29",
+                true
+            ],
+            "t2_30": [
+                "1.19",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "4.00",
+                false
+            ],
+            "t2_": [
+                "1.22",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "3.94",
+                true
+            ],
+            "t2_": [
+                "1.20",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.34",
+                false
+            ],
+            "t2_": [
+                "1.19",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "teamNames": {
+        "t1": "FlyQuest",
+        "t2": "Dignitas"
+    },
+    "date": {
+        "time": "21:30",
+        "day": "2",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.82",
+                false
+            ],
+            "under11.5": [
+                "1.91",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.89",
+                false
+            ],
+            "under12.5": [
+                "1.84",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.90",
+                false
+            ],
+            "under24.5": [
+                "1.83",
+                true
+            ],
+            "over25.5": [
+                "2.11",
+                false
+            ],
+            "under25.5": [
+                "1.66",
+                true
+            ],
+            "over23.5": [
+                "1.71",
+                false
+            ],
+            "under23.5": [
+                "2.03",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_10": [
+                "1.73",
+                false
+            ],
+            "t2_10": [
+                "2.01",
+                true
+            ],
+            "t1_5": [
+                "1.73",
+                false
+            ],
+            "t2_5": [
+                "2.01",
+                false
+            ],
+            "t1_15": [
+                "1.67",
+                false
+            ],
+            "t2_15": [
+                "2.11",
+                true
+            ],
+            "t1_20": [
+                "1.67",
+                false
+            ],
+            "t2_20": [
+                "2.11",
+                true
+            ],
+            "t1_25": [
+                "1.67",
+                true
+            ],
+            "t2_25": [
+                "2.11",
+                false
+            ],
+            "t1_30": [
+                "1.67",
+                true
+            ],
+            "t2_30": [
+                "2.11",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.67",
+                true
+            ],
+            "t2_": [
+                "2.12",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.65",
+                true
+            ],
+            "t2_": [
+                "2.09",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.78",
+                true
+            ],
+            "t2_": [
+                "1.97",
+                false
+            ]
+        }
+    }
+}

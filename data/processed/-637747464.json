@@ -1,0 +1,143 @@
+{
+    "teamNames": {
+        "t1": "Golden Guardians",
+        "t2": "Immortals"
+    },
+    "date": {
+        "time": "23:30",
+        "day": "2",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.83",
+                false
+            ],
+            "under10.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over13.5": [
+                "1.89",
+                false
+            ],
+            "under13.5": [
+                "1.83",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.98",
+                false
+            ],
+            "under24.5": [
+                "1.76",
+                true
+            ],
+            "over22.5": [
+                "1.64",
+                false
+            ],
+            "under22.5": [
+                "2.14",
+                true
+            ],
+            "over23.5": [
+                "1.79",
+                false
+            ],
+            "under23.5": [
+                "1.93",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "1.67",
+                false
+            ],
+            "t2_5": [
+                "2.11",
+                false
+            ],
+            "t1_10": [
+                "1.58",
+                true
+            ],
+            "t2_10": [
+                "2.26",
+                false
+            ],
+            "t1_15": [
+                "1.53",
+                true
+            ],
+            "t2_15": [
+                "2.37",
+                false
+            ],
+            "t1_20": [
+                "1.49",
+                true
+            ],
+            "t2_20": [
+                "2.48",
+                false
+            ],
+            "t1_25": [
+                "1.49",
+                true
+            ],
+            "t2_25": [
+                "2.48",
+                false
+            ],
+            "t1_30": [
+                "1.49",
+                true
+            ],
+            "t2_30": [
+                "2.48",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.50",
+                true
+            ],
+            "t2_": [
+                "2.49",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.47",
+                true
+            ],
+            "t2_": [
+                "2.46",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.61",
+                true
+            ],
+            "t2_": [
+                "2.23",
+                false
+            ]
+        }
+    }
+}

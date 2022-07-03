@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "INTZ",
+        "t2": "Liberty"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "2",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.90",
+                true
+            ],
+            "under16.5": [
+                "1.80",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.88",
+                false
+            ],
+            "under9.5": [
+                "1.83",
+                true
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.76",
+                false
+            ],
+            "under25.5": [
+                "1.95",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.54",
+                false
+            ],
+            "t2_": [
+                "1.27",
+                true
+            ]
+        }
+    }
+}

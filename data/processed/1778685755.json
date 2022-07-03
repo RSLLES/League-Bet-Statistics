@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Red Canids",
+        "t2": "KaBuM!"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "2",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over11.5": [
+                "1.88",
+                true
+            ],
+            "under11.5": [
+                "1.83",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.88",
+                true
+            ],
+            "under15.5": [
+                "1.82",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.85",
+                true
+            ],
+            "under26.5": [
+                "1.86",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.52",
+                true
+            ],
+            "t2_": [
+                "2.42",
+                false
+            ]
+        }
+    }
+}
