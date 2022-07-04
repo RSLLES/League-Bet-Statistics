@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Beyond Gaming",
+        "t2": "Talon"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "3",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.82",
+                false
+            ],
+            "under15.5": [
+                "1.86",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.86",
+                true
+            ],
+            "under9.5": [
+                "1.82",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.91",
+                false
+            ],
+            "under25.5": [
+                "1.77",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.97",
+                true
+            ],
+            "t2_": [
+                "1.35",
+                false
+            ]
+        }
+    }
+}

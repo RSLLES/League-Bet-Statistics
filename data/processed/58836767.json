@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Rensga eSports",
+        "t2": "Loud"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "2",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.93",
+                false
+            ],
+            "under18.5": [
+                "1.78",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over6.5": [
+                "1.85",
+                true
+            ],
+            "under6.5": [
+                "1.86",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.92",
+                false
+            ],
+            "under25.5": [
+                "1.79",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "5.15",
+                false
+            ],
+            "t2_": [
+                "1.14",
+                true
+            ]
+        }
+    }
+}

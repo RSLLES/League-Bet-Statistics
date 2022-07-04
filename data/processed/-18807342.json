@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "V3 Esports",
+        "t2": "Burning Core"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "3",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.77",
+                false
+            ],
+            "under15.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over5.5": [
+                "1.81",
+                false
+            ],
+            "under5.5": [
+                "1.87",
+                true
+            ]
+        },
+        "totalkills": {
+            "over21.5": [
+                "1.78",
+                false
+            ],
+            "under21.5": [
+                "1.90",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "7.02",
+                false
+            ],
+            "t2_": [
+                "1.07",
+                true
+            ]
+        }
+    }
+}

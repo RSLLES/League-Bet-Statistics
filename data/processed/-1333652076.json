@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Crest Gaming Act",
+        "t2": "DetonatioN FM"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "3",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.87",
+                false
+            ],
+            "under16.5": [
+                "1.81",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over6.5": [
+                "1.91",
+                false
+            ],
+            "under6.5": [
+                "1.77",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.94",
+                false
+            ],
+            "under23.5": [
+                "1.74",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "5.51",
+                false
+            ],
+            "t2_": [
+                "1.12",
+                true
+            ]
+        }
+    }
+}
