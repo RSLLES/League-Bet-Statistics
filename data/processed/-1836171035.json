@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Gravitas",
+        "t2": "Dire Wolves"
+    },
+    "date": {
+        "time": "08:00",
+        "day": "4",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.71",
+                true
+            ],
+            "under16.5": [
+                "1.99",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over6.5": [
+                "1.80",
+                true
+            ],
+            "under6.5": [
+                "1.88",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.91",
+                true
+            ],
+            "under24.5": [
+                "1.77",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "5.07",
+                false
+            ],
+            "t2_": [
+                "1.15",
+                true
+            ]
+        }
+    }
+}

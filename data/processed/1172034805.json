@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Peace",
+        "t2": "Kanga"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "4",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over7.5": [
+                "1.81",
+                true
+            ],
+            "under7.5": [
+                "1.87",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.74",
+                false
+            ],
+            "under15.5": [
+                "1.95",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.87",
+                true
+            ],
+            "under24.5": [
+                "1.81",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.24",
+                false
+            ],
+            "t2_": [
+                "3.75",
+                true
+            ]
+        }
+    }
+}
