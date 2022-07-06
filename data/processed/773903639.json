@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Pentanet.GG",
+        "t2": "ORDER"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "5",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.82",
+                true
+            ],
+            "under12.5": [
+                "1.84",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.92",
+                false
+            ],
+            "under16.5": [
+                "1.76",
+                true
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.91",
+                true
+            ],
+            "under28.5": [
+                "1.77",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.59",
+                false
+            ],
+            "t2_": [
+                "2.26",
+                true
+            ]
+        }
+    }
+}

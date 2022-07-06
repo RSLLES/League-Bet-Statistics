@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "MAMMOTH",
+        "t2": "Peace"
+    },
+    "date": {
+        "time": "08:00",
+        "day": "5",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.76",
+                true
+            ],
+            "under16.5": [
+                "1.92",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over7.5": [
+                "1.87",
+                true
+            ],
+            "under7.5": [
+                "1.81",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.87",
+                true
+            ],
+            "under24.5": [
+                "1.81",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.32",
+                true
+            ],
+            "t2_": [
+                "1.19",
+                false
+            ]
+        }
+    }
+}

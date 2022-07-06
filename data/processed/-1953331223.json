@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Kanga",
+        "t2": "Dire Wolves"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "5",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.76",
+                false
+            ],
+            "under16.5": [
+                "1.92",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over10.5": [
+                "1.91",
+                true
+            ],
+            "under10.5": [
+                "1.77",
+                false
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.91",
+                false
+            ],
+            "under27.5": [
+                "1.77",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.09",
+                true
+            ],
+            "t2_": [
+                "1.34",
+                false
+            ]
+        }
+    }
+}

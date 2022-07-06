@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "Chiefs",
+        "t2": "Gravitas"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "5",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over5.5": [
+                "1.87",
+                true
+            ],
+            "under5.5": [
+                "1.81",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over18.5": [
+                "1.96",
+                true
+            ],
+            "under18.5": [
+                "1.73",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.82",
+                true
+            ],
+            "under23.5": [
+                "1.86",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.02",
+                true
+            ],
+            "t2_": [
+                "11.10",
+                false
+            ]
+        }
+    }
+}

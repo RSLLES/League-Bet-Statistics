@@ -1,0 +1,57 @@
+{
+    "teamNames": {
+        "t1": "E WIE EINFACH Esports",
+        "t2": "Eintracht Spandau"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "5",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over19.5": [
+                "1.77",
+                true
+            ],
+            "under19.5": [
+                "1.91",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.77",
+                true
+            ],
+            "under9.5": [
+                "1.91",
+                false
+            ]
+        },
+        "totalkills": {
+            "over29.5": [
+                "1.75",
+                true
+            ],
+            "under29.5": [
+                "1.92",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.07",
+                false
+            ],
+            "t2_": [
+                "1.21",
+                true
+            ]
+        }
+    }
+}

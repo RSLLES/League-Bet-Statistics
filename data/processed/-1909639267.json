@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "AGO ROGUE",
+        "t2": "Forsaken"
+    },
+    "date": {
+        "time": "15:00",
+        "day": "5",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "totalkills": {
+            "over24.5": [
+                "1.83",
+                true
+            ],
+            "under24.5": [
+                "1.83",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.05",
+                true
+            ],
+            "t2_": [
+                "7.95",
+                false
+            ]
+        }
+    }
+}
