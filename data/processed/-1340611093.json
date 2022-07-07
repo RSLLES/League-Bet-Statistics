@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Herbalife Real Betis",
+        "t2": "Rebels Gaming"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "6",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.32",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.32",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    }
+}

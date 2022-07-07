@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "V3 Esports",
+        "t2": "Sengoku Gaming"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "6",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "11.82",
+                false
+            ],
+            "t2_": [
+                "NaN",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "11.82",
+                false
+            ],
+            "t2_": [
+                "NaN",
+                true
+            ]
+        }
+    }
+}

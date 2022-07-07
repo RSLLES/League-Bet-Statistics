@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Team ESCA Gaming",
+        "t2": "Iron Wolves"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "6",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "totalkills": {
+            "over26.5": [
+                "1.83",
+                false
+            ],
+            "under26.5": [
+                "1.83",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.20",
+                true
+            ],
+            "t2_": [
+                "1.61",
+                false
+            ]
+        }
+    }
+}

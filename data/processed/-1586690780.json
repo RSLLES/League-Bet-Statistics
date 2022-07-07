@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "AXIZ",
+        "t2": "Burning Core"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "6",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.95",
+                false
+            ],
+            "t2_": [
+                "1.37",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.95",
+                false
+            ],
+            "t2_": [
+                "1.37",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Rascal Jester",
+        "t2": "Crest Gaming Act"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "6",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.35",
+                false
+            ],
+            "t2_": [
+                "3.05",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.34",
+                false
+            ],
+            "t2_": [
+                "3.07",
+                true
+            ]
+        }
+    }
+}
