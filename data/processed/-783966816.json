@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "UCAM Club",
+        "t2": "Vodafone Giants"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.11",
+                true
+            ],
+            "t2_": [
+                "1.33",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.11",
+                true
+            ],
+            "t2_": [
+                "1.33",
+                false
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "KOI",
+        "t2": "BISONS Eclub"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.09",
+                true
+            ],
+            "t2_": [
+                "1.67",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.09",
+                true
+            ],
+            "t2_": [
+                "1.67",
+                false
+            ]
+        }
+    }
+}

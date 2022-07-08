@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Eintracht Spandau",
+        "t2": "GamerLegion"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.91",
+                false
+            ],
+            "under10.5": [
+                "1.77",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.87",
+                true
+            ],
+            "under15.5": [
+                "1.81",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.85",
+                false
+            ],
+            "under25.5": [
+                "1.82",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.40",
+                true
+            ],
+            "t2_": [
+                "2.78",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.40",
+                true
+            ],
+            "t2_": [
+                "2.78",
+                false
+            ]
+        }
+    }
+}

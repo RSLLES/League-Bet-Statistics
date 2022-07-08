@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Schalke 04",
+        "t2": "SK Gaming Prime"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.78",
+                true
+            ],
+            "under13.5": [
+                "1.89",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.81",
+                false
+            ],
+            "under17.5": [
+                "1.87",
+                true
+            ]
+        },
+        "totalkills": {
+            "over30.5": [
+                "1.76",
+                false
+            ],
+            "under30.5": [
+                "1.92",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.60",
+                false
+            ],
+            "t2_": [
+                "2.21",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.60",
+                false
+            ],
+            "t2_": [
+                "2.21",
+                true
+            ]
+        }
+    }
+}

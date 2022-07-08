@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Misfits Premier",
+        "t2": "Mirage Elyandra"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.25",
+                true
+            ],
+            "t2_": [
+                "3.68",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.25",
+                true
+            ],
+            "t2_": [
+                "3.68",
+                false
+            ]
+        }
+    }
+}

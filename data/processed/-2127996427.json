@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "FC Barcelona",
+        "t2": "MAD Lions"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.69",
+                true
+            ],
+            "t2_": [
+                "2.06",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.69",
+                true
+            ],
+            "t2_": [
+                "2.06",
+                false
+            ]
+        }
+    }
+}

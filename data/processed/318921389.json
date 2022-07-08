@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "BIG",
+        "t2": "Wave Esports"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over8.5": [
+                "1.76",
+                true
+            ],
+            "under8.5": [
+                "1.92",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.89",
+                true
+            ],
+            "under16.5": [
+                "1.78",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.83",
+                true
+            ],
+            "under25.5": [
+                "1.83",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.28",
+                true
+            ],
+            "t2_": [
+                "3.41",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.28",
+                true
+            ],
+            "t2_": [
+                "3.41",
+                false
+            ]
+        }
+    }
+}

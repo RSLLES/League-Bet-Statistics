@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "MOUZ",
+        "t2": "PENTA"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.87",
+                false
+            ],
+            "under9.5": [
+                "1.80",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over16.5": [
+                "1.95",
+                true
+            ],
+            "under16.5": [
+                "1.74",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.77",
+                true
+            ],
+            "under25.5": [
+                "1.91",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.30",
+                true
+            ],
+            "t2_": [
+                "3.30",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.30",
+                true
+            ],
+            "t2_": [
+                "3.30",
+                false
+            ]
+        }
+    }
+}
