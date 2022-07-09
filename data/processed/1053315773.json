@@ -1,0 +1,59 @@
+{
+    "teamNames": {
+        "t1": "Team Whales",
+        "t2": "As Esports"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "7",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.95",
+                true
+            ],
+            "t2_": [
+                "1.36",
+                false
+            ]
+        }
+    },
+    "map2": {
+        "winner": {
+            "t1_": [
+                "2.95",
+                true
+            ],
+            "t2_": [
+                "1.36",
+                false
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.25",
+                false
+            ],
+            "under2.5": [
+                "1.58",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "3.42",
+                true
+            ],
+            "t2_": [
+                "1.28",
+                false
+            ]
+        }
+    }
+}
