@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "XTEN",
+        "t2": "Isurus"
+    },
+    "date": {
+        "time": "23:00",
+        "day": "10",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.92",
+                true
+            ],
+            "t2_": [
+                "1.37",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.92",
+                true
+            ],
+            "t2_": [
+                "1.37",
+                false
+            ]
+        }
+    }
+}

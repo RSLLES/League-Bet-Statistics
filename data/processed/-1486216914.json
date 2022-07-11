@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Burning Core",
+        "t2": "V3 Esports"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "10",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.11",
+                true
+            ],
+            "t2_": [
+                "6.05",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.11",
+                true
+            ],
+            "t2_": [
+                "6.05",
+                false
+            ]
+        }
+    }
+}

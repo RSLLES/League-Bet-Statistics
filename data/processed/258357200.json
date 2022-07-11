@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "DetonatioN FM",
+        "t2": "Crest Gaming Act"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "10",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.10",
+                true
+            ],
+            "t2_": [
+                "6.35",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.10",
+                true
+            ],
+            "t2_": [
+                "6.35",
+                false
+            ]
+        }
+    }
+}

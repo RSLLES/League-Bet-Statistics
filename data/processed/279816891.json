@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Infinity Gaming",
+        "t2": "Rainbow7"
+    },
+    "date": {
+        "time": "21:00",
+        "day": "10",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.41",
+                true
+            ],
+            "t2_": [
+                "1.53",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.41",
+                true
+            ],
+            "t2_": [
+                "1.53",
+                false
+            ]
+        }
+    }
+}

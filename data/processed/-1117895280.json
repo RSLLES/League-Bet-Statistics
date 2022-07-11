@@ -1,0 +1,71 @@
+{
+    "teamNames": {
+        "t1": "Team Whales",
+        "t2": "Cerberus"
+    },
+    "date": {
+        "time": "13:00",
+        "day": "10",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.01",
+                false
+            ],
+            "t2_": [
+                "1.36",
+                true
+            ]
+        }
+    },
+    "map2": {
+        "winner": {
+            "t1_": [
+                "3.01",
+                true
+            ],
+            "t2_": [
+                "1.36",
+                false
+            ]
+        }
+    },
+    "map3": {
+        "winner": {
+            "t1_": [
+                "3.01",
+                true
+            ],
+            "t2_": [
+                "1.36",
+                false
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.29",
+                true
+            ],
+            "under2.5": [
+                "1.58",
+                false
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "3.41",
+                true
+            ],
+            "t2_": [
+                "1.29",
+                false
+            ]
+        }
+    }
+}

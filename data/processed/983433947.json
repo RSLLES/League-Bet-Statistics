@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Rascal Jester",
+        "t2": "Sengoku Gaming"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "10",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.16",
+                false
+            ],
+            "t2_": [
+                "1.33",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.16",
+                false
+            ],
+            "t2_": [
+                "1.33",
+                true
+            ]
+        }
+    }
+}
