@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "MAD Lions",
+        "t2": "Vodafone Giants"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "11",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.96",
+                false
+            ],
+            "t2_": [
+                "1.36",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.96",
+                false
+            ],
+            "t2_": [
+                "1.36",
+                true
+            ]
+        }
+    }
+}

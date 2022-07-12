@@ -1,0 +1,199 @@
+{
+    "teamNames": {
+        "t1": "FunPlus Phoenix",
+        "t2": "LNG Esports "
+    },
+    "date": {
+        "time": "09:00",
+        "day": "11",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.81",
+                true
+            ],
+            "under14.5": [
+                "1.92",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.83",
+                false
+            ],
+            "under11.5": [
+                "1.89",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.57",
+                true
+            ],
+            "under24.5": [
+                "2.27",
+                false
+            ],
+            "over25.5": [
+                "1.72",
+                true
+            ],
+            "under25.5": [
+                "2.02",
+                false
+            ],
+            "over26.5": [
+                "1.91",
+                false
+            ],
+            "under26.5": [
+                "1.82",
+                true
+            ],
+            "over27.5": [
+                "2.13",
+                false
+            ],
+            "under27.5": [
+                "1.65",
+                true
+            ],
+            "over28.5": [
+                "2.41",
+                false
+            ],
+            "under28.5": [
+                "1.52",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.18",
+                false
+            ],
+            "under1.5": [
+                "1.60",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.11",
+                false
+            ],
+            "t2_5": [
+                "1.67",
+                false
+            ],
+            "t1_10": [
+                "2.20",
+                false
+            ],
+            "t2_10": [
+                "1.61",
+                true
+            ],
+            "t1_15": [
+                "2.26",
+                false
+            ],
+            "t2_15": [
+                "1.58",
+                true
+            ],
+            "t1_20": [
+                "2.37",
+                false
+            ],
+            "t2_20": [
+                "1.53",
+                true
+            ],
+            "t1_25": [
+                "2.37",
+                false
+            ],
+            "t2_25": [
+                "1.53",
+                true
+            ],
+            "t1_30": [
+                "2.37",
+                false
+            ],
+            "t2_30": [
+                "1.53",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                false
+            ],
+            "even": [
+                "1.86",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.38",
+                false
+            ],
+            "t2_": [
+                "1.54",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "2.34",
+                false
+            ],
+            "t2_": [
+                "1.51",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "2.35",
+                false
+            ],
+            "t2_": [
+                "1.52",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "1.90",
+                false
+            ],
+            "under2.5": [
+                "1.83",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "2.35",
+                false
+            ],
+            "t2_": [
+                "1.55",
+                true
+            ]
+        }
+    }
+}

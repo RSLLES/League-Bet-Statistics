@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "BISONS Eclub",
+        "t2": "FC Barcelona"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "11",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.65",
+                true
+            ],
+            "t2_": [
+                "2.14",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.65",
+                true
+            ],
+            "t2_": [
+                "2.14",
+                false
+            ]
+        }
+    }
+}

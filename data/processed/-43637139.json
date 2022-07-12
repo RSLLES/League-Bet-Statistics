@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "G2 Arctic",
+        "t2": "Fnatic TQ"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "11",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.60",
+                true
+            ],
+            "t2_": [
+                "1.45",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.60",
+                true
+            ],
+            "t2_": [
+                "1.45",
+                false
+            ]
+        }
+    }
+}
