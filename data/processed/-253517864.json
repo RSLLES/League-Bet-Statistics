@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "SK Gaming Prime",
+        "t2": "BIG"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "12",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.89",
+                true
+            ],
+            "under16.5": [
+                "1.78",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.83",
+                false
+            ],
+            "under12.5": [
+                "1.83",
+                true
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.75",
+                false
+            ],
+            "under27.5": [
+                "1.92",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.27",
+                false
+            ],
+            "t2_": [
+                "1.59",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.27",
+                false
+            ],
+            "t2_": [
+                "1.59",
+                true
+            ]
+        }
+    }
+}
