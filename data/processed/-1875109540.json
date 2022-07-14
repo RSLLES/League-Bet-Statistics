@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Vitality Bee",
+        "t2": "GameWard"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "13",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.62",
+                true
+            ],
+            "t2_": [
+                "2.19",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.62",
+                true
+            ],
+            "t2_": [
+                "2.19",
+                false
+            ]
+        }
+    }
+}

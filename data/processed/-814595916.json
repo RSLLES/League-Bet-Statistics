@@ -1,0 +1,119 @@
+{
+    "teamNames": {
+        "t1": "Gen.G",
+        "t2": "Liiv SANDBOX"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "13",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.35",
+                false
+            ],
+            "under1.5": [
+                "1.52",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.28",
+                true
+            ],
+            "t2_": [
+                "3.49",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.27",
+                true
+            ],
+            "t2_": [
+                "3.32",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.27",
+                false
+            ],
+            "t2_": [
+                "3.33",
+                false
+            ]
+        }
+    },
+    "map2": {
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.35",
+                false
+            ],
+            "under1.5": [
+                "1.52",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.28",
+                true
+            ],
+            "t2_": [
+                "3.49",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.27",
+                true
+            ],
+            "t2_": [
+                "3.32",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.27",
+                true
+            ],
+            "t2_": [
+                "3.33",
+                false
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.59",
+                false
+            ],
+            "under2.5": [
+                "1.46",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "1.15",
+                true
+            ],
+            "t2_": [
+                "5.02",
+                false
+            ]
+        }
+    }
+}

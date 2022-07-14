@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Solary",
+        "t2": "Misfits Premier"
+    },
+    "date": {
+        "time": "17:15",
+        "day": "13",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.16",
+                false
+            ],
+            "t2_": [
+                "1.32",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.16",
+                false
+            ],
+            "t2_": [
+                "1.32",
+                true
+            ]
+        }
+    }
+}

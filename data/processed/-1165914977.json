@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Crest Gaming Act",
+        "t2": "Sengoku Gaming"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "13",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "6.31",
+                false
+            ],
+            "t2_": [
+                "1.09",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "6.31",
+                false
+            ],
+            "t2_": [
+                "1.09",
+                true
+            ]
+        }
+    }
+}

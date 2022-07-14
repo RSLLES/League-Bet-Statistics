@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Mirage Elyandra",
+        "t2": "Karmine Corp"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "13",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "6.38",
+                false
+            ],
+            "t2_": [
+                "1.09",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "6.38",
+                false
+            ],
+            "t2_": [
+                "1.09",
+                true
+            ]
+        }
+    }
+}

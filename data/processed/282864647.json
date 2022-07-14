@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "V3 Esports",
+        "t2": "DetonatioN FM"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "13",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "9.73",
+                false
+            ],
+            "t2_": [
+                "1.03",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "9.73",
+                false
+            ],
+            "t2_": [
+                "1.03",
+                true
+            ]
+        }
+    }
+}

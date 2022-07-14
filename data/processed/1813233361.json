@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "AXIZ",
+        "t2": "Rascal Jester"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "13",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.45",
+                false
+            ],
+            "t2_": [
+                "1.27",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.45",
+                false
+            ],
+            "t2_": [
+                "1.27",
+                true
+            ]
+        }
+    }
+}
