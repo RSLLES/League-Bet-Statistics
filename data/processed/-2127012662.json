@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Zero Tenacity",
+        "t2": "Komil&Friends"
+    },
+    "date": {
+        "time": "15:00",
+        "day": "12",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.18",
+                false
+            ],
+            "t2_": [
+                "4.46",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.18",
+                false
+            ],
+            "t2_": [
+                "4.46",
+                true
+            ]
+        }
+    }
+}

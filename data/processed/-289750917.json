@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Solary",
+        "t2": "Karmine Corp"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.86",
+                true
+            ],
+            "t2_": [
+                "1.23",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.86",
+                true
+            ],
+            "t2_": [
+                "1.23",
+                false
+            ]
+        }
+    }
+}

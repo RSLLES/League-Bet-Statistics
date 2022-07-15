@@ -1,0 +1,71 @@
+{
+    "teamNames": {
+        "t1": "Cerberus",
+        "t2": "Team Secret"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.32",
+                true
+            ],
+            "t2_": [
+                "1.55",
+                false
+            ]
+        }
+    },
+    "map2": {
+        "winner": {
+            "t1_": [
+                "2.32",
+                false
+            ],
+            "t2_": [
+                "1.55",
+                true
+            ]
+        }
+    },
+    "map3": {
+        "winner": {
+            "t1_": [
+                "2.32",
+                false
+            ],
+            "t2_": [
+                "1.55",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.07",
+                true
+            ],
+            "under2.5": [
+                "1.69",
+                false
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "2.47",
+                false
+            ],
+            "t2_": [
+                "1.49",
+                true
+            ]
+        }
+    }
+}

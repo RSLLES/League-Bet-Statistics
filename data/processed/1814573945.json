@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Vodafone Giants",
+        "t2": "BISONS Eclub"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.62",
+                true
+            ],
+            "t2_": [
+                "2.19",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.62",
+                true
+            ],
+            "t2_": [
+                "2.19",
+                false
+            ]
+        }
+    }
+}

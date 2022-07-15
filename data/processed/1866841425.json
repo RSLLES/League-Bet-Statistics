@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Fnatic TQ",
+        "t2": "Team Heretics"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.82",
+                false
+            ],
+            "t2_": [
+                "1.90",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.82",
+                false
+            ],
+            "t2_": [
+                "1.90",
+                true
+            ]
+        }
+    }
+}

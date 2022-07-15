@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "FC Barcelona",
+        "t2": "UCAM Club"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.55",
+                true
+            ],
+            "t2_": [
+                "2.32",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.55",
+                true
+            ],
+            "t2_": [
+                "2.32",
+                false
+            ]
+        }
+    }
+}

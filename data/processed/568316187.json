@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Eintracht Spandau",
+        "t2": "Wave Esports"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.14",
+                false
+            ],
+            "t2_": [
+                "5.14",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.14",
+                false
+            ],
+            "t2_": [
+                "5.14",
+                true
+            ]
+        }
+    }
+}

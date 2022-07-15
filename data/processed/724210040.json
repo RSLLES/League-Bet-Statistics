@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "MAD Lions",
+        "t2": "KOI"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.36",
+                false
+            ],
+            "t2_": [
+                "1.54",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.36",
+                false
+            ],
+            "t2_": [
+                "1.54",
+                true
+            ]
+        }
+    }
+}

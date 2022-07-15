@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "GamerLegion",
+        "t2": "Unicorns Of Love SE"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "14",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.92",
+                false
+            ],
+            "t2_": [
+                "1.37",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.92",
+                false
+            ],
+            "t2_": [
+                "1.37",
+                true
+            ]
+        }
+    }
+}
