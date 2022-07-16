@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "DetonatioN FM",
+        "t2": "Rascal Jester"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "15",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.13",
+                true
+            ],
+            "t2_": [
+                "5.33",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.13",
+                true
+            ],
+            "t2_": [
+                "5.33",
+                false
+            ]
+        }
+    }
+}

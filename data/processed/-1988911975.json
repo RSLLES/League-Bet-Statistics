@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "AXIZ",
+        "t2": "Crest Gaming Act"
+    },
+    "date": {
+        "time": "09:00",
+        "day": "15",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "3.46",
+                true
+            ],
+            "t2_": [
+                "1.28",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.46",
+                true
+            ],
+            "t2_": [
+                "1.28",
+                false
+            ]
+        }
+    }
+}

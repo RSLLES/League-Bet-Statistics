@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Burning Core",
+        "t2": "Sengoku Gaming"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "15",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "4.79",
+                false
+            ],
+            "t2_": [
+                "1.16",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.79",
+                false
+            ],
+            "t2_": [
+                "1.16",
+                true
+            ]
+        }
+    }
+}

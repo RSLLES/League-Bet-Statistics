@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Flying Oyster",
+        "t2": "Beyond Gaming"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "15",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.90",
+                false
+            ],
+            "under9.5": [
+                "1.77",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.90",
+                true
+            ],
+            "under14.5": [
+                "1.78",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.83",
+                true
+            ],
+            "under23.5": [
+                "1.83",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.41",
+                true
+            ],
+            "t2_": [
+                "2.78",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.41",
+                true
+            ],
+            "t2_": [
+                "2.78",
+                false
+            ]
+        }
+    }
+}
