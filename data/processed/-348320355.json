@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Red Canids",
+        "t2": "Rensga eSports"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over5.5": [
+                "1.95",
+                true
+            ],
+            "under5.5": [
+                "1.73",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over18.5": [
+                "1.74",
+                false
+            ],
+            "under18.5": [
+                "1.94",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.88",
+                true
+            ],
+            "under24.5": [
+                "1.79",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.03",
+                true
+            ],
+            "t2_": [
+                "9.51",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.03",
+                true
+            ],
+            "t2_": [
+                "9.51",
+                false
+            ]
+        }
+    }
+}

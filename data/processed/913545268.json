@@ -1,0 +1,355 @@
+{
+    "teamNames": {
+        "t1": "DRX",
+        "t2": "T1"
+    },
+    "date": {
+        "time": "11:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.98",
+                false
+            ],
+            "under14.5": [
+                "1.75",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.96",
+                false
+            ],
+            "under8.5": [
+                "1.77",
+                true
+            ]
+        },
+        "totalkills": {
+            "over20.5": [
+                "1.52",
+                false
+            ],
+            "under20.5": [
+                "2.39",
+                true
+            ],
+            "over21.5": [
+                "1.68",
+                false
+            ],
+            "under21.5": [
+                "2.09",
+                true
+            ],
+            "over22.5": [
+                "1.88",
+                false
+            ],
+            "under22.5": [
+                "1.85",
+                true
+            ],
+            "over23.5": [
+                "2.12",
+                false
+            ],
+            "under23.5": [
+                "1.66",
+                true
+            ],
+            "over24.5": [
+                "2.41",
+                false
+            ],
+            "under24.5": [
+                "1.51",
+                true
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.73",
+                false
+            ],
+            "under1.5": [
+                "1.39",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.37",
+                false
+            ],
+            "t2_5": [
+                "1.53",
+                false
+            ],
+            "t1_10": [
+                "2.62",
+                false
+            ],
+            "t2_10": [
+                "1.44",
+                true
+            ],
+            "t1_15": [
+                "2.98",
+                false
+            ],
+            "t2_15": [
+                "1.35",
+                true
+            ],
+            "t1_20": [
+                "3.36",
+                false
+            ],
+            "t2_20": [
+                "1.29",
+                true
+            ],
+            "t1_25": [
+                "3.36",
+                false
+            ],
+            "t2_25": [
+                "1.29",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                false
+            ],
+            "even": [
+                "1.86",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "3.38",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "3.16",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "3.17",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    },
+    "map2": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.98",
+                true
+            ],
+            "under14.5": [
+                "1.75",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.96",
+                true
+            ],
+            "under8.5": [
+                "1.77",
+                false
+            ]
+        },
+        "totalkills": {
+            "over20.5": [
+                "1.52",
+                true
+            ],
+            "under20.5": [
+                "2.39",
+                false
+            ],
+            "over21.5": [
+                "1.68",
+                true
+            ],
+            "under21.5": [
+                "2.09",
+                false
+            ],
+            "over22.5": [
+                "1.88",
+                true
+            ],
+            "under22.5": [
+                "1.85",
+                false
+            ],
+            "over23.5": [
+                "2.12",
+                true
+            ],
+            "under23.5": [
+                "1.66",
+                false
+            ],
+            "over24.5": [
+                "2.41",
+                true
+            ],
+            "under24.5": [
+                "1.51",
+                false
+            ]
+        },
+        "totalbaronsslain": {
+            "over1.5": [
+                "2.73",
+                true
+            ],
+            "under1.5": [
+                "1.39",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.37",
+                false
+            ],
+            "t2_5": [
+                "1.53",
+                false
+            ],
+            "t1_10": [
+                "2.62",
+                false
+            ],
+            "t2_10": [
+                "1.44",
+                true
+            ],
+            "t1_15": [
+                "2.98",
+                false
+            ],
+            "t2_15": [
+                "1.35",
+                true
+            ],
+            "t1_20": [
+                "3.36",
+                false
+            ],
+            "t2_20": [
+                "1.29",
+                true
+            ],
+            "t1_25": [
+                "3.36",
+                false
+            ],
+            "t2_25": [
+                "1.29",
+                true
+            ],
+            "t1_30": [
+                "3.36",
+                false
+            ],
+            "t2_30": [
+                "1.29",
+                true
+            ]
+        },
+        "oddevenkills": {
+            "odd": [
+                "1.86",
+                true
+            ],
+            "even": [
+                "1.86",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "3.38",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "3.16",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "3.17",
+                false
+            ],
+            "t2_": [
+                "1.30",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.47",
+                false
+            ],
+            "under2.5": [
+                "1.50",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "4.50",
+                false
+            ],
+            "t2_": [
+                "1.18",
+                true
+            ]
+        }
+    }
+}

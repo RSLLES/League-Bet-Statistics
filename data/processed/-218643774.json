@@ -1,0 +1,159 @@
+{
+    "teamNames": {
+        "t1": "SK Gaming",
+        "t2": "Excel"
+    },
+    "date": {
+        "time": "15:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.77",
+                false
+            ],
+            "under16.5": [
+                "1.96",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over7.5": [
+                "1.92",
+                true
+            ],
+            "under7.5": [
+                "1.81",
+                false
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.51",
+                false
+            ],
+            "under22.5": [
+                "2.43",
+                true
+            ],
+            "over23.5": [
+                "1.66",
+                false
+            ],
+            "under23.5": [
+                "2.12",
+                true
+            ],
+            "over24.5": [
+                "1.83",
+                false
+            ],
+            "under24.5": [
+                "1.89",
+                true
+            ],
+            "over25.5": [
+                "2.06",
+                false
+            ],
+            "under25.5": [
+                "1.70",
+                true
+            ],
+            "over26.5": [
+                "2.32",
+                false
+            ],
+            "under26.5": [
+                "1.55",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.62",
+                false
+            ],
+            "t2_5": [
+                "1.44",
+                true
+            ],
+            "t1_10": [
+                "3.20",
+                false
+            ],
+            "t2_10": [
+                "1.31",
+                false
+            ],
+            "t1_15": [
+                "3.72",
+                true
+            ],
+            "t2_15": [
+                "1.24",
+                false
+            ],
+            "t1_20": [
+                "4.29",
+                true
+            ],
+            "t2_20": [
+                "1.19",
+                false
+            ],
+            "t1_25": [
+                "4.29",
+                true
+            ],
+            "t2_25": [
+                "1.19",
+                false
+            ],
+            "t1_30": [
+                "4.29",
+                true
+            ],
+            "t2_30": [
+                "1.19",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "3.93",
+                true
+            ],
+            "t2_": [
+                "1.20",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "3.94",
+                true
+            ],
+            "t2_": [
+                "1.20",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "4.36",
+                true
+            ],
+            "t2_": [
+                "1.19",
+                false
+            ]
+        }
+    }
+}

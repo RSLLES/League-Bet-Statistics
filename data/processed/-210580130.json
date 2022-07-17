@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Impunity",
+        "t2": "Talon"
+    },
+    "date": {
+        "time": "08:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "6.28",
+                false
+            ],
+            "t2_": [
+                "1.10",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "6.28",
+                false
+            ],
+            "t2_": [
+                "1.10",
+                true
+            ]
+        }
+    }
+}

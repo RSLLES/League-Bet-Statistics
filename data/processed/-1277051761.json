@@ -1,0 +1,159 @@
+{
+    "teamNames": {
+        "t1": "Team Vitality",
+        "t2": "Fnatic"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.80",
+                false
+            ],
+            "under14.5": [
+                "1.93",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over10.5": [
+                "1.82",
+                true
+            ],
+            "under10.5": [
+                "1.91",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.54",
+                true
+            ],
+            "under23.5": [
+                "2.36",
+                false
+            ],
+            "over24.5": [
+                "1.68",
+                true
+            ],
+            "under24.5": [
+                "2.08",
+                false
+            ],
+            "over25.5": [
+                "1.86",
+                true
+            ],
+            "under25.5": [
+                "1.86",
+                false
+            ],
+            "over26.5": [
+                "2.08",
+                true
+            ],
+            "under26.5": [
+                "1.68",
+                false
+            ],
+            "over27.5": [
+                "2.34",
+                true
+            ],
+            "under27.5": [
+                "1.54",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.11",
+                true
+            ],
+            "t2_5": [
+                "1.67",
+                false
+            ],
+            "t1_10": [
+                "2.20",
+                true
+            ],
+            "t2_10": [
+                "1.61",
+                false
+            ],
+            "t1_15": [
+                "2.26",
+                false
+            ],
+            "t2_15": [
+                "1.58",
+                true
+            ],
+            "t1_20": [
+                "2.37",
+                false
+            ],
+            "t2_20": [
+                "1.53",
+                true
+            ],
+            "t1_25": [
+                "2.37",
+                true
+            ],
+            "t2_25": [
+                "1.53",
+                false
+            ],
+            "t1_30": [
+                "2.37",
+                true
+            ],
+            "t2_30": [
+                "1.53",
+                false
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "2.34",
+                true
+            ],
+            "t2_": [
+                "1.51",
+                false
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "2.35",
+                true
+            ],
+            "t2_": [
+                "1.52",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.42",
+                true
+            ],
+            "t2_": [
+                "1.52",
+                false
+            ]
+        }
+    }
+}

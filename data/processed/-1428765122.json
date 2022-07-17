@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Estral E-Sports",
+        "t2": "Infinity Gaming"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.92",
+                true
+            ],
+            "under9.5": [
+                "1.76",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.83",
+                false
+            ],
+            "under12.5": [
+                "1.83",
+                true
+            ]
+        },
+        "totalkills": {
+            "over21.5": [
+                "1.83",
+                true
+            ],
+            "under21.5": [
+                "1.83",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.51",
+                false
+            ],
+            "t2_": [
+                "2.43",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.51",
+                false
+            ],
+            "t2_": [
+                "2.43",
+                true
+            ]
+        }
+    }
+}

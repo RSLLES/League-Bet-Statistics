@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "All Knights",
+        "t2": "Team Aze"
+    },
+    "date": {
+        "time": "22:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.89",
+                true
+            ],
+            "under10.5": [
+                "1.79",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.82",
+                false
+            ],
+            "under12.5": [
+                "1.85",
+                true
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.83",
+                true
+            ],
+            "under22.5": [
+                "1.83",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.59",
+                false
+            ],
+            "t2_": [
+                "2.23",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.59",
+                false
+            ],
+            "t2_": [
+                "2.23",
+                true
+            ]
+        }
+    }
+}

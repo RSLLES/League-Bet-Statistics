@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Liberty",
+        "t2": "FURIA"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.84",
+                false
+            ],
+            "under14.5": [
+                "1.83",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.85",
+                false
+            ],
+            "under9.5": [
+                "1.82",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.91",
+                false
+            ],
+            "under24.5": [
+                "1.77",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.54",
+                false
+            ],
+            "t2_": [
+                "1.47",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.54",
+                false
+            ],
+            "t2_": [
+                "1.47",
+                true
+            ]
+        }
+    }
+}

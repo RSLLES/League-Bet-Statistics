@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "flamengo los grandes",
+        "t2": "KaBuM!"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over14.5": [
+                "1.87",
+                true
+            ],
+            "under14.5": [
+                "1.80",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.77",
+                false
+            ],
+            "under9.5": [
+                "1.90",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.93",
+                true
+            ],
+            "under24.5": [
+                "1.75",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.56",
+                false
+            ],
+            "t2_": [
+                "1.46",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.56",
+                false
+            ],
+            "t2_": [
+                "1.46",
+                true
+            ]
+        }
+    }
+}

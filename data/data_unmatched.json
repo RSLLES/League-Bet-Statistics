@@ -124,35 +124,6 @@
         },
         "BOLength": 1
     },
-    "81955555": {
-        "teamNames": {
-            "t1": "Estral E-Sports",
-            "t2": "Team Aze"
-        },
-        "date": {
-            "time": "20:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.66",
-                "t2_": "2.14"
-            },
-            "correctscore": {
-                "0-1": "2.10",
-                "1-0": "1.64"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.66",
-                "t2_": "2.14"
-            }
-        },
-        "BOLength": 1
-    },
     "92879868": {
         "teamNames": {
             "t1": "flamengo los grandes",
@@ -555,64 +526,6 @@
         },
         "BOLength": 1
     },
-    "258357200": {
-        "teamNames": {
-            "t1": "DetonatioN FM",
-            "t2": "Crest Gaming Act"
-        },
-        "date": {
-            "time": "12:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.10",
-                "t2_": "6.35"
-            },
-            "correctscore": {
-                "0-1": "6.00",
-                "1-0": "1.09"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.10",
-                "t2_": "6.35"
-            }
-        },
-        "BOLength": 1
-    },
-    "279816891": {
-        "teamNames": {
-            "t1": "Infinity Gaming",
-            "t2": "Rainbow7"
-        },
-        "date": {
-            "time": "21:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "2.41",
-                "t2_": "1.53"
-            },
-            "correctscore": {
-                "0-1": "1.51",
-                "1-0": "2.35"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "2.41",
-                "t2_": "1.53"
-            }
-        },
-        "BOLength": 1
-    },
     "282864647": {
         "teamNames": {
             "t1": "V3 Esports",
@@ -873,51 +786,6 @@
         },
         "BOLength": 1
     },
-    "556600067": {
-        "teamNames": {
-            "t1": "Rensga eSports",
-            "t2": "INTZ"
-        },
-        "date": {
-            "time": "19:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "2.54",
-                "t2_": "1.48"
-            },
-            "correctscore": {
-                "0-1": "1.47",
-                "1-0": "2.60"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "2.54",
-                "t2_": "1.48"
-            },
-            "totalkills": {
-                "over27.5": "1.83",
-                "under27.5": "1.88"
-            },
-            "killsadvantage": {
-                "t1_+7.5": "1.79",
-                "t2_-7.5": "1.92"
-            },
-            "t1_totalkills": {
-                "over11.5": "1.91",
-                "under11.5": "1.79"
-            },
-            "t2_totalkills": {
-                "over16.5": "1.90",
-                "under16.5": "1.81"
-            }
-        },
-        "BOLength": 1
-    },
     "559972088": {
         "teamNames": {
             "t1": "Rensga eSports",
@@ -988,35 +856,6 @@
             "winner": {
                 "t1_": "1.14",
                 "t2_": "5.14"
-            }
-        },
-        "BOLength": 1
-    },
-    "578275661": {
-        "teamNames": {
-            "t1": "XTEN",
-            "t2": "Isurus"
-        },
-        "date": {
-            "time": "23:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "2.92",
-                "t2_": "1.37"
-            },
-            "correctscore": {
-                "0-1": "1.35",
-                "1-0": "2.85"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "2.92",
-                "t2_": "1.37"
             }
         },
         "BOLength": 1
@@ -1485,6 +1324,35 @@
         },
         "BOLength": 3
     },
+    "868578493": {
+        "teamNames": {
+            "t1": "BISONS Eclub",
+            "t2": "Team Heretics"
+        },
+        "date": {
+            "time": "19:00",
+            "day": "18",
+            "month": "7",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "2.63",
+                "t2_": "1.44"
+            },
+            "correctscore": {
+                "0-1": "1.43",
+                "1-0": "2.60"
+            }
+        },
+        "map": {
+            "winner": {
+                "t1_": "2.63",
+                "t2_": "1.44"
+            }
+        },
+        "BOLength": 1
+    },
     "875146852": {
         "teamNames": {
             "t1": "Mirage Elyandra",
@@ -1779,37 +1647,6 @@
         },
         "BOLength": 1
     },
-    "930258690": {
-        "teamNames": {
-            "t1": "Meta Falcon",
-            "t2": "sem9"
-        },
-        "date": {
-            "time": "11:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "map": {
-            "totalkills": {
-                "over23.5": "1.94",
-                "under23.5": "1.74"
-            },
-            "killsadvantage": {
-                "t1_-10.5": "1.77",
-                "t2_+10.5": "1.91"
-            },
-            "t1_totalkills": {
-                "over16.5": "1.79",
-                "under16.5": "1.89"
-            },
-            "t2_totalkills": {
-                "over6.5": "1.86",
-                "under6.5": "1.82"
-            }
-        },
-        "BOLength": 1
-    },
     "966238672": {
         "teamNames": {
             "t1": "BDS Esport",
@@ -1847,35 +1684,6 @@
             "destroyfirstinhibitor": {
                 "t1_": "4.31",
                 "t2_": "1.19"
-            }
-        },
-        "BOLength": 1
-    },
-    "983433947": {
-        "teamNames": {
-            "t1": "Rascal Jester",
-            "t2": "Sengoku Gaming"
-        },
-        "date": {
-            "time": "09:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "3.16",
-                "t2_": "1.33"
-            },
-            "correctscore": {
-                "0-1": "1.31",
-                "1-0": "3.00"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "3.16",
-                "t2_": "1.33"
             }
         },
         "BOLength": 1
@@ -2133,6 +1941,111 @@
             }
         },
         "BOLength": 1
+    },
+    "1187384304": {
+        "teamNames": {
+            "t1": "JD Gaming",
+            "t2": "Invictus Gaming"
+        },
+        "date": {
+            "time": "11:00",
+            "day": "18",
+            "month": "7",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.11",
+                "t2_": "5.96"
+            },
+            "mapadvantage": {
+                "t1_-1.5": "1.56",
+                "t2_+1.5": "2.33"
+            },
+            "correctscore": {
+                "0-2": "13.50",
+                "1-2": "8.50",
+                "2-0": "1.58",
+                "2-1": "3.40"
+            },
+            "totalmapsplayed": {
+                "over2.5": "2.62",
+                "under2.5": "1.45"
+            }
+        },
+        "map": {
+            "winner": {
+                "t1_": "1.25",
+                "t2_": "3.74"
+            },
+            "racetokills": {
+                "t1_5": "1.49",
+                "t2_5": "2.48",
+                "t1_10": "1.35",
+                "t2_10": "2.98",
+                "t1_15": "1.29",
+                "t2_15": "3.36",
+                "t1_20": "1.24",
+                "t2_20": "3.72",
+                "t1_25": "1.24",
+                "t2_25": "3.72",
+                "t1_30": "1.24",
+                "t2_30": "3.72"
+            },
+            "totalkills": {
+                "over26.5": "1.96",
+                "under26.5": "1.77",
+                "over24.5": "1.58",
+                "under24.5": "2.27",
+                "over25.5": "1.75",
+                "under25.5": "1.98",
+                "over27.5": "2.22",
+                "under27.5": "1.60",
+                "over28.5": "2.53",
+                "under28.5": "1.47"
+            },
+            "killsadvantage": {
+                "t1_-10.5": "1.85",
+                "t2_+10.5": "1.88",
+                "t1_-12.5": "2.43",
+                "t2_+12.5": "1.51",
+                "t1_-11.5": "2.11",
+                "t2_+11.5": "1.67",
+                "t1_-9.5": "1.66",
+                "t2_+9.5": "2.12",
+                "t1_-8.5": "1.51",
+                "t2_+8.5": "2.42"
+            },
+            "t1_totalkills": {
+                "over17.5": "1.76",
+                "under17.5": "1.98"
+            },
+            "t2_totalkills": {
+                "over7.5": "1.81",
+                "under7.5": "1.92"
+            },
+            "oddevenkills": {
+                "odd": "1.86",
+                "even": "1.86"
+            },
+            "totalinhibitorsdestroyed": {
+                "over1.5": "1.65",
+                "under1.5": "2.09"
+            },
+            "killfirstbaron": {
+                "t1_": "1.26",
+                "t2_": "3.44"
+            },
+            "totalbaronsslain": {
+                "over1.5": "3.33",
+                "under1.5": "1.27"
+            },
+            "destroyfirstinhibitor": {
+                "t1_": "1.25",
+                "t2_": "3.43"
+            }
+        },
+        "BOLength": 3
     },
     "1196304135": {
         "teamNames": {
@@ -3186,35 +3099,6 @@
         },
         "BOLength": 1
     },
-    "1926736596": {
-        "teamNames": {
-            "t1": "Globant Emerald",
-            "t2": "All Knights"
-        },
-        "date": {
-            "time": "22:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "3.11",
-                "t2_": "1.34"
-            },
-            "correctscore": {
-                "0-1": "1.33",
-                "1-0": "3.00"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "3.11",
-                "t2_": "1.34"
-            }
-        },
-        "BOLength": 1
-    },
     "1934122174": {
         "teamNames": {
             "t1": "FunPlus Phoenix",
@@ -3319,82 +3203,6 @@
             }
         },
         "BOLength": 3
-    },
-    "1966800414": {
-        "teamNames": {
-            "t1": "Loud",
-            "t2": "flamengo los grandes"
-        },
-        "date": {
-            "time": "16:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.21",
-                "t2_": "4.15"
-            },
-            "correctscore": {
-                "0-1": "4.10",
-                "1-0": "1.22"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.21",
-                "t2_": "4.15"
-            },
-            "totalkills": {
-                "over25.5": "1.82",
-                "under25.5": "1.88"
-            },
-            "killsadvantage": {
-                "t1_-8.5": "1.76",
-                "t2_+8.5": "1.96"
-            },
-            "t1_totalkills": {
-                "over16.5": "1.85",
-                "under16.5": "1.86"
-            },
-            "t2_totalkills": {
-                "over8.5": "1.85",
-                "under8.5": "1.85"
-            }
-        },
-        "BOLength": 1
-    },
-    "2001577452": {
-        "teamNames": {
-            "t1": "Deep Cross",
-            "t2": "Frank Esports"
-        },
-        "date": {
-            "time": "10:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "map": {
-            "totalkills": {
-                "over21.5": "1.76",
-                "under21.5": "1.92"
-            },
-            "killsadvantage": {
-                "t1_-10.5": "1.90",
-                "t2_+10.5": "1.77"
-            },
-            "t1_totalkills": {
-                "over15.5": "1.72",
-                "under15.5": "1.97"
-            },
-            "t2_totalkills": {
-                "over6.5": "1.97",
-                "under6.5": "1.72"
-            }
-        },
-        "BOLength": 1
     },
     "2106223578": {
         "teamNames": {
@@ -3501,6 +3309,35 @@
         },
         "BOLength": 3
     },
+    "2133393620": {
+        "teamNames": {
+            "t1": "Movistar Riders",
+            "t2": "KOI"
+        },
+        "date": {
+            "time": "20:00",
+            "day": "18",
+            "month": "7",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "3.62",
+                "t2_": "1.25"
+            },
+            "correctscore": {
+                "0-1": "1.23",
+                "1-0": "3.50"
+            }
+        },
+        "map": {
+            "winner": {
+                "t1_": "3.62",
+                "t2_": "1.25"
+            }
+        },
+        "BOLength": 1
+    },
     "2133406936": {
         "teamNames": {
             "t1": "GamersOrigin",
@@ -3526,798 +3363,6 @@
             "winner": {
                 "t1_": "5.04",
                 "t2_": "1.14"
-            }
-        },
-        "BOLength": 1
-    },
-    "-213323386": {
-        "teamNames": {
-            "t1": "DRX",
-            "t2": "Gen.G"
-        },
-        "date": {
-            "time": "08:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "3.92",
-                "t2_": "1.24"
-            },
-            "mapadvantage": {
-                "t1_+1.5": "1.96",
-                "t2_-1.5": "1.82",
-                "t1_-1.5": "8.35",
-                "t2_+1.5": "1.06"
-            },
-            "correctscore": {
-                "0-2": "1.83",
-                "1-2": "3.50",
-                "2-0": "8.00",
-                "2-1": "6.00"
-            },
-            "totalmapsplayed": {
-                "over2.5": "2.41",
-                "under2.5": "1.55"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "3.02",
-                "t2_": "1.37"
-            },
-            "firstblood": {
-                "t1_": "2.08",
-                "t2_": "1.71"
-            },
-            "racetokills": {
-                "t1_5": "2.28",
-                "t2_5": "1.59",
-                "t1_10": "2.50",
-                "t2_10": "1.50",
-                "t1_15": "2.78",
-                "t2_15": "1.42",
-                "t1_20": "3.01",
-                "t2_20": "1.36",
-                "t1_25": "3.01",
-                "t2_25": "1.36",
-                "t1_30": "3.01",
-                "t2_30": "1.36"
-            },
-            "totalkills": {
-                "over22.5": "1.85",
-                "under22.5": "1.91",
-                "over21.5": "1.67",
-                "under21.5": "2.14",
-                "over23.5": "2.00",
-                "under23.5": "1.77",
-                "over24.5": "2.12",
-                "under24.5": "1.69",
-                "over25.5": "2.34",
-                "under25.5": "1.57"
-            },
-            "totaltime": {
-                "over3200": "1.67",
-                "under3200": "2.14"
-            },
-            "killsadvantage": {
-                "t1_+7.5": "1.85",
-                "t2_-7.5": "1.90",
-                "t1_+4.5": "2.57",
-                "t2_-4.5": "1.48",
-                "t1_+5.5": "2.34",
-                "t2_-5.5": "1.57",
-                "t1_+6.5": "2.08",
-                "t2_-6.5": "1.71",
-                "t1_+8.5": "1.65",
-                "t2_-8.5": "2.18"
-            },
-            "t1_totalkills": {
-                "over8.5": "1.90",
-                "under8.5": "1.85"
-            },
-            "t2_totalkills": {
-                "over14.5": "1.88",
-                "under14.5": "1.87"
-            },
-            "oddevenkills": {
-                "odd": "1.89",
-                "even": "1.87"
-            },
-            "totalelementaldragonsslain": {
-                "over4.5": "1.57",
-                "under4.5": "2.29"
-            },
-            "totaltowersdestroyed": {
-                "over12.5": "1.99",
-                "under12.5": "1.74"
-            },
-            "totalinhibitorsdestroyed": {
-                "over1.5": "1.53",
-                "under1.5": "2.37"
-            },
-            "killfirstbaron": {
-                "t1_": "2.80",
-                "t2_": "1.39"
-            },
-            "totalbaronsslain": {
-                "over1.5": "2.51",
-                "under1.5": "1.48"
-            },
-            "destroyfirstinhibitor": {
-                "t1_": "2.89",
-                "t2_": "1.37"
-            }
-        },
-        "BOLength": 3
-    },
-    "-1272414352": {
-        "teamNames": {
-            "t1": "TT Gaming",
-            "t2": "Invictus Gaming"
-        },
-        "date": {
-            "time": "08:45",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.93",
-                "t2_": "1.84"
-            },
-            "mapadvantage": {
-                "t1_+1.5": "1.31",
-                "t2_-1.5": "3.36",
-                "t1_-1.5": "3.51",
-                "t2_+1.5": "1.29"
-            },
-            "correctscore": {
-                "0-2": "3.20",
-                "1-2": "3.70",
-                "2-0": "3.50",
-                "2-1": "3.80"
-            },
-            "totalmapsplayed": {
-                "over2.5": "2.00",
-                "under2.5": "1.78"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.94",
-                "t2_": "1.84"
-            },
-            "firstblood": {
-                "t1_": "1.90",
-                "t2_": "1.85"
-            },
-            "racetokills": {
-                "t1_5": "1.88",
-                "t2_5": "1.88",
-                "t1_10": "1.93",
-                "t2_10": "1.83",
-                "t1_15": "1.93",
-                "t2_15": "1.83",
-                "t1_20": "1.93",
-                "t2_20": "1.83",
-                "t1_25": "1.93",
-                "t2_25": "1.83",
-                "t1_30": "1.93",
-                "t2_30": "1.83"
-            },
-            "totalkills": {
-                "over26.5": "1.97",
-                "under26.5": "1.79",
-                "over23.5": "1.52",
-                "under23.5": "2.46",
-                "over24.5": "1.62",
-                "under24.5": "2.23",
-                "over25.5": "1.76",
-                "under25.5": "2.02",
-                "over27.5": "2.23",
-                "under27.5": "1.62"
-            },
-            "totaltime": {
-                "over3000": "1.58",
-                "under3000": "2.31"
-            },
-            "killsadvantage": {
-                "t1_+2.5": "1.88",
-                "t2_-2.5": "1.88",
-                "t1_-0.5": "1.98",
-                "t2_+0.5": "1.79",
-                "t1_+0.5": "1.95",
-                "t2_-0.5": "1.81",
-                "t1_+1.5": "1.92",
-                "t2_-1.5": "1.83",
-                "t1_+3.5": "1.82",
-                "t2_-3.5": "1.93"
-            },
-            "t1_totalkills": {
-                "over13.5": "1.87",
-                "under13.5": "1.88"
-            },
-            "t2_totalkills": {
-                "over13.5": "1.87",
-                "under13.5": "1.88"
-            },
-            "oddevenkills": {
-                "odd": "1.88",
-                "even": "1.88"
-            },
-            "totalelementaldragonsslain": {
-                "over4.5": "1.72",
-                "under4.5": "2.03"
-            },
-            "totaltowersdestroyed": {
-                "over12.5": "2.49",
-                "under12.5": "1.48"
-            },
-            "totalinhibitorsdestroyed": {
-                "over1.5": "1.73",
-                "under1.5": "2.01"
-            },
-            "killfirstbaron": {
-                "t1_": "1.91",
-                "t2_": "1.82"
-            },
-            "totalbaronsslain": {
-                "over1.5": "2.55",
-                "under1.5": "1.46"
-            },
-            "destroyfirstinhibitor": {
-                "t1_": "1.92",
-                "t2_": "1.80"
-            }
-        },
-        "BOLength": 3
-    },
-    "-1568452041": {
-        "teamNames": {
-            "t1": "AXIZ",
-            "t2": "SoftBank Hawk"
-        },
-        "date": {
-            "time": "10:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "3.04",
-                "t2_": "1.35"
-            },
-            "correctscore": {
-                "0-1": "1.34",
-                "1-0": "2.90"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "3.04",
-                "t2_": "1.35"
-            }
-        },
-        "BOLength": 1
-    },
-    "-935165858": {
-        "teamNames": {
-            "t1": "Team Secret",
-            "t2": "Saigon Buffalo"
-        },
-        "date": {
-            "time": "10:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "2.30",
-                "t2_": "1.58"
-            },
-            "mapadvantage": {
-                "t1_+1.5": "1.46",
-                "t2_-1.5": "2.61",
-                "t1_-1.5": "4.26",
-                "t2_+1.5": "1.20"
-            },
-            "correctscore": {
-                "0-2": "2.55",
-                "1-2": "3.40",
-                "2-0": "4.10",
-                "2-1": "4.10"
-            },
-            "totalmapsplayed": {
-                "over2.5": "2.06",
-                "under2.5": "1.71"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "2.17",
-                "t2_": "1.64"
-            }
-        },
-        "BOLength": 3
-    },
-    "-1301540831": {
-        "teamNames": {
-            "t1": "Edward Gaming",
-            "t2": "Victory Five"
-        },
-        "date": {
-            "time": "11:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "2.38",
-                "t2_": "1.55"
-            },
-            "mapadvantage": {
-                "t1_+1.5": "1.45",
-                "t2_-1.5": "2.71",
-                "t1_-1.5": "4.42",
-                "t2_+1.5": "1.20"
-            },
-            "correctscore": {
-                "0-2": "2.70",
-                "1-2": "3.40",
-                "2-0": "4.30",
-                "2-1": "4.30"
-            },
-            "totalmapsplayed": {
-                "over2.5": "2.06",
-                "under2.5": "1.74"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "2.08",
-                "t2_": "1.74"
-            },
-            "firstblood": {
-                "t1_": "1.92",
-                "t2_": "1.83"
-            },
-            "racetokills": {
-                "t1_10": "2.03",
-                "t2_10": "1.75",
-                "t1_5": "2.03",
-                "t2_5": "1.75",
-                "t1_15": "2.13",
-                "t2_15": "1.68",
-                "t1_20": "2.13",
-                "t2_20": "1.68",
-                "t1_25": "2.13",
-                "t2_25": "1.68",
-                "t1_30": "2.13",
-                "t2_30": "1.68"
-            },
-            "totalkills": {
-                "over24.5": "1.79",
-                "under24.5": "1.98",
-                "over22.5": "1.52",
-                "under22.5": "2.46",
-                "over23.5": "1.64",
-                "under23.5": "2.19",
-                "over25.5": "1.98",
-                "under25.5": "1.79",
-                "over26.5": "2.22",
-                "under26.5": "1.63"
-            },
-            "killsadvantage": {
-                "t1_+2.5": "1.88",
-                "t2_-2.5": "1.87",
-                "t1_-0.5": "1.98",
-                "t2_+0.5": "1.78",
-                "t1_+0.5": "1.96",
-                "t2_-0.5": "1.80",
-                "t1_+1.5": "1.93",
-                "t2_-1.5": "1.83",
-                "t1_+3.5": "1.82",
-                "t2_-3.5": "1.93"
-            },
-            "t1_totalkills": {
-                "over12.5": "1.93",
-                "under12.5": "1.82"
-            },
-            "t2_totalkills": {
-                "over13.5": "1.96",
-                "under13.5": "1.80"
-            },
-            "oddevenkills": {
-                "odd": "1.88",
-                "even": "1.88"
-            },
-            "totalelementaldragonsslain": {
-                "over4.5": "1.78",
-                "under4.5": "1.95"
-            },
-            "totaltowersdestroyed": {
-                "over12.5": "2.67",
-                "under12.5": "1.43"
-            },
-            "totalinhibitorsdestroyed": {
-                "over1.5": "1.73",
-                "under1.5": "2.01"
-            },
-            "killfirstbaron": {
-                "t1_": "2.08",
-                "t2_": "1.69"
-            },
-            "totalbaronsslain": {
-                "over1.5": "2.27",
-                "under1.5": "1.58"
-            },
-            "destroyfirstinhibitor": {
-                "t1_": "2.09",
-                "t2_": "1.68"
-            }
-        },
-        "BOLength": 3
-    },
-    "-1486216914": {
-        "teamNames": {
-            "t1": "Burning Core",
-            "t2": "V3 Esports"
-        },
-        "date": {
-            "time": "11:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.11",
-                "t2_": "6.05"
-            },
-            "correctscore": {
-                "0-1": "5.75",
-                "1-0": "1.11"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.11",
-                "t2_": "6.05"
-            }
-        },
-        "BOLength": 1
-    },
-    "-1552161460": {
-        "teamNames": {
-            "t1": "T1",
-            "t2": "Fredit BRION"
-        },
-        "date": {
-            "time": "11:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.04",
-                "t2_": "9.93"
-            },
-            "mapadvantage": {
-                "t1_-1.5": "1.29",
-                "t2_+1.5": "3.53"
-            },
-            "correctscore": {
-                "0-2": "22.00",
-                "1-2": "12.50",
-                "2-0": "1.29",
-                "2-1": "4.80"
-            },
-            "totalmapsplayed": {
-                "over2.5": "3.81",
-                "under2.5": "1.25"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.16",
-                "t2_": "5.08"
-            },
-            "firstblood": {
-                "t1_": "1.60",
-                "t2_": "2.27"
-            },
-            "racetokills": {
-                "t1_5": "1.36",
-                "t2_5": "3.01",
-                "t1_10": "1.25",
-                "t2_10": "3.76",
-                "t1_15": "1.20",
-                "t2_15": "4.33",
-                "t1_20": "1.15",
-                "t2_20": "5.06",
-                "t1_25": "1.15",
-                "t2_25": "5.06",
-                "t1_30": "1.15",
-                "t2_30": "5.06"
-            },
-            "totalkills": {
-                "over21.5": "1.93",
-                "under21.5": "1.82",
-                "over19.5": "1.52",
-                "under19.5": "2.46",
-                "over20.5": "1.70",
-                "under20.5": "2.10",
-                "over22.5": "2.18",
-                "under22.5": "1.65",
-                "over23.5": "2.38",
-                "under23.5": "1.55"
-            },
-            "totaltime": {
-                "over3000": "1.74",
-                "under3000": "2.04"
-            },
-            "killsadvantage": {
-                "t1_-9.5": "1.94",
-                "t2_+9.5": "1.82",
-                "t1_-11.5": "2.91",
-                "t2_+11.5": "1.39",
-                "t1_-10.5": "2.34",
-                "t2_+10.5": "1.57",
-                "t1_-8.5": "1.67",
-                "t2_+8.5": "2.14",
-                "t1_-7.5": "1.48",
-                "t2_+7.5": "2.57"
-            },
-            "t1_totalkills": {
-                "over15.5": "1.97",
-                "under15.5": "1.79"
-            },
-            "t2_totalkills": {
-                "over6.5": "2.05",
-                "under6.5": "1.73"
-            },
-            "oddevenkills": {
-                "odd": "1.88",
-                "even": "1.88"
-            },
-            "totalelementaldragonsslain": {
-                "over4.5": "2.17",
-                "under4.5": "1.63"
-            },
-            "totaltowersdestroyed": {
-                "over12.5": "3.02",
-                "under12.5": "1.34"
-            },
-            "totalinhibitorsdestroyed": {
-                "over1.5": "1.58",
-                "under1.5": "2.26"
-            },
-            "killfirstbaron": {
-                "t1_": "1.18",
-                "t2_": "4.39"
-            },
-            "totalbaronsslain": {
-                "over1.5": "3.25",
-                "under1.5": "1.30"
-            },
-            "destroyfirstinhibitor": {
-                "t1_": "1.16",
-                "t2_": "4.76"
-            }
-        },
-        "BOLength": 3
-    },
-    "-1117895280": {
-        "teamNames": {
-            "t1": "Team Whales",
-            "t2": "Cerberus"
-        },
-        "date": {
-            "time": "13:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "3.41",
-                "t2_": "1.29"
-            },
-            "mapadvantage": {
-                "t1_+1.5": "1.81",
-                "t2_-1.5": "1.93",
-                "t1_-1.5": "6.62",
-                "t2_+1.5": "1.09"
-            },
-            "correctscore": {
-                "0-2": "1.90",
-                "1-2": "3.30",
-                "2-0": "6.25",
-                "2-1": "5.25"
-            },
-            "totalmapsplayed": {
-                "over2.5": "2.29",
-                "under2.5": "1.58"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "3.01",
-                "t2_": "1.36"
-            }
-        },
-        "BOLength": 3
-    },
-    "-1581134783": {
-        "teamNames": {
-            "t1": "J Team",
-            "t2": "Talon"
-        },
-        "date": {
-            "time": "13:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "map": {
-            "totalkills": {
-                "over22.5": "1.87",
-                "under22.5": "1.81"
-            },
-            "killsadvantage": {
-                "t1_+6.5": "1.78",
-                "t2_-6.5": "1.90"
-            },
-            "t1_totalkills": {
-                "over9.5": "1.82",
-                "under9.5": "1.84"
-            },
-            "t2_totalkills": {
-                "over13.5": "1.82",
-                "under13.5": "1.86"
-            }
-        },
-        "BOLength": 1
-    },
-    "-1832197515": {
-        "teamNames": {
-            "t1": "Netshoes Miners",
-            "t2": "Liberty"
-        },
-        "date": {
-            "time": "17:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "2.45",
-                "t2_": "1.51"
-            },
-            "correctscore": {
-                "0-1": "1.52",
-                "1-0": "2.45"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "2.45",
-                "t2_": "1.51"
-            },
-            "totalkills": {
-                "over25.5": "1.95",
-                "under25.5": "1.77"
-            },
-            "killsadvantage": {
-                "t1_+6.5": "1.81",
-                "t2_-6.5": "1.89"
-            },
-            "t1_totalkills": {
-                "over10.5": "1.84",
-                "under10.5": "1.87"
-            },
-            "t2_totalkills": {
-                "over14.5": "1.81",
-                "under14.5": "1.90"
-            }
-        },
-        "BOLength": 1
-    },
-    "-774849532": {
-        "teamNames": {
-            "t1": "KaBuM!",
-            "t2": "FURIA"
-        },
-        "date": {
-            "time": "18:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.99",
-                "t2_": "1.76"
-            },
-            "correctscore": {
-                "0-1": "1.76",
-                "1-0": "2.00"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.99",
-                "t2_": "1.76"
-            },
-            "totalkills": {
-                "over25.5": "1.88",
-                "under25.5": "1.82"
-            },
-            "killsadvantage": {
-                "t1_+3.5": "1.83",
-                "t2_-3.5": "1.88"
-            },
-            "t1_totalkills": {
-                "over12.5": "1.88",
-                "under12.5": "1.83"
-            },
-            "t2_totalkills": {
-                "over13.5": "1.85",
-                "under13.5": "1.85"
-            }
-        },
-        "BOLength": 1
-    },
-    "-1306254310": {
-        "teamNames": {
-            "t1": "Red Canids",
-            "t2": "paiN Gaming"
-        },
-        "date": {
-            "time": "20:00",
-            "day": "10",
-            "month": "7",
-            "year": "2022"
-        },
-        "global": {
-            "matchwinner": {
-                "t1_": "1.65",
-                "t2_": "2.16"
-            },
-            "correctscore": {
-                "0-1": "2.15",
-                "1-0": "1.64"
-            }
-        },
-        "map": {
-            "winner": {
-                "t1_": "1.65",
-                "t2_": "2.16"
-            },
-            "totalkills": {
-                "over26.5": "1.80",
-                "under26.5": "1.90"
-            },
-            "killsadvantage": {
-                "t1_-4.5": "1.85",
-                "t2_+4.5": "1.85"
-            },
-            "t1_totalkills": {
-                "over14.5": "1.83",
-                "under14.5": "1.88"
-            },
-            "t2_totalkills": {
-                "over12.5": "1.86",
-                "under12.5": "1.85"
             }
         },
         "BOLength": 1
@@ -8096,6 +7141,35 @@
             "destroyfirstinhibitor": {
                 "t1_": "1.64",
                 "t2_": "2.08"
+            }
+        },
+        "BOLength": 1
+    },
+    "-128189837": {
+        "teamNames": {
+            "t1": "Vodafone Giants",
+            "t2": "FC Barcelona"
+        },
+        "date": {
+            "time": "17:00",
+            "day": "18",
+            "month": "7",
+            "year": "2022"
+        },
+        "global": {
+            "matchwinner": {
+                "t1_": "1.55",
+                "t2_": "2.32"
+            },
+            "correctscore": {
+                "0-1": "2.30",
+                "1-0": "1.54"
+            }
+        },
+        "map": {
+            "winner": {
+                "t1_": "1.55",
+                "t2_": "2.32"
             }
         },
         "BOLength": 1

@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "paiN Gaming",
+        "t2": "Loud"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "16",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.84",
+                true
+            ],
+            "under9.5": [
+                "1.83",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over17.5": [
+                "1.92",
+                false
+            ],
+            "under17.5": [
+                "1.76",
+                true
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.91",
+                true
+            ],
+            "under27.5": [
+                "1.77",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.30",
+                false
+            ],
+            "t2_": [
+                "3.30",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.30",
+                false
+            ],
+            "t2_": [
+                "3.30",
+                true
+            ]
+        }
+    }
+}
