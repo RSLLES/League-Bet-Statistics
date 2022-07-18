@@ -1,0 +1,59 @@
+{
+    "teamNames": {
+        "t1": "As Esports",
+        "t2": "Cerberus"
+    },
+    "date": {
+        "time": "13:00",
+        "day": "17",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.86",
+                false
+            ],
+            "t2_": [
+                "1.38",
+                true
+            ]
+        }
+    },
+    "map2": {
+        "winner": {
+            "t1_": [
+                "2.86",
+                false
+            ],
+            "t2_": [
+                "1.38",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "2.25",
+                false
+            ],
+            "under2.5": [
+                "1.59",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "3.34",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        }
+    }
+}

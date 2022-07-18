@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Talon",
+        "t2": "Frank Esports"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "17",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over5.5": [
+                "1.87",
+                false
+            ],
+            "under5.5": [
+                "1.81",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.77",
+                false
+            ],
+            "under15.5": [
+                "1.91",
+                true
+            ]
+        },
+        "totalkills": {
+            "over21.5": [
+                "1.80",
+                false
+            ],
+            "under21.5": [
+                "1.88",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.11",
+                true
+            ],
+            "t2_": [
+                "5.73",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.11",
+                true
+            ],
+            "t2_": [
+                "5.73",
+                false
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Beyond Gaming",
+        "t2": "J Team"
+    },
+    "date": {
+        "time": "12:00",
+        "day": "17",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.82",
+                true
+            ],
+            "under13.5": [
+                "1.85",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over8.5": [
+                "1.78",
+                false
+            ],
+            "under8.5": [
+                "1.90",
+                true
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.82",
+                false
+            ],
+            "under22.5": [
+                "1.84",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.63",
+                false
+            ],
+            "t2_": [
+                "1.44",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.63",
+                false
+            ],
+            "t2_": [
+                "1.44",
+                true
+            ]
+        }
+    }
+}

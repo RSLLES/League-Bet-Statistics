@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Isurus",
+        "t2": "All Knights"
+    },
+    "date": {
+        "time": "23:00",
+        "day": "17",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.86",
+                false
+            ],
+            "under9.5": [
+                "1.82",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.89",
+                true
+            ],
+            "under12.5": [
+                "1.79",
+                false
+            ]
+        },
+        "totalkills": {
+            "over21.5": [
+                "1.82",
+                false
+            ],
+            "under21.5": [
+                "1.84",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.56",
+                true
+            ],
+            "t2_": [
+                "2.31",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.56",
+                true
+            ],
+            "t2_": [
+                "2.31",
+                false
+            ]
+        }
+    }
+}

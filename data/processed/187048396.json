@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "XTEN",
+        "t2": "Estral E-Sports"
+    },
+    "date": {
+        "time": "22:00",
+        "day": "17",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.85",
+                true
+            ],
+            "under12.5": [
+                "1.82",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.91",
+                false
+            ],
+            "under9.5": [
+                "1.77",
+                true
+            ]
+        },
+        "totalkills": {
+            "over21.5": [
+                "1.83",
+                false
+            ],
+            "under21.5": [
+                "1.83",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.39",
+                false
+            ],
+            "t2_": [
+                "1.52",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.39",
+                false
+            ],
+            "t2_": [
+                "1.52",
+                true
+            ]
+        }
+    }
+}

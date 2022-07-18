@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Rensga eSports",
+        "t2": "paiN Gaming"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "17",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.72",
+                true
+            ],
+            "under18.5": [
+                "1.97",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over5.5": [
+                "2.05",
+                true
+            ],
+            "under5.5": [
+                "1.66",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.93",
+                true
+            ],
+            "under24.5": [
+                "1.75",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "10.32",
+                false
+            ],
+            "t2_": [
+                "1.02",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "10.32",
+                false
+            ],
+            "t2_": [
+                "1.02",
+                true
+            ]
+        }
+    }
+}
