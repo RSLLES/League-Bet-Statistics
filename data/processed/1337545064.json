@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "UCAM Club",
+        "t2": "G2 Arctic"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "18",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.87",
+                true
+            ],
+            "under15.5": [
+                "1.83",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.93",
+                true
+            ],
+            "under11.5": [
+                "1.78",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.88",
+                true
+            ],
+            "under26.5": [
+                "1.82",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.47",
+                true
+            ],
+            "t2_": [
+                "1.50",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.47",
+                true
+            ],
+            "t2_": [
+                "1.50",
+                false
+            ]
+        }
+    }
+}

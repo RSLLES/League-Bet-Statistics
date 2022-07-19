@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Fnatic TQ",
+        "t2": "MAD Lions"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "18",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over9.5": [
+                "1.94",
+                true
+            ],
+            "under9.5": [
+                "1.77",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.92",
+                false
+            ],
+            "under15.5": [
+                "1.79",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.87",
+                true
+            ],
+            "under24.5": [
+                "1.84",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.43",
+                false
+            ],
+            "t2_": [
+                "2.69",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.43",
+                false
+            ],
+            "t2_": [
+                "2.69",
+                true
+            ]
+        }
+    }
+}
