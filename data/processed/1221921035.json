@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "PENTA",
+        "t2": "GamerLegion"
+    },
+    "date": {
+        "time": "20:15",
+        "day": "19",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "2.74",
+                false
+            ],
+            "t2_": [
+                "1.41",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.74",
+                false
+            ],
+            "t2_": [
+                "1.41",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Schalke 04",
+        "t2": "MOUZ"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "19",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.71",
+                true
+            ],
+            "t2_": [
+                "2.03",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.71",
+                true
+            ],
+            "t2_": [
+                "2.03",
+                false
+            ]
+        }
+    }
+}
