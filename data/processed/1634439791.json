@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Eintracht Spandau",
+        "t2": "Schalke 04"
+    },
+    "date": {
+        "time": "19:15",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.82",
+                true
+            ],
+            "under13.5": [
+                "1.86",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.88",
+                false
+            ],
+            "under14.5": [
+                "1.79",
+                true
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.88",
+                true
+            ],
+            "under27.5": [
+                "1.79",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.80",
+                false
+            ],
+            "t2_": [
+                "1.94",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.80",
+                false
+            ],
+            "t2_": [
+                "1.94",
+                true
+            ]
+        }
+    }
+}

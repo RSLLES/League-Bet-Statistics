@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Solary",
+        "t2": "Mirage Elyandra"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over8.5": [
+                "1.77",
+                false
+            ],
+            "under8.5": [
+                "1.91",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.83",
+                true
+            ],
+            "under14.5": [
+                "1.83",
+                false
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.89",
+                false
+            ],
+            "under23.5": [
+                "1.78",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.40",
+                true
+            ],
+            "t2_": [
+                "2.81",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.40",
+                true
+            ],
+            "t2_": [
+                "2.81",
+                false
+            ]
+        }
+    }
+}

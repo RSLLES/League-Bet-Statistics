@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Team Heretics",
+        "t2": "MAD Lions"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over8.5": [
+                "1.81",
+                false
+            ],
+            "under8.5": [
+                "1.90",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.98",
+                true
+            ],
+            "under15.5": [
+                "1.74",
+                false
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.87",
+                false
+            ],
+            "under24.5": [
+                "1.84",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.32",
+                true
+            ],
+            "t2_": [
+                "3.20",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.32",
+                true
+            ],
+            "t2_": [
+                "3.20",
+                false
+            ]
+        }
+    }
+}

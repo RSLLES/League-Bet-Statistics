@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Team BDS Academy",
+        "t2": "Misfits Premier"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.90",
+                false
+            ],
+            "under12.5": [
+                "1.78",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over13.5": [
+                "1.77",
+                true
+            ],
+            "under13.5": [
+                "1.91",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.83",
+                true
+            ],
+            "under25.5": [
+                "1.83",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.71",
+                true
+            ],
+            "t2_": [
+                "2.07",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.71",
+                true
+            ],
+            "t2_": [
+                "2.07",
+                false
+            ]
+        }
+    }
+}

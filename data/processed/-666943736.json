@@ -1,0 +1,59 @@
+{
+    "teamNames": {
+        "t1": "As Esports",
+        "t2": "Team Secret"
+    },
+    "date": {
+        "time": "13:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 3,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "4.73",
+                false
+            ],
+            "t2_": [
+                "1.16",
+                true
+            ]
+        }
+    },
+    "map2": {
+        "winner": {
+            "t1_": [
+                "4.73",
+                false
+            ],
+            "t2_": [
+                "1.16",
+                true
+            ]
+        }
+    },
+    "global": {
+        "totalmapsplayed": {
+            "over2.5": [
+                "3.04",
+                false
+            ],
+            "under2.5": [
+                "1.35",
+                true
+            ]
+        },
+        "matchwinner": {
+            "t1_": [
+                "7.01",
+                false
+            ],
+            "t2_": [
+                "1.08",
+                true
+            ]
+        }
+    }
+}

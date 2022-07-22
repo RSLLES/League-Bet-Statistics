@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Wave Esports",
+        "t2": "GamerLegion"
+    },
+    "date": {
+        "time": "16:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.88",
+                true
+            ],
+            "under15.5": [
+                "1.79",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.90",
+                false
+            ],
+            "under12.5": [
+                "1.78",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.77",
+                true
+            ],
+            "under26.5": [
+                "1.90",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.31",
+                false
+            ],
+            "t2_": [
+                "1.57",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.30",
+                false
+            ],
+            "t2_": [
+                "1.57",
+                true
+            ]
+        }
+    }
+}

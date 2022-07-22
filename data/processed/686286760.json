@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "MOUZ",
+        "t2": "BIG"
+    },
+    "date": {
+        "time": "18:15",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over15.5": [
+                "1.88",
+                true
+            ],
+            "under15.5": [
+                "1.79",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.84",
+                false
+            ],
+            "under12.5": [
+                "1.82",
+                true
+            ]
+        },
+        "totalkills": {
+            "over27.5": [
+                "1.89",
+                true
+            ],
+            "under27.5": [
+                "1.79",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.24",
+                false
+            ],
+            "t2_": [
+                "1.60",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.24",
+                false
+            ],
+            "t2_": [
+                "1.60",
+                true
+            ]
+        }
+    }
+}

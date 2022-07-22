@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Movistar Riders",
+        "t2": "FC Barcelona"
+    },
+    "date": {
+        "time": "16:15",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over16.5": [
+                "1.93",
+                true
+            ],
+            "under16.5": [
+                "1.78",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over10.5": [
+                "1.91",
+                true
+            ],
+            "under10.5": [
+                "1.80",
+                false
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.82",
+                true
+            ],
+            "under26.5": [
+                "1.88",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.93",
+                false
+            ],
+            "t2_": [
+                "1.37",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.93",
+                false
+            ],
+            "t2_": [
+                "1.37",
+                true
+            ]
+        }
+    }
+}

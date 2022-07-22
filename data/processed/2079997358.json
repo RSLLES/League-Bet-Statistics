@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "BISONS Eclub",
+        "t2": "G2 Arctic"
+    },
+    "date": {
+        "time": "18:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.85",
+                true
+            ],
+            "under12.5": [
+                "1.85",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over14.5": [
+                "1.79",
+                false
+            ],
+            "under14.5": [
+                "1.91",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.81",
+                false
+            ],
+            "under26.5": [
+                "1.90",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.62",
+                false
+            ],
+            "t2_": [
+                "2.21",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.62",
+                false
+            ],
+            "t2_": [
+                "2.21",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "KOI",
+        "t2": "Vodafone Giants"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.84",
+                false
+            ],
+            "under13.5": [
+                "1.87",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.89",
+                false
+            ],
+            "under11.5": [
+                "1.81",
+                true
+            ]
+        },
+        "totalkills": {
+            "over24.5": [
+                "1.85",
+                false
+            ],
+            "under24.5": [
+                "1.85",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "2.20",
+                false
+            ],
+            "t2_": [
+                "1.62",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.20",
+                false
+            ],
+            "t2_": [
+                "1.62",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "E WIE EINFACH Esports",
+        "t2": "SK Gaming Prime"
+    },
+    "date": {
+        "time": "17:15",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over18.5": [
+                "1.92",
+                true
+            ],
+            "under18.5": [
+                "1.76",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over9.5": [
+                "1.83",
+                true
+            ],
+            "under9.5": [
+                "1.83",
+                false
+            ]
+        },
+        "totalkills": {
+            "over28.5": [
+                "1.89",
+                true
+            ],
+            "under28.5": [
+                "1.79",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "3.42",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "3.42",
+                false
+            ],
+            "t2_": [
+                "1.29",
+                true
+            ]
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Vitality Bee",
+        "t2": "Karmine Corp"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over12.5": [
+                "1.88",
+                false
+            ],
+            "under12.5": [
+                "1.80",
+                true
+            ]
+        },
+        "t1_totalkills": {
+            "over13.5": [
+                "1.81",
+                true
+            ],
+            "under13.5": [
+                "1.87",
+                false
+            ]
+        },
+        "totalkills": {
+            "over25.5": [
+                "1.79",
+                false
+            ],
+            "under25.5": [
+                "1.89",
+                true
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.72",
+                true
+            ],
+            "t2_": [
+                "2.04",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.72",
+                true
+            ],
+            "t2_": [
+                "2.04",
+                false
+            ]
+        }
+    }
+}

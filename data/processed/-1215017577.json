@@ -1,0 +1,67 @@
+{
+    "teamNames": {
+        "t1": "Fnatic TQ",
+        "t2": "UCAM Club"
+    },
+    "date": {
+        "time": "20:00",
+        "day": "21",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over10.5": [
+                "1.95",
+                true
+            ],
+            "under10.5": [
+                "1.77",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over15.5": [
+                "1.78",
+                false
+            ],
+            "under15.5": [
+                "1.93",
+                true
+            ]
+        },
+        "totalkills": {
+            "over26.5": [
+                "1.82",
+                true
+            ],
+            "under26.5": [
+                "1.88",
+                false
+            ]
+        },
+        "winner": {
+            "t1_": [
+                "1.31",
+                false
+            ],
+            "t2_": [
+                "3.29",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.31",
+                false
+            ],
+            "t2_": [
+                "3.29",
+                true
+            ]
+        }
+    }
+}
