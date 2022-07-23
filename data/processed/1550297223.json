@@ -1,0 +1,159 @@
+{
+    "teamNames": {
+        "t1": "Misfits",
+        "t2": "Excel"
+    },
+    "date": {
+        "time": "17:00",
+        "day": "22",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.91",
+                true
+            ],
+            "under13.5": [
+                "1.81",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over12.5": [
+                "1.85",
+                false
+            ],
+            "under12.5": [
+                "1.88",
+                true
+            ]
+        },
+        "totalkills": {
+            "over23.5": [
+                "1.53",
+                true
+            ],
+            "under23.5": [
+                "2.37",
+                false
+            ],
+            "over24.5": [
+                "1.67",
+                true
+            ],
+            "under24.5": [
+                "2.11",
+                false
+            ],
+            "over25.5": [
+                "1.83",
+                true
+            ],
+            "under25.5": [
+                "1.89",
+                false
+            ],
+            "over26.5": [
+                "2.03",
+                true
+            ],
+            "under26.5": [
+                "1.71",
+                false
+            ],
+            "over27.5": [
+                "2.30",
+                true
+            ],
+            "under27.5": [
+                "1.56",
+                false
+            ]
+        },
+        "racetokills": {
+            "t1_10": [
+                "1.86",
+                true
+            ],
+            "t2_10": [
+                "1.86",
+                false
+            ],
+            "t1_5": [
+                "1.86",
+                false
+            ],
+            "t2_5": [
+                "1.86",
+                false
+            ],
+            "t1_15": [
+                "1.86",
+                false
+            ],
+            "t2_15": [
+                "1.86",
+                true
+            ],
+            "t1_20": [
+                "1.86",
+                false
+            ],
+            "t2_20": [
+                "1.86",
+                true
+            ],
+            "t1_25": [
+                "1.86",
+                false
+            ],
+            "t2_25": [
+                "1.86",
+                true
+            ],
+            "t1_30": [
+                "1.86",
+                false
+            ],
+            "t2_30": [
+                "1.86",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "1.83",
+                false
+            ],
+            "t2_": [
+                "1.83",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "1.84",
+                false
+            ],
+            "t2_": [
+                "1.84",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.08",
+                false
+            ],
+            "t2_": [
+                "1.70",
+                true
+            ]
+        }
+    }
+}

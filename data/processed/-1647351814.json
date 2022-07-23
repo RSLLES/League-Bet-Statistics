@@ -1,0 +1,143 @@
+{
+    "teamNames": {
+        "t1": "Team Vitality",
+        "t2": "MAD Lions"
+    },
+    "date": {
+        "time": "19:00",
+        "day": "22",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "t2_totalkills": {
+            "over13.5": [
+                "1.86",
+                true
+            ],
+            "under13.5": [
+                "1.87",
+                false
+            ]
+        },
+        "t1_totalkills": {
+            "over11.5": [
+                "1.92",
+                false
+            ],
+            "under11.5": [
+                "1.80",
+                true
+            ]
+        },
+        "totalkills": {
+            "over22.5": [
+                "1.60",
+                false
+            ],
+            "under22.5": [
+                "2.23",
+                true
+            ],
+            "over23.5": [
+                "1.75",
+                false
+            ],
+            "under23.5": [
+                "1.98",
+                true
+            ],
+            "over24.5": [
+                "1.94",
+                false
+            ],
+            "under24.5": [
+                "1.78",
+                true
+            ],
+            "over25.5": [
+                "2.14",
+                false
+            ],
+            "under25.5": [
+                "1.65",
+                true
+            ],
+            "over26.5": [
+                "2.39",
+                false
+            ],
+            "under26.5": [
+                "1.52",
+                true
+            ]
+        },
+        "racetokills": {
+            "t1_5": [
+                "2.01",
+                false
+            ],
+            "t2_5": [
+                "1.73",
+                true
+            ],
+            "t1_10": [
+                "2.11",
+                false
+            ],
+            "t2_10": [
+                "1.67",
+                true
+            ],
+            "t1_15": [
+                "2.11",
+                false
+            ],
+            "t2_15": [
+                "1.67",
+                true
+            ],
+            "t1_20": [
+                "2.20",
+                false
+            ],
+            "t2_20": [
+                "1.61",
+                true
+            ]
+        },
+        "destroyfirstinhibitor": {
+            "t1_": [
+                "2.17",
+                false
+            ],
+            "t2_": [
+                "1.59",
+                true
+            ]
+        },
+        "killfirstbaron": {
+            "t1_": [
+                "2.18",
+                false
+            ],
+            "t2_": [
+                "1.60",
+                true
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "2.18",
+                false
+            ],
+            "t2_": [
+                "1.64",
+                true
+            ]
+        }
+    }
+}

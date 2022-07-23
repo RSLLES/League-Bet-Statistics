@@ -1,0 +1,37 @@
+{
+    "teamNames": {
+        "t1": "Frank Esports",
+        "t2": "sem9"
+    },
+    "date": {
+        "time": "10:00",
+        "day": "22",
+        "month": "7",
+        "year": "2022"
+    },
+    "BOLength": 1,
+    "map1": {
+        "winner": {
+            "t1_": [
+                "1.11",
+                true
+            ],
+            "t2_": [
+                "5.76",
+                false
+            ]
+        }
+    },
+    "global": {
+        "matchwinner": {
+            "t1_": [
+                "1.11",
+                true
+            ],
+            "t2_": [
+                "5.77",
+                false
+            ]
+        }
+    }
+}
